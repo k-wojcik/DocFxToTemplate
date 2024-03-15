@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxToTemplate.Example1.Interface1
+  commentId: T:DocFxToTemplate.Example1.Interface1
+  id: Interface1
+  parent: DocFxToTemplate.Example1
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Interface1
+  nameWithType: Interface1
+  fullName: DocFxToTemplate.Example1.Interface1
+  type: Interface
+  source:
+    id: Interface1
+    path: T:\Projekty\DocFxToTemplate\src\example\DocFxToTemplate.Example1\Interface1.cs
+    startLine: 2
+  assemblies:
+  - DocFxToTemplate.Example1
+  namespace: DocFxToTemplate.Example1
+  syntax:
+    content: public interface Interface1
+    content.vb: Public Interface Interface1
+references:
+- uid: DocFxToTemplate.Example1
+  commentId: N:DocFxToTemplate.Example1
+  href: DocFxToTemplate.html
+  name: DocFxToTemplate.Example1
+  nameWithType: DocFxToTemplate.Example1
+  fullName: DocFxToTemplate.Example1
+  spec.csharp:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Example1
+    name: Example1
+    href: DocFxToTemplate.Example1.html
+  spec.vb:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Example1
+    name: Example1
+    href: DocFxToTemplate.Example1.html

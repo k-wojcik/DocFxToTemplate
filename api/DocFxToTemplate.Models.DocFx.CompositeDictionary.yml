@@ -1,0 +1,1920 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary
+  commentId: T:DocFxToTemplate.Models.DocFx.CompositeDictionary
+  id: CompositeDictionary
+  parent: DocFxToTemplate.Models.DocFx
+  children:
+  - DocFxToTemplate.Models.DocFx.CompositeDictionary.#ctor
+  - DocFxToTemplate.Models.DocFx.CompositeDictionary.Add(System.String,System.Object)
+  - DocFxToTemplate.Models.DocFx.CompositeDictionary.Clear
+  - DocFxToTemplate.Models.DocFx.CompositeDictionary.ContainsKey(System.String)
+  - DocFxToTemplate.Models.DocFx.CompositeDictionary.Count
+  - DocFxToTemplate.Models.DocFx.CompositeDictionary.CreateBuilder
+  - DocFxToTemplate.Models.DocFx.CompositeDictionary.GetEnumerator
+  - DocFxToTemplate.Models.DocFx.CompositeDictionary.IsReadOnly
+  - DocFxToTemplate.Models.DocFx.CompositeDictionary.Item(System.String)
+  - DocFxToTemplate.Models.DocFx.CompositeDictionary.Keys
+  - DocFxToTemplate.Models.DocFx.CompositeDictionary.Remove(System.String)
+  - DocFxToTemplate.Models.DocFx.CompositeDictionary.TryGetValue(System.String,System.Object@)
+  - DocFxToTemplate.Models.DocFx.CompositeDictionary.Values
+  langs:
+  - csharp
+  - vb
+  name: CompositeDictionary
+  nameWithType: CompositeDictionary
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary
+  type: Class
+  source:
+    id: CompositeDictionary
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    startLine: 8
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: 'public class CompositeDictionary : IDictionary<string, object>, ICollection<KeyValuePair<string, object>>, IEnumerable<KeyValuePair<string, object>>, IEnumerable'
+    content.vb: Public Class CompositeDictionary Implements IDictionary(Of String, Object), ICollection(Of KeyValuePair(Of String, Object)), IEnumerable(Of KeyValuePair(Of String, Object)), IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.Generic.IDictionary{System.String,System.Object}
+  - System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.#ctor
+  commentId: M:DocFxToTemplate.Models.DocFx.CompositeDictionary.#ctor
+  id: '#ctor'
+  parent: DocFxToTemplate.Models.DocFx.CompositeDictionary
+  langs:
+  - csharp
+  - vb
+  name: CompositeDictionary()
+  nameWithType: CompositeDictionary.CompositeDictionary()
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.CompositeDictionary()
+  type: Constructor
+  source:
+    id: .ctor
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    startLine: 13
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public CompositeDictionary()
+    content.vb: Public Sub New()
+  overload: DocFxToTemplate.Models.DocFx.CompositeDictionary.#ctor*
+  nameWithType.vb: CompositeDictionary.New()
+  fullName.vb: DocFxToTemplate.Models.DocFx.CompositeDictionary.New()
+  name.vb: New()
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Item(System.String)
+  commentId: P:DocFxToTemplate.Models.DocFx.CompositeDictionary.Item(System.String)
+  id: Item(System.String)
+  parent: DocFxToTemplate.Models.DocFx.CompositeDictionary
+  langs:
+  - csharp
+  - vb
+  name: this[string]
+  nameWithType: CompositeDictionary.this[string]
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.this[string]
+  type: Property
+  source:
+    id: this[]
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    startLine: 23
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  summary: Gets or sets the element with the specified key.
+  example: []
+  syntax:
+    content: public object this[string key] { get; set; }
+    parameters:
+    - id: key
+      type: System.String
+      description: The key of the element to get or set.
+    return:
+      type: System.Object
+      description: The element with the specified key.
+    content.vb: Public Default Property this[](key As String) As Object
+  overload: DocFxToTemplate.Models.DocFx.CompositeDictionary.Item*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">key</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+  - type: System.Collections.Generic.KeyNotFoundException
+    commentId: T:System.Collections.Generic.KeyNotFoundException
+    description: The property is retrieved and <code class="paramref">key</code> is not found.
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: The property is set and the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> is read-only.
+  implements:
+  - System.Collections.Generic.IDictionary{System.String,System.Object}.Item(System.String)
+  nameWithType.vb: CompositeDictionary.this[](String)
+  fullName.vb: DocFxToTemplate.Models.DocFx.CompositeDictionary.this[](String)
+  name.vb: this[](String)
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Count
+  commentId: P:DocFxToTemplate.Models.DocFx.CompositeDictionary.Count
+  id: Count
+  parent: DocFxToTemplate.Models.DocFx.CompositeDictionary
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: CompositeDictionary.Count
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Count
+  type: Property
+  source:
+    id: Count
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    startLine: 54
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  summary: Gets the number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: The number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: DocFxToTemplate.Models.DocFx.CompositeDictionary.Count*
+  implements:
+  - System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.Count
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.IsReadOnly
+  commentId: P:DocFxToTemplate.Models.DocFx.CompositeDictionary.IsReadOnly
+  id: IsReadOnly
+  parent: DocFxToTemplate.Models.DocFx.CompositeDictionary
+  langs:
+  - csharp
+  - vb
+  name: IsReadOnly
+  nameWithType: CompositeDictionary.IsReadOnly
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.IsReadOnly
+  type: Property
+  source:
+    id: IsReadOnly
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    startLine: 56
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  summary: Gets a value indicating whether the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
+  example: []
+  syntax:
+    content: public bool IsReadOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public ReadOnly Property IsReadOnly As Boolean
+  overload: DocFxToTemplate.Models.DocFx.CompositeDictionary.IsReadOnly*
+  implements:
+  - System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.IsReadOnly
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Keys
+  commentId: P:DocFxToTemplate.Models.DocFx.CompositeDictionary.Keys
+  id: Keys
+  parent: DocFxToTemplate.Models.DocFx.CompositeDictionary
+  langs:
+  - csharp
+  - vb
+  name: Keys
+  nameWithType: CompositeDictionary.Keys
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Keys
+  type: Property
+  source:
+    id: Keys
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    startLine: 58
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  summary: Gets an <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> containing the keys of the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public ICollection<string> Keys { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{System.String}
+      description: An <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> containing the keys of the object that implements <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public ReadOnly Property Keys As ICollection(Of String)
+  overload: DocFxToTemplate.Models.DocFx.CompositeDictionary.Keys*
+  implements:
+  - System.Collections.Generic.IDictionary{System.String,System.Object}.Keys
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Values
+  commentId: P:DocFxToTemplate.Models.DocFx.CompositeDictionary.Values
+  id: Values
+  parent: DocFxToTemplate.Models.DocFx.CompositeDictionary
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: CompositeDictionary.Values
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Values
+  type: Property
+  source:
+    id: Values
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    startLine: 60
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  summary: Gets an <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> containing the values in the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public ICollection<object> Values { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{System.Object}
+      description: An <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> containing the values in the object that implements <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public ReadOnly Property Values As ICollection(Of Object)
+  overload: DocFxToTemplate.Models.DocFx.CompositeDictionary.Values*
+  implements:
+  - System.Collections.Generic.IDictionary{System.String,System.Object}.Values
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Add(System.String,System.Object)
+  commentId: M:DocFxToTemplate.Models.DocFx.CompositeDictionary.Add(System.String,System.Object)
+  id: Add(System.String,System.Object)
+  parent: DocFxToTemplate.Models.DocFx.CompositeDictionary
+  langs:
+  - csharp
+  - vb
+  name: Add(string, object)
+  nameWithType: CompositeDictionary.Add(string, object)
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Add(string, object)
+  type: Method
+  source:
+    id: Add
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    startLine: 67
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  summary: Adds an element with the provided key and value to the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void Add(string key, object value)
+    parameters:
+    - id: key
+      type: System.String
+      description: The object to use as the key of the element to add.
+    - id: value
+      type: System.Object
+      description: The object to use as the value of the element to add.
+    content.vb: Public Sub Add(key As String, value As Object)
+  overload: DocFxToTemplate.Models.DocFx.CompositeDictionary.Add*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">key</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: An element with the same key already exists in the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: The <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> is read-only.
+  implements:
+  - System.Collections.Generic.IDictionary{System.String,System.Object}.Add(System.String,System.Object)
+  nameWithType.vb: CompositeDictionary.Add(String, Object)
+  fullName.vb: DocFxToTemplate.Models.DocFx.CompositeDictionary.Add(String, Object)
+  name.vb: Add(String, Object)
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Clear
+  commentId: M:DocFxToTemplate.Models.DocFx.CompositeDictionary.Clear
+  id: Clear
+  parent: DocFxToTemplate.Models.DocFx.CompositeDictionary
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: CompositeDictionary.Clear()
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Clear()
+  type: Method
+  source:
+    id: Clear
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    startLine: 81
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  summary: Removes all items from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: DocFxToTemplate.Models.DocFx.CompositeDictionary.Clear*
+  exceptions:
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
+  implements:
+  - System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.Clear
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.ContainsKey(System.String)
+  commentId: M:DocFxToTemplate.Models.DocFx.CompositeDictionary.ContainsKey(System.String)
+  id: ContainsKey(System.String)
+  parent: DocFxToTemplate.Models.DocFx.CompositeDictionary
+  langs:
+  - csharp
+  - vb
+  name: ContainsKey(string)
+  nameWithType: CompositeDictionary.ContainsKey(string)
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.ContainsKey(string)
+  type: Method
+  source:
+    id: ContainsKey
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    startLine: 91
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  summary: Determines whether the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> contains an element with the specified key.
+  example: []
+  syntax:
+    content: public bool ContainsKey(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: The key to locate in the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> contains an element with the key; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function ContainsKey(key As String) As Boolean
+  overload: DocFxToTemplate.Models.DocFx.CompositeDictionary.ContainsKey*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">key</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+  implements:
+  - System.Collections.Generic.IDictionary{System.String,System.Object}.ContainsKey(System.String)
+  nameWithType.vb: CompositeDictionary.ContainsKey(String)
+  fullName.vb: DocFxToTemplate.Models.DocFx.CompositeDictionary.ContainsKey(String)
+  name.vb: ContainsKey(String)
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.GetEnumerator
+  commentId: M:DocFxToTemplate.Models.DocFx.CompositeDictionary.GetEnumerator
+  id: GetEnumerator
+  parent: DocFxToTemplate.Models.DocFx.CompositeDictionary
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: CompositeDictionary.GetEnumerator()
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.GetEnumerator()
+  type: Method
+  source:
+    id: GetEnumerator
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    startLine: 110
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  summary: Returns an enumerator that iterates through the collection.
+  example: []
+  syntax:
+    content: public IEnumerator<KeyValuePair<string, object>> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+      description: An enumerator that can be used to iterate through the collection.
+    content.vb: Public Function GetEnumerator() As IEnumerator(Of KeyValuePair(Of String, Object))
+  overload: DocFxToTemplate.Models.DocFx.CompositeDictionary.GetEnumerator*
+  implements:
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.GetEnumerator
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Remove(System.String)
+  commentId: M:DocFxToTemplate.Models.DocFx.CompositeDictionary.Remove(System.String)
+  id: Remove(System.String)
+  parent: DocFxToTemplate.Models.DocFx.CompositeDictionary
+  langs:
+  - csharp
+  - vb
+  name: Remove(string)
+  nameWithType: CompositeDictionary.Remove(string)
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Remove(string)
+  type: Method
+  source:
+    id: Remove
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    startLine: 123
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  summary: Removes the element with the specified key from the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool Remove(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: The key of the element to remove.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the element is successfully removed; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.  This method also returns <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if <code class="paramref">key</code> was not found in the original <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function Remove(key As String) As Boolean
+  overload: DocFxToTemplate.Models.DocFx.CompositeDictionary.Remove*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">key</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: The <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> is read-only.
+  implements:
+  - System.Collections.Generic.IDictionary{System.String,System.Object}.Remove(System.String)
+  nameWithType.vb: CompositeDictionary.Remove(String)
+  fullName.vb: DocFxToTemplate.Models.DocFx.CompositeDictionary.Remove(String)
+  name.vb: Remove(String)
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.TryGetValue(System.String,System.Object@)
+  commentId: M:DocFxToTemplate.Models.DocFx.CompositeDictionary.TryGetValue(System.String,System.Object@)
+  id: TryGetValue(System.String,System.Object@)
+  parent: DocFxToTemplate.Models.DocFx.CompositeDictionary
+  langs:
+  - csharp
+  - vb
+  name: TryGetValue(string, out object)
+  nameWithType: CompositeDictionary.TryGetValue(string, out object)
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.TryGetValue(string, out object)
+  type: Method
+  source:
+    id: TryGetValue
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    startLine: 133
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  summary: Gets the value associated with the specified key.
+  example: []
+  syntax:
+    content: public bool TryGetValue(string key, out object value)
+    parameters:
+    - id: key
+      type: System.String
+      description: The key whose value to get.
+    - id: value
+      type: System.Object
+      description: When this method returns, the value associated with the specified key, if the key is found; otherwise, the default value for the type of the <code class="paramref">value</code> parameter. This parameter is passed uninitialized.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the object that implements <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> contains an element with the specified key; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function TryGetValue(key As String, value As Object) As Boolean
+  overload: DocFxToTemplate.Models.DocFx.CompositeDictionary.TryGetValue*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">key</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+  implements:
+  - System.Collections.Generic.IDictionary{System.String,System.Object}.TryGetValue(System.String,System.Object@)
+  nameWithType.vb: CompositeDictionary.TryGetValue(String, Object)
+  fullName.vb: DocFxToTemplate.Models.DocFx.CompositeDictionary.TryGetValue(String, Object)
+  name.vb: TryGetValue(String, Object)
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.CreateBuilder
+  commentId: M:DocFxToTemplate.Models.DocFx.CompositeDictionary.CreateBuilder
+  id: CreateBuilder
+  parent: DocFxToTemplate.Models.DocFx.CompositeDictionary
+  langs:
+  - csharp
+  - vb
+  name: CreateBuilder()
+  nameWithType: CompositeDictionary.CreateBuilder()
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.CreateBuilder()
+  type: Method
+  source:
+    id: CreateBuilder
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    startLine: 154
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public static CompositeDictionary.Builder CreateBuilder()
+    return:
+      type: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder
+    content.vb: Public Shared Function CreateBuilder() As CompositeDictionary.Builder
+  overload: DocFxToTemplate.Models.DocFx.CompositeDictionary.CreateBuilder*
+references:
+- uid: DocFxToTemplate.Models.DocFx
+  commentId: N:DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.html
+  name: DocFxToTemplate.Models.DocFx
+  nameWithType: DocFxToTemplate.Models.DocFx
+  fullName: DocFxToTemplate.Models.DocFx
+  spec.csharp:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+  spec.vb:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<string, object>
+  nameWithType: IDictionary<string, object>
+  fullName: System.Collections.Generic.IDictionary<string, object>
+  nameWithType.vb: IDictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.IDictionary(Of String, Object)
+  name.vb: IDictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  commentId: T:System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<KeyValuePair<string, object>>
+  nameWithType: ICollection<KeyValuePair<string, object>>
+  fullName: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<string, object>>
+  nameWithType.vb: ICollection(Of KeyValuePair(Of String, Object))
+  fullName.vb: System.Collections.Generic.ICollection(Of System.Collections.Generic.KeyValuePair(Of String, Object))
+  name.vb: ICollection(Of KeyValuePair(Of String, Object))
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<KeyValuePair<string, object>>
+  nameWithType: IEnumerable<KeyValuePair<string, object>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, object>>
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of String, Object))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, Object))
+  name.vb: IEnumerable(Of KeyValuePair(Of String, Object))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.#ctor*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.CompositeDictionary.#ctor
+  href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html#DocFxToTemplate_Models_DocFx_CompositeDictionary__ctor
+  name: CompositeDictionary
+  nameWithType: CompositeDictionary.CompositeDictionary
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.CompositeDictionary
+  nameWithType.vb: CompositeDictionary.New
+  fullName.vb: DocFxToTemplate.Models.DocFx.CompositeDictionary.New
+  name.vb: New
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: System.Collections.Generic.KeyNotFoundException
+  commentId: T:System.Collections.Generic.KeyNotFoundException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keynotfoundexception
+  name: KeyNotFoundException
+  nameWithType: KeyNotFoundException
+  fullName: System.Collections.Generic.KeyNotFoundException
+- uid: System.NotSupportedException
+  commentId: T:System.NotSupportedException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.notsupportedexception
+  name: NotSupportedException
+  nameWithType: NotSupportedException
+  fullName: System.NotSupportedException
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Item*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.CompositeDictionary.Item
+  href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html#DocFxToTemplate_Models_DocFx_CompositeDictionary_Item_System_String_
+  name: this
+  nameWithType: CompositeDictionary.this
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.this
+  nameWithType.vb: CompositeDictionary.this[]
+  fullName.vb: DocFxToTemplate.Models.DocFx.CompositeDictionary.this[]
+  name.vb: this[]
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}.Item(System.String)
+  commentId: P:System.Collections.Generic.IDictionary{System.String,System.Object}.Item(System.String)
+  parent: System.Collections.Generic.IDictionary{System.String,System.Object}
+  definition: System.Collections.Generic.IDictionary`2.Item(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string]
+  nameWithType: IDictionary<string, object>.this[string]
+  fullName: System.Collections.Generic.IDictionary<string, object>.this[string]
+  nameWithType.vb: IDictionary(Of String, Object).this[](String)
+  fullName.vb: System.Collections.Generic.IDictionary(Of String, Object).this[](String)
+  name.vb: this[](String)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary{System.String,System.Object}.Item(System.String)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.item
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.IDictionary`2.Item(`0)
+  commentId: P:System.Collections.Generic.IDictionary`2.Item(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.item
+  name: this[TKey]
+  nameWithType: IDictionary<TKey, TValue>.this[TKey]
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>.this[TKey]
+  nameWithType.vb: IDictionary(Of TKey, TValue).this[](TKey)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue).this[](TKey)
+  name.vb: this[](TKey)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - name: TKey
+  - name: ']'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2.Item(`0)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.item
+  - name: (
+  - name: TKey
+  - name: )
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Count*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.CompositeDictionary.Count
+  href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html#DocFxToTemplate_Models_DocFx_CompositeDictionary_Count
+  name: Count
+  nameWithType: CompositeDictionary.Count
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Count
+- uid: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.Count
+  commentId: P:System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.Count
+  parent: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  definition: System.Collections.Generic.ICollection`1.Count
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.count
+  name: Count
+  nameWithType: ICollection<KeyValuePair<string, object>>.Count
+  fullName: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<string, object>>.Count
+  nameWithType.vb: ICollection(Of KeyValuePair(Of String, Object)).Count
+  fullName.vb: System.Collections.Generic.ICollection(Of System.Collections.Generic.KeyValuePair(Of String, Object)).Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Collections.Generic.ICollection`1.Count
+  commentId: P:System.Collections.Generic.ICollection`1.Count
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.count
+  name: Count
+  nameWithType: ICollection<T>.Count
+  fullName: System.Collections.Generic.ICollection<T>.Count
+  nameWithType.vb: ICollection(Of T).Count
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Count
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.IsReadOnly*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.CompositeDictionary.IsReadOnly
+  href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html#DocFxToTemplate_Models_DocFx_CompositeDictionary_IsReadOnly
+  name: IsReadOnly
+  nameWithType: CompositeDictionary.IsReadOnly
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.IsReadOnly
+- uid: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.IsReadOnly
+  commentId: P:System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.IsReadOnly
+  parent: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  definition: System.Collections.Generic.ICollection`1.IsReadOnly
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.isreadonly
+  name: IsReadOnly
+  nameWithType: ICollection<KeyValuePair<string, object>>.IsReadOnly
+  fullName: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<string, object>>.IsReadOnly
+  nameWithType.vb: ICollection(Of KeyValuePair(Of String, Object)).IsReadOnly
+  fullName.vb: System.Collections.Generic.ICollection(Of System.Collections.Generic.KeyValuePair(Of String, Object)).IsReadOnly
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Collections.Generic.ICollection`1.IsReadOnly
+  commentId: P:System.Collections.Generic.ICollection`1.IsReadOnly
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.isreadonly
+  name: IsReadOnly
+  nameWithType: ICollection<T>.IsReadOnly
+  fullName: System.Collections.Generic.ICollection<T>.IsReadOnly
+  nameWithType.vb: ICollection(Of T).IsReadOnly
+  fullName.vb: System.Collections.Generic.ICollection(Of T).IsReadOnly
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Keys*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.CompositeDictionary.Keys
+  href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html#DocFxToTemplate_Models_DocFx_CompositeDictionary_Keys
+  name: Keys
+  nameWithType: CompositeDictionary.Keys
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Keys
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}.Keys
+  commentId: P:System.Collections.Generic.IDictionary{System.String,System.Object}.Keys
+  parent: System.Collections.Generic.IDictionary{System.String,System.Object}
+  definition: System.Collections.Generic.IDictionary`2.Keys
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.keys
+  name: Keys
+  nameWithType: IDictionary<string, object>.Keys
+  fullName: System.Collections.Generic.IDictionary<string, object>.Keys
+  nameWithType.vb: IDictionary(Of String, Object).Keys
+  fullName.vb: System.Collections.Generic.IDictionary(Of String, Object).Keys
+- uid: System.Collections.Generic.ICollection{System.String}
+  commentId: T:System.Collections.Generic.ICollection{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<string>
+  nameWithType: ICollection<string>
+  fullName: System.Collections.Generic.ICollection<string>
+  nameWithType.vb: ICollection(Of String)
+  fullName.vb: System.Collections.Generic.ICollection(Of String)
+  name.vb: ICollection(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.IDictionary`2.Keys
+  commentId: P:System.Collections.Generic.IDictionary`2.Keys
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.keys
+  name: Keys
+  nameWithType: IDictionary<TKey, TValue>.Keys
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>.Keys
+  nameWithType.vb: IDictionary(Of TKey, TValue).Keys
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue).Keys
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Values*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.CompositeDictionary.Values
+  href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html#DocFxToTemplate_Models_DocFx_CompositeDictionary_Values
+  name: Values
+  nameWithType: CompositeDictionary.Values
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Values
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}.Values
+  commentId: P:System.Collections.Generic.IDictionary{System.String,System.Object}.Values
+  parent: System.Collections.Generic.IDictionary{System.String,System.Object}
+  definition: System.Collections.Generic.IDictionary`2.Values
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.values
+  name: Values
+  nameWithType: IDictionary<string, object>.Values
+  fullName: System.Collections.Generic.IDictionary<string, object>.Values
+  nameWithType.vb: IDictionary(Of String, Object).Values
+  fullName.vb: System.Collections.Generic.IDictionary(Of String, Object).Values
+- uid: System.Collections.Generic.ICollection{System.Object}
+  commentId: T:System.Collections.Generic.ICollection{System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<object>
+  nameWithType: ICollection<object>
+  fullName: System.Collections.Generic.ICollection<object>
+  nameWithType.vb: ICollection(Of Object)
+  fullName.vb: System.Collections.Generic.ICollection(Of Object)
+  name.vb: ICollection(Of Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.IDictionary`2.Values
+  commentId: P:System.Collections.Generic.IDictionary`2.Values
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.values
+  name: Values
+  nameWithType: IDictionary<TKey, TValue>.Values
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>.Values
+  nameWithType.vb: IDictionary(Of TKey, TValue).Values
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue).Values
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Add*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.CompositeDictionary.Add
+  href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html#DocFxToTemplate_Models_DocFx_CompositeDictionary_Add_System_String_System_Object_
+  name: Add
+  nameWithType: CompositeDictionary.Add
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Add
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}.Add(System.String,System.Object)
+  commentId: M:System.Collections.Generic.IDictionary{System.String,System.Object}.Add(System.String,System.Object)
+  parent: System.Collections.Generic.IDictionary{System.String,System.Object}
+  definition: System.Collections.Generic.IDictionary`2.Add(`0,`1)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.add
+  name: Add(string, object)
+  nameWithType: IDictionary<string, object>.Add(string, object)
+  fullName: System.Collections.Generic.IDictionary<string, object>.Add(string, object)
+  nameWithType.vb: IDictionary(Of String, Object).Add(String, Object)
+  fullName.vb: System.Collections.Generic.IDictionary(Of String, Object).Add(String, Object)
+  name.vb: Add(String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary{System.String,System.Object}.Add(System.String,System.Object)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.add
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary{System.String,System.Object}.Add(System.String,System.Object)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.add
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.IDictionary`2.Add(`0,`1)
+  commentId: M:System.Collections.Generic.IDictionary`2.Add(`0,`1)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.add
+  name: Add(TKey, TValue)
+  nameWithType: IDictionary<TKey, TValue>.Add(TKey, TValue)
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>.Add(TKey, TValue)
+  nameWithType.vb: IDictionary(Of TKey, TValue).Add(TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue).Add(TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2.Add(`0,`1)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.add
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2.Add(`0,`1)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.add
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Clear*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.CompositeDictionary.Clear
+  href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html#DocFxToTemplate_Models_DocFx_CompositeDictionary_Clear
+  name: Clear
+  nameWithType: CompositeDictionary.Clear
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Clear
+- uid: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.Clear
+  commentId: M:System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.Clear
+  parent: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  definition: System.Collections.Generic.ICollection`1.Clear
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  name: Clear()
+  nameWithType: ICollection<KeyValuePair<string, object>>.Clear()
+  fullName: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<string, object>>.Clear()
+  nameWithType.vb: ICollection(Of KeyValuePair(Of String, Object)).Clear()
+  fullName.vb: System.Collections.Generic.ICollection(Of System.Collections.Generic.KeyValuePair(Of String, Object)).Clear()
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.ICollection`1.Clear
+  commentId: M:System.Collections.Generic.ICollection`1.Clear
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  name: Clear()
+  nameWithType: ICollection<T>.Clear()
+  fullName: System.Collections.Generic.ICollection<T>.Clear()
+  nameWithType.vb: ICollection(Of T).Clear()
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Clear()
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  - name: (
+  - name: )
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.ContainsKey*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.CompositeDictionary.ContainsKey
+  href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html#DocFxToTemplate_Models_DocFx_CompositeDictionary_ContainsKey_System_String_
+  name: ContainsKey
+  nameWithType: CompositeDictionary.ContainsKey
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.ContainsKey
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}.ContainsKey(System.String)
+  commentId: M:System.Collections.Generic.IDictionary{System.String,System.Object}.ContainsKey(System.String)
+  parent: System.Collections.Generic.IDictionary{System.String,System.Object}
+  definition: System.Collections.Generic.IDictionary`2.ContainsKey(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.containskey
+  name: ContainsKey(string)
+  nameWithType: IDictionary<string, object>.ContainsKey(string)
+  fullName: System.Collections.Generic.IDictionary<string, object>.ContainsKey(string)
+  nameWithType.vb: IDictionary(Of String, Object).ContainsKey(String)
+  fullName.vb: System.Collections.Generic.IDictionary(Of String, Object).ContainsKey(String)
+  name.vb: ContainsKey(String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary{System.String,System.Object}.ContainsKey(System.String)
+    name: ContainsKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.containskey
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary{System.String,System.Object}.ContainsKey(System.String)
+    name: ContainsKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.containskey
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.IDictionary`2.ContainsKey(`0)
+  commentId: M:System.Collections.Generic.IDictionary`2.ContainsKey(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.containskey
+  name: ContainsKey(TKey)
+  nameWithType: IDictionary<TKey, TValue>.ContainsKey(TKey)
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>.ContainsKey(TKey)
+  nameWithType.vb: IDictionary(Of TKey, TValue).ContainsKey(TKey)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue).ContainsKey(TKey)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2.ContainsKey(`0)
+    name: ContainsKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.containskey
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2.ContainsKey(`0)
+    name: ContainsKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.containskey
+  - name: (
+  - name: TKey
+  - name: )
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.GetEnumerator*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.CompositeDictionary.GetEnumerator
+  href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html#DocFxToTemplate_Models_DocFx_CompositeDictionary_GetEnumerator
+  name: GetEnumerator
+  nameWithType: CompositeDictionary.GetEnumerator
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.GetEnumerator
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.GetEnumerator
+  parent: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<KeyValuePair<string, object>>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, object>>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of String, Object)).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, Object)).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  commentId: T:System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<KeyValuePair<string, object>>
+  nameWithType: IEnumerator<KeyValuePair<string, object>>
+  fullName: System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<string, object>>
+  nameWithType.vb: IEnumerator(Of KeyValuePair(Of String, Object))
+  fullName.vb: System.Collections.Generic.IEnumerator(Of System.Collections.Generic.KeyValuePair(Of String, Object))
+  name.vb: IEnumerator(Of KeyValuePair(Of String, Object))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Remove*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.CompositeDictionary.Remove
+  href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html#DocFxToTemplate_Models_DocFx_CompositeDictionary_Remove_System_String_
+  name: Remove
+  nameWithType: CompositeDictionary.Remove
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Remove
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}.Remove(System.String)
+  commentId: M:System.Collections.Generic.IDictionary{System.String,System.Object}.Remove(System.String)
+  parent: System.Collections.Generic.IDictionary{System.String,System.Object}
+  definition: System.Collections.Generic.IDictionary`2.Remove(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.remove
+  name: Remove(string)
+  nameWithType: IDictionary<string, object>.Remove(string)
+  fullName: System.Collections.Generic.IDictionary<string, object>.Remove(string)
+  nameWithType.vb: IDictionary(Of String, Object).Remove(String)
+  fullName.vb: System.Collections.Generic.IDictionary(Of String, Object).Remove(String)
+  name.vb: Remove(String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary{System.String,System.Object}.Remove(System.String)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.remove
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary{System.String,System.Object}.Remove(System.String)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.remove
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.IDictionary`2.Remove(`0)
+  commentId: M:System.Collections.Generic.IDictionary`2.Remove(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.remove
+  name: Remove(TKey)
+  nameWithType: IDictionary<TKey, TValue>.Remove(TKey)
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>.Remove(TKey)
+  nameWithType.vb: IDictionary(Of TKey, TValue).Remove(TKey)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue).Remove(TKey)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2.Remove(`0)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.remove
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2.Remove(`0)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.remove
+  - name: (
+  - name: TKey
+  - name: )
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.TryGetValue*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.CompositeDictionary.TryGetValue
+  href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html#DocFxToTemplate_Models_DocFx_CompositeDictionary_TryGetValue_System_String_System_Object__
+  name: TryGetValue
+  nameWithType: CompositeDictionary.TryGetValue
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.TryGetValue
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}.TryGetValue(System.String,System.Object@)
+  commentId: M:System.Collections.Generic.IDictionary{System.String,System.Object}.TryGetValue(System.String,System.Object@)
+  parent: System.Collections.Generic.IDictionary{System.String,System.Object}
+  definition: System.Collections.Generic.IDictionary`2.TryGetValue(`0,`1@)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.trygetvalue
+  name: TryGetValue(string, out object)
+  nameWithType: IDictionary<string, object>.TryGetValue(string, out object)
+  fullName: System.Collections.Generic.IDictionary<string, object>.TryGetValue(string, out object)
+  nameWithType.vb: IDictionary(Of String, Object).TryGetValue(String, Object)
+  fullName.vb: System.Collections.Generic.IDictionary(Of String, Object).TryGetValue(String, Object)
+  name.vb: TryGetValue(String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary{System.String,System.Object}.TryGetValue(System.String,System.Object@)
+    name: TryGetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.trygetvalue
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary{System.String,System.Object}.TryGetValue(System.String,System.Object@)
+    name: TryGetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.trygetvalue
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.IDictionary`2.TryGetValue(`0,`1@)
+  commentId: M:System.Collections.Generic.IDictionary`2.TryGetValue(`0,`1@)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.trygetvalue
+  name: TryGetValue(TKey, out TValue)
+  nameWithType: IDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)
+  nameWithType.vb: IDictionary(Of TKey, TValue).TryGetValue(TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue).TryGetValue(TKey, TValue)
+  name.vb: TryGetValue(TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2.TryGetValue(`0,`1@)
+    name: TryGetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.trygetvalue
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - name: TValue
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2.TryGetValue(`0,`1@)
+    name: TryGetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.trygetvalue
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.CreateBuilder*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.CompositeDictionary.CreateBuilder
+  href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html#DocFxToTemplate_Models_DocFx_CompositeDictionary_CreateBuilder
+  name: CreateBuilder
+  nameWithType: CompositeDictionary.CreateBuilder
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.CreateBuilder
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder
+  commentId: T:DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html
+  name: CompositeDictionary.Builder
+  nameWithType: CompositeDictionary.Builder
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder
+  spec.csharp:
+  - uid: DocFxToTemplate.Models.DocFx.CompositeDictionary
+    name: CompositeDictionary
+    href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder
+    name: Builder
+    href: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder.html
+  spec.vb:
+  - uid: DocFxToTemplate.Models.DocFx.CompositeDictionary
+    name: CompositeDictionary
+    href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder
+    name: Builder
+    href: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder.html

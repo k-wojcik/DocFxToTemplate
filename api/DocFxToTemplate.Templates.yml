@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxToTemplate.Templates
+  commentId: N:DocFxToTemplate.Templates
+  id: DocFxToTemplate.Templates
+  children:
+  - DocFxToTemplate.Templates.TemplateLoader
+  langs:
+  - csharp
+  - vb
+  name: DocFxToTemplate.Templates
+  nameWithType: DocFxToTemplate.Templates
+  fullName: DocFxToTemplate.Templates
+  type: Namespace
+  assemblies:
+  - DocFxToTemplate
+references:
+- uid: DocFxToTemplate.Templates.TemplateLoader
+  commentId: T:DocFxToTemplate.Templates.TemplateLoader
+  href: DocFxToTemplate.Templates.TemplateLoader.html
+  name: TemplateLoader
+  nameWithType: TemplateLoader
+  fullName: DocFxToTemplate.Templates.TemplateLoader

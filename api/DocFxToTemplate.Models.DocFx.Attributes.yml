@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxToTemplate.Models.DocFx.Attributes
+  commentId: N:DocFxToTemplate.Models.DocFx.Attributes
+  id: DocFxToTemplate.Models.DocFx.Attributes
+  children:
+  - DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute
+  - DocFxToTemplate.Models.DocFx.Attributes.MarkdownContentAttribute
+  - DocFxToTemplate.Models.DocFx.Attributes.MergeOption
+  - DocFxToTemplate.Models.DocFx.Attributes.MergeOptionAttribute
+  - DocFxToTemplate.Models.DocFx.Attributes.UniqueIdentityReferenceAttribute
+  langs:
+  - csharp
+  - vb
+  name: DocFxToTemplate.Models.DocFx.Attributes
+  nameWithType: DocFxToTemplate.Models.DocFx.Attributes
+  fullName: DocFxToTemplate.Models.DocFx.Attributes
+  type: Namespace
+  assemblies:
+  - DocFxToTemplate
+references:
+- uid: DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute
+  commentId: T:DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute
+  parent: DocFxToTemplate.Models.DocFx.Attributes
+  href: DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute.html
+  name: ExtensibleMemberAttribute
+  nameWithType: ExtensibleMemberAttribute
+  fullName: DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute
+- uid: DocFxToTemplate.Models.DocFx.Attributes.MarkdownContentAttribute
+  commentId: T:DocFxToTemplate.Models.DocFx.Attributes.MarkdownContentAttribute
+  href: DocFxToTemplate.Models.DocFx.Attributes.MarkdownContentAttribute.html
+  name: MarkdownContentAttribute
+  nameWithType: MarkdownContentAttribute
+  fullName: DocFxToTemplate.Models.DocFx.Attributes.MarkdownContentAttribute
+- uid: DocFxToTemplate.Models.DocFx.Attributes.MergeOptionAttribute
+  commentId: T:DocFxToTemplate.Models.DocFx.Attributes.MergeOptionAttribute
+  parent: DocFxToTemplate.Models.DocFx.Attributes
+  href: DocFxToTemplate.Models.DocFx.Attributes.MergeOptionAttribute.html
+  name: MergeOptionAttribute
+  nameWithType: MergeOptionAttribute
+  fullName: DocFxToTemplate.Models.DocFx.Attributes.MergeOptionAttribute
+- uid: DocFxToTemplate.Models.DocFx.Attributes.MergeOption
+  commentId: T:DocFxToTemplate.Models.DocFx.Attributes.MergeOption
+  parent: DocFxToTemplate.Models.DocFx.Attributes
+  href: DocFxToTemplate.Models.DocFx.Attributes.MergeOption.html
+  name: MergeOption
+  nameWithType: MergeOption
+  fullName: DocFxToTemplate.Models.DocFx.Attributes.MergeOption
+- uid: DocFxToTemplate.Models.DocFx.Attributes.UniqueIdentityReferenceAttribute
+  commentId: T:DocFxToTemplate.Models.DocFx.Attributes.UniqueIdentityReferenceAttribute
+  href: DocFxToTemplate.Models.DocFx.Attributes.UniqueIdentityReferenceAttribute.html
+  name: UniqueIdentityReferenceAttribute
+  nameWithType: UniqueIdentityReferenceAttribute
+  fullName: DocFxToTemplate.Models.DocFx.Attributes.UniqueIdentityReferenceAttribute
+- uid: DocFxToTemplate.Models.DocFx.Attributes
+  commentId: N:DocFxToTemplate.Models.DocFx.Attributes
+  href: DocFxToTemplate.html
+  name: DocFxToTemplate.Models.DocFx.Attributes
+  nameWithType: DocFxToTemplate.Models.DocFx.Attributes
+  fullName: DocFxToTemplate.Models.DocFx.Attributes
+  spec.csharp:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Attributes
+    name: Attributes
+    href: DocFxToTemplate.Models.DocFx.Attributes.html
+  spec.vb:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Attributes
+    name: Attributes
+    href: DocFxToTemplate.Models.DocFx.Attributes.html

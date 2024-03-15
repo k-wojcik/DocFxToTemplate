@@ -1,0 +1,15 @@
+﻿{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "src/**/*.csproj",
+          ],
+          "src": ""
+        }
+      ],
+      "dest": "api"
+    }
+  ]
+}

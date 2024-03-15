@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxToTemplate.Example1.Flags1
+  commentId: T:DocFxToTemplate.Example1.Flags1
+  id: Flags1
+  parent: DocFxToTemplate.Example1
+  children:
+  - DocFxToTemplate.Example1.Flags1.Flag1
+  - DocFxToTemplate.Example1.Flags1.Flag2
+  langs:
+  - csharp
+  - vb
+  name: Flags1
+  nameWithType: Flags1
+  fullName: DocFxToTemplate.Example1.Flags1
+  type: Enum
+  source:
+    id: Flags1
+    path: T:\Projekty\DocFxToTemplate\src\example\DocFxToTemplate.Example1\Flags1.cs
+    startLine: 2
+  assemblies:
+  - DocFxToTemplate.Example1
+  namespace: DocFxToTemplate.Example1
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum Flags1
+    content.vb: >-
+      <Flags>
+
+      Public Enum Flags1
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: DocFxToTemplate.Example1.Flags1.Flag1
+  commentId: F:DocFxToTemplate.Example1.Flags1.Flag1
+  id: Flag1
+  parent: DocFxToTemplate.Example1.Flags1
+  langs:
+  - csharp
+  - vb
+  name: Flag1
+  nameWithType: Flags1.Flag1
+  fullName: DocFxToTemplate.Example1.Flags1.Flag1
+  type: Field
+  source:
+    id: Flag1
+    path: T:\Projekty\DocFxToTemplate\src\example\DocFxToTemplate.Example1\Flags1.cs
+    startLine: 5
+  assemblies:
+  - DocFxToTemplate.Example1
+  namespace: DocFxToTemplate.Example1
+  syntax:
+    content: Flag1 = 0
+    return:
+      type: DocFxToTemplate.Example1.Flags1
+- uid: DocFxToTemplate.Example1.Flags1.Flag2
+  commentId: F:DocFxToTemplate.Example1.Flags1.Flag2
+  id: Flag2
+  parent: DocFxToTemplate.Example1.Flags1
+  langs:
+  - csharp
+  - vb
+  name: Flag2
+  nameWithType: Flags1.Flag2
+  fullName: DocFxToTemplate.Example1.Flags1.Flag2
+  type: Field
+  source:
+    id: Flag2
+    path: T:\Projekty\DocFxToTemplate\src\example\DocFxToTemplate.Example1\Flags1.cs
+    startLine: 6
+  assemblies:
+  - DocFxToTemplate.Example1
+  namespace: DocFxToTemplate.Example1
+  syntax:
+    content: Flag2 = 1
+    return:
+      type: DocFxToTemplate.Example1.Flags1
+references:
+- uid: DocFxToTemplate.Example1
+  commentId: N:DocFxToTemplate.Example1
+  href: DocFxToTemplate.html
+  name: DocFxToTemplate.Example1
+  nameWithType: DocFxToTemplate.Example1
+  fullName: DocFxToTemplate.Example1
+  spec.csharp:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Example1
+    name: Example1
+    href: DocFxToTemplate.Example1.html
+  spec.vb:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Example1
+    name: Example1
+    href: DocFxToTemplate.Example1.html
+- uid: DocFxToTemplate.Example1.Flags1
+  commentId: T:DocFxToTemplate.Example1.Flags1
+  parent: DocFxToTemplate.Example1
+  href: DocFxToTemplate.Example1.Flags1.html
+  name: Flags1
+  nameWithType: Flags1
+  fullName: DocFxToTemplate.Example1.Flags1

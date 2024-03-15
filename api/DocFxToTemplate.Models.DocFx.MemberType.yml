@@ -1,0 +1,476 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxToTemplate.Models.DocFx.MemberType
+  commentId: T:DocFxToTemplate.Models.DocFx.MemberType
+  id: MemberType
+  parent: DocFxToTemplate.Models.DocFx
+  children:
+  - DocFxToTemplate.Models.DocFx.MemberType.Assembly
+  - DocFxToTemplate.Models.DocFx.MemberType.AttachedEvent
+  - DocFxToTemplate.Models.DocFx.MemberType.AttachedProperty
+  - DocFxToTemplate.Models.DocFx.MemberType.Class
+  - DocFxToTemplate.Models.DocFx.MemberType.Constructor
+  - DocFxToTemplate.Models.DocFx.MemberType.Container
+  - DocFxToTemplate.Models.DocFx.MemberType.Default
+  - DocFxToTemplate.Models.DocFx.MemberType.Delegate
+  - DocFxToTemplate.Models.DocFx.MemberType.Enum
+  - DocFxToTemplate.Models.DocFx.MemberType.Event
+  - DocFxToTemplate.Models.DocFx.MemberType.Field
+  - DocFxToTemplate.Models.DocFx.MemberType.Interface
+  - DocFxToTemplate.Models.DocFx.MemberType.Method
+  - DocFxToTemplate.Models.DocFx.MemberType.Namespace
+  - DocFxToTemplate.Models.DocFx.MemberType.Operator
+  - DocFxToTemplate.Models.DocFx.MemberType.Property
+  - DocFxToTemplate.Models.DocFx.MemberType.Struct
+  - DocFxToTemplate.Models.DocFx.MemberType.Toc
+  langs:
+  - csharp
+  - vb
+  name: MemberType
+  nameWithType: MemberType
+  fullName: DocFxToTemplate.Models.DocFx.MemberType
+  type: Enum
+  source:
+    id: MemberType
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 5
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public enum MemberType
+    content.vb: Public Enum MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.Default
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.Default
+  id: Default
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: MemberType.Default
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.Default
+  type: Field
+  source:
+    id: Default
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 7
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Default = 0
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.Toc
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.Toc
+  id: Toc
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: Toc
+  nameWithType: MemberType.Toc
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.Toc
+  type: Field
+  source:
+    id: Toc
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 8
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Toc = 1
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.Assembly
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.Assembly
+  id: Assembly
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: Assembly
+  nameWithType: MemberType.Assembly
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.Assembly
+  type: Field
+  source:
+    id: Assembly
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 9
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Assembly = 2
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.Namespace
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.Namespace
+  id: Namespace
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: Namespace
+  nameWithType: MemberType.Namespace
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.Namespace
+  type: Field
+  source:
+    id: Namespace
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 10
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Namespace = 3
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.Class
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.Class
+  id: Class
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: Class
+  nameWithType: MemberType.Class
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.Class
+  type: Field
+  source:
+    id: Class
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 11
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Class = 4
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.Interface
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.Interface
+  id: Interface
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: Interface
+  nameWithType: MemberType.Interface
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.Interface
+  type: Field
+  source:
+    id: Interface
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 12
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Interface = 5
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.Struct
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.Struct
+  id: Struct
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: Struct
+  nameWithType: MemberType.Struct
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.Struct
+  type: Field
+  source:
+    id: Struct
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 13
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Struct = 6
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.Delegate
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.Delegate
+  id: Delegate
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: Delegate
+  nameWithType: MemberType.Delegate
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.Delegate
+  type: Field
+  source:
+    id: Delegate
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 14
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Delegate = 7
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.Enum
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.Enum
+  id: Enum
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: Enum
+  nameWithType: MemberType.Enum
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.Enum
+  type: Field
+  source:
+    id: Enum
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 15
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Enum = 8
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.Field
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.Field
+  id: Field
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: Field
+  nameWithType: MemberType.Field
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.Field
+  type: Field
+  source:
+    id: Field
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 16
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Field = 9
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.Property
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.Property
+  id: Property
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: Property
+  nameWithType: MemberType.Property
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.Property
+  type: Field
+  source:
+    id: Property
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 17
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Property = 10
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.Event
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.Event
+  id: Event
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: Event
+  nameWithType: MemberType.Event
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.Event
+  type: Field
+  source:
+    id: Event
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 18
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Event = 11
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.Constructor
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.Constructor
+  id: Constructor
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: Constructor
+  nameWithType: MemberType.Constructor
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.Constructor
+  type: Field
+  source:
+    id: Constructor
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 19
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Constructor = 12
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.Method
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.Method
+  id: Method
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: Method
+  nameWithType: MemberType.Method
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.Method
+  type: Field
+  source:
+    id: Method
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 20
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Method = 13
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.Operator
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.Operator
+  id: Operator
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: Operator
+  nameWithType: MemberType.Operator
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.Operator
+  type: Field
+  source:
+    id: Operator
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 21
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Operator = 14
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.Container
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.Container
+  id: Container
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: Container
+  nameWithType: MemberType.Container
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.Container
+  type: Field
+  source:
+    id: Container
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 22
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Container = 15
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.AttachedEvent
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.AttachedEvent
+  id: AttachedEvent
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: AttachedEvent
+  nameWithType: MemberType.AttachedEvent
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.AttachedEvent
+  type: Field
+  source:
+    id: AttachedEvent
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 23
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: AttachedEvent = 16
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.MemberType.AttachedProperty
+  commentId: F:DocFxToTemplate.Models.DocFx.MemberType.AttachedProperty
+  id: AttachedProperty
+  parent: DocFxToTemplate.Models.DocFx.MemberType
+  langs:
+  - csharp
+  - vb
+  name: AttachedProperty
+  nameWithType: MemberType.AttachedProperty
+  fullName: DocFxToTemplate.Models.DocFx.MemberType.AttachedProperty
+  type: Field
+  source:
+    id: AttachedProperty
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\MemberType.cs
+    startLine: 24
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: AttachedProperty = 17
+    return:
+      type: DocFxToTemplate.Models.DocFx.MemberType
+references:
+- uid: DocFxToTemplate.Models.DocFx
+  commentId: N:DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.html
+  name: DocFxToTemplate.Models.DocFx
+  nameWithType: DocFxToTemplate.Models.DocFx
+  fullName: DocFxToTemplate.Models.DocFx
+  spec.csharp:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+  spec.vb:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+- uid: DocFxToTemplate.Models.DocFx.MemberType
+  commentId: T:DocFxToTemplate.Models.DocFx.MemberType
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.MemberType.html
+  name: MemberType
+  nameWithType: MemberType
+  fullName: DocFxToTemplate.Models.DocFx.MemberType

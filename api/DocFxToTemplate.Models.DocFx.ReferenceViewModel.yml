@@ -1,0 +1,1423 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  commentId: T:DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  id: ReferenceViewModel
+  parent: DocFxToTemplate.Models.DocFx
+  children:
+  - DocFxToTemplate.Models.DocFx.ReferenceViewModel.Additional
+  - DocFxToTemplate.Models.DocFx.ReferenceViewModel.CommentId
+  - DocFxToTemplate.Models.DocFx.ReferenceViewModel.Definition
+  - DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullName
+  - DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullNameInDevLangs
+  - DocFxToTemplate.Models.DocFx.ReferenceViewModel.Href
+  - DocFxToTemplate.Models.DocFx.ReferenceViewModel.IsExternal
+  - DocFxToTemplate.Models.DocFx.ReferenceViewModel.Item
+  - DocFxToTemplate.Models.DocFx.ReferenceViewModel.Name
+  - DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameInDevLangs
+  - DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithType
+  - DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithTypeInDevLangs
+  - DocFxToTemplate.Models.DocFx.ReferenceViewModel.Parent
+  - DocFxToTemplate.Models.DocFx.ReferenceViewModel.SpecCsharp
+  - DocFxToTemplate.Models.DocFx.ReferenceViewModel.Uid
+  langs:
+  - csharp
+  - vb
+  name: ReferenceViewModel
+  nameWithType: ReferenceViewModel
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  type: Class
+  source:
+    id: ReferenceViewModel
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    startLine: 9
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public class ReferenceViewModel
+    content.vb: Public Class ReferenceViewModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Uid
+  commentId: P:DocFxToTemplate.Models.DocFx.ReferenceViewModel.Uid
+  id: Uid
+  parent: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  langs:
+  - csharp
+  - vb
+  name: Uid
+  nameWithType: ReferenceViewModel.Uid
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Uid
+  type: Property
+  source:
+    id: Uid
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    startLine: 11
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: >-
+      [YamlMember(Alias = "uid")]
+
+      [JsonPropertyName("uid")]
+
+      public string Uid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <YamlMember(Alias:="uid")>
+
+      <JsonPropertyName("uid")>
+
+      Public Property Uid As String
+  overload: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Uid*
+  attributes:
+  - type: YamlDotNet.Serialization.YamlMemberAttribute
+    ctor: YamlDotNet.Serialization.YamlMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Alias
+      type: System.String
+      value: uid
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: uid
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.CommentId
+  commentId: P:DocFxToTemplate.Models.DocFx.ReferenceViewModel.CommentId
+  id: CommentId
+  parent: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  langs:
+  - csharp
+  - vb
+  name: CommentId
+  nameWithType: ReferenceViewModel.CommentId
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.CommentId
+  type: Property
+  source:
+    id: CommentId
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    startLine: 15
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: >-
+      [YamlMember(Alias = "commentId")]
+
+      [JsonPropertyName("commentId")]
+
+      public string CommentId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <YamlMember(Alias:="commentId")>
+
+      <JsonPropertyName("commentId")>
+
+      Public Property CommentId As String
+  overload: DocFxToTemplate.Models.DocFx.ReferenceViewModel.CommentId*
+  attributes:
+  - type: YamlDotNet.Serialization.YamlMemberAttribute
+    ctor: YamlDotNet.Serialization.YamlMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Alias
+      type: System.String
+      value: commentId
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: commentId
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Parent
+  commentId: P:DocFxToTemplate.Models.DocFx.ReferenceViewModel.Parent
+  id: Parent
+  parent: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: ReferenceViewModel.Parent
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Parent
+  type: Property
+  source:
+    id: Parent
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    startLine: 19
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: >-
+      [YamlMember(Alias = "parent")]
+
+      [JsonPropertyName("parent")]
+
+      public string Parent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <YamlMember(Alias:="parent")>
+
+      <JsonPropertyName("parent")>
+
+      Public Property Parent As String
+  overload: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Parent*
+  attributes:
+  - type: YamlDotNet.Serialization.YamlMemberAttribute
+    ctor: YamlDotNet.Serialization.YamlMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Alias
+      type: System.String
+      value: parent
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: parent
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Definition
+  commentId: P:DocFxToTemplate.Models.DocFx.ReferenceViewModel.Definition
+  id: Definition
+  parent: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: ReferenceViewModel.Definition
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Definition
+  type: Property
+  source:
+    id: Definition
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    startLine: 23
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: >-
+      [YamlMember(Alias = "definition")]
+
+      [JsonPropertyName("definition")]
+
+      public string Definition { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <YamlMember(Alias:="definition")>
+
+      <JsonPropertyName("definition")>
+
+      Public Property Definition As String
+  overload: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Definition*
+  attributes:
+  - type: YamlDotNet.Serialization.YamlMemberAttribute
+    ctor: YamlDotNet.Serialization.YamlMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Alias
+      type: System.String
+      value: definition
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: definition
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.IsExternal
+  commentId: P:DocFxToTemplate.Models.DocFx.ReferenceViewModel.IsExternal
+  id: IsExternal
+  parent: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  langs:
+  - csharp
+  - vb
+  name: IsExternal
+  nameWithType: ReferenceViewModel.IsExternal
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.IsExternal
+  type: Property
+  source:
+    id: IsExternal
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    startLine: 28
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: >-
+      [YamlMember(Alias = "isExternal")]
+
+      [JsonPropertyName("isExternal")]
+
+      public bool? IsExternal { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <YamlMember(Alias:="isExternal")>
+
+      <JsonPropertyName("isExternal")>
+
+      Public Property IsExternal As Boolean?
+  overload: DocFxToTemplate.Models.DocFx.ReferenceViewModel.IsExternal*
+  attributes:
+  - type: YamlDotNet.Serialization.YamlMemberAttribute
+    ctor: YamlDotNet.Serialization.YamlMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Alias
+      type: System.String
+      value: isExternal
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: isExternal
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Href
+  commentId: P:DocFxToTemplate.Models.DocFx.ReferenceViewModel.Href
+  id: Href
+  parent: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  langs:
+  - csharp
+  - vb
+  name: Href
+  nameWithType: ReferenceViewModel.Href
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Href
+  type: Property
+  source:
+    id: Href
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    startLine: 32
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: >-
+      [YamlMember(Alias = "href")]
+
+      [JsonPropertyName("href")]
+
+      public string Href { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <YamlMember(Alias:="href")>
+
+      <JsonPropertyName("href")>
+
+      Public Property Href As String
+  overload: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Href*
+  attributes:
+  - type: YamlDotNet.Serialization.YamlMemberAttribute
+    ctor: YamlDotNet.Serialization.YamlMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Alias
+      type: System.String
+      value: href
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: href
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Name
+  commentId: P:DocFxToTemplate.Models.DocFx.ReferenceViewModel.Name
+  id: Name
+  parent: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ReferenceViewModel.Name
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Name
+  type: Property
+  source:
+    id: Name
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    startLine: 36
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: >-
+      [YamlMember(Alias = "name")]
+
+      [JsonPropertyName("name")]
+
+      public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <YamlMember(Alias:="name")>
+
+      <JsonPropertyName("name")>
+
+      Public Property Name As String
+  overload: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Name*
+  attributes:
+  - type: YamlDotNet.Serialization.YamlMemberAttribute
+    ctor: YamlDotNet.Serialization.YamlMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Alias
+      type: System.String
+      value: name
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: name
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameInDevLangs
+  commentId: P:DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameInDevLangs
+  id: NameInDevLangs
+  parent: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  langs:
+  - csharp
+  - vb
+  name: NameInDevLangs
+  nameWithType: ReferenceViewModel.NameInDevLangs
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameInDevLangs
+  type: Property
+  source:
+    id: NameInDevLangs
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    startLine: 40
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: >-
+      [ExtensibleMember("name.")]
+
+      [JsonIgnore]
+
+      public SortedList<string, string> NameInDevLangs { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.SortedList{System.String,System.String}
+    content.vb: >-
+      <ExtensibleMember("name.")>
+
+      <JsonIgnore>
+
+      Public Property NameInDevLangs As SortedList(Of String, String)
+  overload: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameInDevLangs*
+  attributes:
+  - type: DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute
+    ctor: DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: name.
+  - type: System.Text.Json.Serialization.JsonIgnoreAttribute
+    ctor: System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithType
+  commentId: P:DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithType
+  id: NameWithType
+  parent: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  langs:
+  - csharp
+  - vb
+  name: NameWithType
+  nameWithType: ReferenceViewModel.NameWithType
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithType
+  type: Property
+  source:
+    id: NameWithType
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    startLine: 44
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: >-
+      [YamlMember(Alias = "nameWithType")]
+
+      [JsonPropertyName("nameWithType")]
+
+      public string NameWithType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <YamlMember(Alias:="nameWithType")>
+
+      <JsonPropertyName("nameWithType")>
+
+      Public Property NameWithType As String
+  overload: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithType*
+  attributes:
+  - type: YamlDotNet.Serialization.YamlMemberAttribute
+    ctor: YamlDotNet.Serialization.YamlMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Alias
+      type: System.String
+      value: nameWithType
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: nameWithType
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithTypeInDevLangs
+  commentId: P:DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithTypeInDevLangs
+  id: NameWithTypeInDevLangs
+  parent: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  langs:
+  - csharp
+  - vb
+  name: NameWithTypeInDevLangs
+  nameWithType: ReferenceViewModel.NameWithTypeInDevLangs
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithTypeInDevLangs
+  type: Property
+  source:
+    id: NameWithTypeInDevLangs
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    startLine: 48
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: >-
+      [ExtensibleMember("nameWithType.")]
+
+      [JsonIgnore]
+
+      public SortedList<string, string> NameWithTypeInDevLangs { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.SortedList{System.String,System.String}
+    content.vb: >-
+      <ExtensibleMember("nameWithType.")>
+
+      <JsonIgnore>
+
+      Public Property NameWithTypeInDevLangs As SortedList(Of String, String)
+  overload: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithTypeInDevLangs*
+  attributes:
+  - type: DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute
+    ctor: DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: nameWithType.
+  - type: System.Text.Json.Serialization.JsonIgnoreAttribute
+    ctor: System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullName
+  commentId: P:DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullName
+  id: FullName
+  parent: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: ReferenceViewModel.FullName
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullName
+  type: Property
+  source:
+    id: FullName
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    startLine: 52
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: >-
+      [YamlMember(Alias = "fullName")]
+
+      [JsonPropertyName("fullName")]
+
+      public string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <YamlMember(Alias:="fullName")>
+
+      <JsonPropertyName("fullName")>
+
+      Public Property FullName As String
+  overload: DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullName*
+  attributes:
+  - type: YamlDotNet.Serialization.YamlMemberAttribute
+    ctor: YamlDotNet.Serialization.YamlMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Alias
+      type: System.String
+      value: fullName
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fullName
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullNameInDevLangs
+  commentId: P:DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullNameInDevLangs
+  id: FullNameInDevLangs
+  parent: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  langs:
+  - csharp
+  - vb
+  name: FullNameInDevLangs
+  nameWithType: ReferenceViewModel.FullNameInDevLangs
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullNameInDevLangs
+  type: Property
+  source:
+    id: FullNameInDevLangs
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    startLine: 56
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: >-
+      [ExtensibleMember("fullName.")]
+
+      [JsonIgnore]
+
+      public SortedList<string, string> FullNameInDevLangs { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.SortedList{System.String,System.String}
+    content.vb: >-
+      <ExtensibleMember("fullName.")>
+
+      <JsonIgnore>
+
+      Public Property FullNameInDevLangs As SortedList(Of String, String)
+  overload: DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullNameInDevLangs*
+  attributes:
+  - type: DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute
+    ctor: DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fullName.
+  - type: System.Text.Json.Serialization.JsonIgnoreAttribute
+    ctor: System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.SpecCsharp
+  commentId: P:DocFxToTemplate.Models.DocFx.ReferenceViewModel.SpecCsharp
+  id: SpecCsharp
+  parent: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  langs:
+  - csharp
+  - vb
+  name: SpecCsharp
+  nameWithType: ReferenceViewModel.SpecCsharp
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.SpecCsharp
+  type: Property
+  source:
+    id: SpecCsharp
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    startLine: 64
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: >-
+      [YamlMember(Alias = "spec.csharp")]
+
+      public List<SpecViewModel> SpecCsharp { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{DocFxToTemplate.Models.DocFx.SpecViewModel}
+    content.vb: >-
+      <YamlMember(Alias:="spec.csharp")>
+
+      Public Property SpecCsharp As List(Of SpecViewModel)
+  overload: DocFxToTemplate.Models.DocFx.ReferenceViewModel.SpecCsharp*
+  attributes:
+  - type: YamlDotNet.Serialization.YamlMemberAttribute
+    ctor: YamlDotNet.Serialization.YamlMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Alias
+      type: System.String
+      value: spec.csharp
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Item
+  commentId: P:DocFxToTemplate.Models.DocFx.ReferenceViewModel.Item
+  id: Item
+  parent: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  langs:
+  - csharp
+  - vb
+  name: Item
+  nameWithType: ReferenceViewModel.Item
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Item
+  type: Property
+  source:
+    id: Item
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    startLine: 67
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: >-
+      [YamlIgnore]
+
+      [JsonIgnore]
+
+      public ItemViewModel? Item { get; set; }
+    parameters: []
+    return:
+      type: DocFxToTemplate.Models.DocFx.ItemViewModel
+    content.vb: >-
+      <YamlIgnore>
+
+      <JsonIgnore>
+
+      Public Property Item As ItemViewModel
+  overload: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Item*
+  attributes:
+  - type: YamlDotNet.Serialization.YamlIgnoreAttribute
+    ctor: YamlDotNet.Serialization.YamlIgnoreAttribute.#ctor
+    arguments: []
+  - type: System.Text.Json.Serialization.JsonIgnoreAttribute
+    ctor: System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Additional
+  commentId: P:DocFxToTemplate.Models.DocFx.ReferenceViewModel.Additional
+  id: Additional
+  parent: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  langs:
+  - csharp
+  - vb
+  name: Additional
+  nameWithType: ReferenceViewModel.Additional
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Additional
+  type: Property
+  source:
+    id: Additional
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    startLine: 71
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: >-
+      [ExtensibleMember]
+
+      [JsonIgnore]
+
+      public Dictionary<string, object> Additional { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: >-
+      <ExtensibleMember>
+
+      <JsonIgnore>
+
+      Public Property Additional As Dictionary(Of String, Object)
+  overload: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Additional*
+  attributes:
+  - type: DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute
+    ctor: DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute.#ctor
+    arguments: []
+  - type: System.Text.Json.Serialization.JsonIgnoreAttribute
+    ctor: System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor
+    arguments: []
+references:
+- uid: DocFxToTemplate.Models.DocFx
+  commentId: N:DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.html
+  name: DocFxToTemplate.Models.DocFx
+  nameWithType: DocFxToTemplate.Models.DocFx
+  fullName: DocFxToTemplate.Models.DocFx
+  spec.csharp:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+  spec.vb:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Uid*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.ReferenceViewModel.Uid
+  href: DocFxToTemplate.Models.DocFx.ReferenceViewModel.html#DocFxToTemplate_Models_DocFx_ReferenceViewModel_Uid
+  name: Uid
+  nameWithType: ReferenceViewModel.Uid
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Uid
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.CommentId*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.ReferenceViewModel.CommentId
+  href: DocFxToTemplate.Models.DocFx.ReferenceViewModel.html#DocFxToTemplate_Models_DocFx_ReferenceViewModel_CommentId
+  name: CommentId
+  nameWithType: ReferenceViewModel.CommentId
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.CommentId
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Parent*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.ReferenceViewModel.Parent
+  href: DocFxToTemplate.Models.DocFx.ReferenceViewModel.html#DocFxToTemplate_Models_DocFx_ReferenceViewModel_Parent
+  name: Parent
+  nameWithType: ReferenceViewModel.Parent
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Parent
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Definition*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.ReferenceViewModel.Definition
+  href: DocFxToTemplate.Models.DocFx.ReferenceViewModel.html#DocFxToTemplate_Models_DocFx_ReferenceViewModel_Definition
+  name: Definition
+  nameWithType: ReferenceViewModel.Definition
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Definition
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.IsExternal*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.ReferenceViewModel.IsExternal
+  href: DocFxToTemplate.Models.DocFx.ReferenceViewModel.html#DocFxToTemplate_Models_DocFx_ReferenceViewModel_IsExternal
+  name: IsExternal
+  nameWithType: ReferenceViewModel.IsExternal
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.IsExternal
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Href*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.ReferenceViewModel.Href
+  href: DocFxToTemplate.Models.DocFx.ReferenceViewModel.html#DocFxToTemplate_Models_DocFx_ReferenceViewModel_Href
+  name: Href
+  nameWithType: ReferenceViewModel.Href
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Href
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Name*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.ReferenceViewModel.Name
+  href: DocFxToTemplate.Models.DocFx.ReferenceViewModel.html#DocFxToTemplate_Models_DocFx_ReferenceViewModel_Name
+  name: Name
+  nameWithType: ReferenceViewModel.Name
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Name
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameInDevLangs*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameInDevLangs
+  href: DocFxToTemplate.Models.DocFx.ReferenceViewModel.html#DocFxToTemplate_Models_DocFx_ReferenceViewModel_NameInDevLangs
+  name: NameInDevLangs
+  nameWithType: ReferenceViewModel.NameInDevLangs
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameInDevLangs
+- uid: System.Collections.Generic.SortedList{System.String,System.String}
+  commentId: T:System.Collections.Generic.SortedList{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.SortedList`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2
+  name: SortedList<string, string>
+  nameWithType: SortedList<string, string>
+  fullName: System.Collections.Generic.SortedList<string, string>
+  nameWithType.vb: SortedList(Of String, String)
+  fullName.vb: System.Collections.Generic.SortedList(Of String, String)
+  name.vb: SortedList(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.SortedList`2
+    name: SortedList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.SortedList`2
+    name: SortedList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.SortedList`2
+  commentId: T:System.Collections.Generic.SortedList`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2
+  name: SortedList<TKey, TValue>
+  nameWithType: SortedList<TKey, TValue>
+  fullName: System.Collections.Generic.SortedList<TKey, TValue>
+  nameWithType.vb: SortedList(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.SortedList(Of TKey, TValue)
+  name.vb: SortedList(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.SortedList`2
+    name: SortedList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.SortedList`2
+    name: SortedList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithType*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithType
+  href: DocFxToTemplate.Models.DocFx.ReferenceViewModel.html#DocFxToTemplate_Models_DocFx_ReferenceViewModel_NameWithType
+  name: NameWithType
+  nameWithType: ReferenceViewModel.NameWithType
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithType
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithTypeInDevLangs*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithTypeInDevLangs
+  href: DocFxToTemplate.Models.DocFx.ReferenceViewModel.html#DocFxToTemplate_Models_DocFx_ReferenceViewModel_NameWithTypeInDevLangs
+  name: NameWithTypeInDevLangs
+  nameWithType: ReferenceViewModel.NameWithTypeInDevLangs
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithTypeInDevLangs
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullName*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullName
+  href: DocFxToTemplate.Models.DocFx.ReferenceViewModel.html#DocFxToTemplate_Models_DocFx_ReferenceViewModel_FullName
+  name: FullName
+  nameWithType: ReferenceViewModel.FullName
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullName
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullNameInDevLangs*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullNameInDevLangs
+  href: DocFxToTemplate.Models.DocFx.ReferenceViewModel.html#DocFxToTemplate_Models_DocFx_ReferenceViewModel_FullNameInDevLangs
+  name: FullNameInDevLangs
+  nameWithType: ReferenceViewModel.FullNameInDevLangs
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullNameInDevLangs
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.SpecCsharp*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.ReferenceViewModel.SpecCsharp
+  href: DocFxToTemplate.Models.DocFx.ReferenceViewModel.html#DocFxToTemplate_Models_DocFx_ReferenceViewModel_SpecCsharp
+  name: SpecCsharp
+  nameWithType: ReferenceViewModel.SpecCsharp
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.SpecCsharp
+- uid: System.Collections.Generic.List{DocFxToTemplate.Models.DocFx.SpecViewModel}
+  commentId: T:System.Collections.Generic.List{DocFxToTemplate.Models.DocFx.SpecViewModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<SpecViewModel>
+  nameWithType: List<SpecViewModel>
+  fullName: System.Collections.Generic.List<DocFxToTemplate.Models.DocFx.SpecViewModel>
+  nameWithType.vb: List(Of SpecViewModel)
+  fullName.vb: System.Collections.Generic.List(Of DocFxToTemplate.Models.DocFx.SpecViewModel)
+  name.vb: List(Of SpecViewModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: DocFxToTemplate.Models.DocFx.SpecViewModel
+    name: SpecViewModel
+    href: DocFxToTemplate.Models.DocFx.SpecViewModel.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DocFxToTemplate.Models.DocFx.SpecViewModel
+    name: SpecViewModel
+    href: DocFxToTemplate.Models.DocFx.SpecViewModel.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Item*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.ReferenceViewModel.Item
+  href: DocFxToTemplate.Models.DocFx.ReferenceViewModel.html#DocFxToTemplate_Models_DocFx_ReferenceViewModel_Item
+  name: Item
+  nameWithType: ReferenceViewModel.Item
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Item
+- uid: DocFxToTemplate.Models.DocFx.ItemViewModel
+  commentId: T:DocFxToTemplate.Models.DocFx.ItemViewModel
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.ItemViewModel.html
+  name: ItemViewModel
+  nameWithType: ItemViewModel
+  fullName: DocFxToTemplate.Models.DocFx.ItemViewModel
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Additional*
+  commentId: Overload:DocFxToTemplate.Models.DocFx.ReferenceViewModel.Additional
+  href: DocFxToTemplate.Models.DocFx.ReferenceViewModel.html#DocFxToTemplate_Models_DocFx_ReferenceViewModel_Additional
+  name: Additional
+  nameWithType: ReferenceViewModel.Additional
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Additional
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, object>
+  nameWithType: Dictionary<string, object>
+  fullName: System.Collections.Generic.Dictionary<string, object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )

@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxToTemplate.Example1
+  commentId: N:DocFxToTemplate.Example1
+  id: DocFxToTemplate.Example1
+  children:
+  - DocFxToTemplate.Example1.Class1
+  - DocFxToTemplate.Example1.Enum1
+  - DocFxToTemplate.Example1.Flags1
+  - DocFxToTemplate.Example1.Interface1
+  - DocFxToTemplate.Example1.Record1
+  - DocFxToTemplate.Example1.Struct1
+  langs:
+  - csharp
+  - vb
+  name: DocFxToTemplate.Example1
+  nameWithType: DocFxToTemplate.Example1
+  fullName: DocFxToTemplate.Example1
+  type: Namespace
+  assemblies:
+  - DocFxToTemplate.Example1
+references:
+- uid: DocFxToTemplate.Example1.Class1
+  commentId: T:DocFxToTemplate.Example1.Class1
+  href: DocFxToTemplate.Example1.Class1.html
+  name: Class1
+  nameWithType: Class1
+  fullName: DocFxToTemplate.Example1.Class1
+- uid: DocFxToTemplate.Example1.Enum1
+  commentId: T:DocFxToTemplate.Example1.Enum1
+  href: DocFxToTemplate.Example1.Enum1.html
+  name: Enum1
+  nameWithType: Enum1
+  fullName: DocFxToTemplate.Example1.Enum1
+- uid: DocFxToTemplate.Example1.Flags1
+  commentId: T:DocFxToTemplate.Example1.Flags1
+  parent: DocFxToTemplate.Example1
+  href: DocFxToTemplate.Example1.Flags1.html
+  name: Flags1
+  nameWithType: Flags1
+  fullName: DocFxToTemplate.Example1.Flags1
+- uid: DocFxToTemplate.Example1.Interface1
+  commentId: T:DocFxToTemplate.Example1.Interface1
+  href: DocFxToTemplate.Example1.Interface1.html
+  name: Interface1
+  nameWithType: Interface1
+  fullName: DocFxToTemplate.Example1.Interface1
+- uid: DocFxToTemplate.Example1.Record1
+  commentId: T:DocFxToTemplate.Example1.Record1
+  href: DocFxToTemplate.Example1.Record1.html
+  name: Record1
+  nameWithType: Record1
+  fullName: DocFxToTemplate.Example1.Record1
+- uid: DocFxToTemplate.Example1.Struct1
+  commentId: T:DocFxToTemplate.Example1.Struct1
+  href: DocFxToTemplate.Example1.Struct1.html
+  name: Struct1
+  nameWithType: Struct1
+  fullName: DocFxToTemplate.Example1.Struct1
+- uid: DocFxToTemplate.Example1
+  commentId: N:DocFxToTemplate.Example1
+  href: DocFxToTemplate.html
+  name: DocFxToTemplate.Example1
+  nameWithType: DocFxToTemplate.Example1
+  fullName: DocFxToTemplate.Example1
+  spec.csharp:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Example1
+    name: Example1
+    href: DocFxToTemplate.Example1.html
+  spec.vb:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Example1
+    name: Example1
+    href: DocFxToTemplate.Example1.html

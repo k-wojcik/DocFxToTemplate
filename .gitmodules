@@ -1,0 +1,6 @@
+[submodule "examples/discord-net-dfmg/Discord.Net"]
+	path = examples/discord-net-dfmg/Discord.Net
+	url = https://github.com/discord-net/Discord.Net
+[submodule "examples/docfx"]
+	path = examples/docfx
+	url = https://github.com/dotnet/docfx.git

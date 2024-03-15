@@ -1,0 +1,106 @@
+### YamlMime:TableOfContent
+items:
+- uid: DocFxToTemplate
+  name: DocFxToTemplate
+  items:
+  - uid: DocFxToTemplate.Generator
+    name: Generator
+  - uid: DocFxToTemplate.GeneratorOptions
+    name: GeneratorOptions
+- uid: DocFxToTemplate.Example1
+  name: DocFxToTemplate.Example1
+  items:
+  - uid: DocFxToTemplate.Example1.Class1
+    name: Class1
+  - uid: DocFxToTemplate.Example1.Enum1
+    name: Enum1
+  - uid: DocFxToTemplate.Example1.Flags1
+    name: Flags1
+  - uid: DocFxToTemplate.Example1.Interface1
+    name: Interface1
+  - uid: DocFxToTemplate.Example1.Record1
+    name: Record1
+  - uid: DocFxToTemplate.Example1.Struct1
+    name: Struct1
+- uid: DocFxToTemplate.Models.DocFx
+  name: DocFxToTemplate.Models.DocFx
+  items:
+  - uid: DocFxToTemplate.Models.DocFx.AdditionalNotes
+    name: AdditionalNotes
+  - uid: DocFxToTemplate.Models.DocFx.ApiParameter
+    name: ApiParameter
+  - uid: DocFxToTemplate.Models.DocFx.ArgumentInfo
+    name: ArgumentInfo
+  - uid: DocFxToTemplate.Models.DocFx.AttributeInfo
+    name: AttributeInfo
+  - uid: DocFxToTemplate.Models.DocFx.CompositeDictionary
+    name: CompositeDictionary
+  - uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder
+    name: CompositeDictionary.Builder
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+  - uid: DocFxToTemplate.Models.DocFx.Constants.DevLang
+    name: Constants.DevLang
+  - uid: DocFxToTemplate.Models.DocFx.Constants.DocumentType
+    name: Constants.DocumentType
+  - uid: DocFxToTemplate.Models.DocFx.Constants.EnvironmentVariables
+    name: Constants.EnvironmentVariables
+  - uid: DocFxToTemplate.Models.DocFx.Constants.ExtensionMemberPrefix
+    name: Constants.ExtensionMemberPrefix
+  - uid: DocFxToTemplate.Models.DocFx.Constants.MetadataName
+    name: Constants.MetadataName
+  - uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+    name: Constants.PropertyName
+  - uid: DocFxToTemplate.Models.DocFx.Constants.Switches
+    name: Constants.Switches
+  - uid: DocFxToTemplate.Models.DocFx.Constants.TableOfContents
+    name: Constants.TableOfContents
+  - uid: DocFxToTemplate.Models.DocFx.ExceptionInfo
+    name: ExceptionInfo
+  - uid: DocFxToTemplate.Models.DocFx.GitDetail
+    name: GitDetail
+  - uid: DocFxToTemplate.Models.DocFx.ItemViewModel
+    name: ItemViewModel
+  - uid: DocFxToTemplate.Models.DocFx.LinkInfo
+    name: LinkInfo
+  - uid: DocFxToTemplate.Models.DocFx.LinkType
+    name: LinkType
+  - uid: DocFxToTemplate.Models.DocFx.MarkdownLink
+    name: MarkdownLink
+  - uid: DocFxToTemplate.Models.DocFx.MemberType
+    name: MemberType
+  - uid: DocFxToTemplate.Models.DocFx.NamedArgumentInfo
+    name: NamedArgumentInfo
+  - uid: DocFxToTemplate.Models.DocFx.PageViewModel
+    name: PageViewModel
+  - uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+    name: ReferenceViewModel
+  - uid: DocFxToTemplate.Models.DocFx.SourceDetail
+    name: SourceDetail
+  - uid: DocFxToTemplate.Models.DocFx.SpecViewModel
+    name: SpecViewModel
+  - uid: DocFxToTemplate.Models.DocFx.SyntaxDetailViewModel
+    name: SyntaxDetailViewModel
+  - uid: DocFxToTemplate.Models.DocFx.SyntaxLanguage
+    name: SyntaxLanguage
+  - uid: DocFxToTemplate.Models.DocFx.TocItemViewModel
+    name: TocItemViewModel
+- uid: DocFxToTemplate.Models.DocFx.Attributes
+  name: DocFxToTemplate.Models.DocFx.Attributes
+  items:
+  - uid: DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute
+    name: ExtensibleMemberAttribute
+  - uid: DocFxToTemplate.Models.DocFx.Attributes.MarkdownContentAttribute
+    name: MarkdownContentAttribute
+  - uid: DocFxToTemplate.Models.DocFx.Attributes.MergeOption
+    name: MergeOption
+  - uid: DocFxToTemplate.Models.DocFx.Attributes.MergeOptionAttribute
+    name: MergeOptionAttribute
+  - uid: DocFxToTemplate.Models.DocFx.Attributes.UniqueIdentityReferenceAttribute
+    name: UniqueIdentityReferenceAttribute
+- uid: DocFxToTemplate.Templates
+  name: DocFxToTemplate.Templates
+  items:
+  - uid: DocFxToTemplate.Templates.TemplateLoader
+    name: TemplateLoader
+memberLayout: SamePage

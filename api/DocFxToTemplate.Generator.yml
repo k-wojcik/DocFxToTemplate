@@ -1,0 +1,474 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxToTemplate.Generator
+  commentId: T:DocFxToTemplate.Generator
+  id: Generator
+  parent: DocFxToTemplate
+  children:
+  - DocFxToTemplate.Generator.#ctor(Microsoft.Extensions.Logging.ILogger{DocFxToTemplate.Generator},DocFxToTemplate.GeneratorOptions)
+  - DocFxToTemplate.Generator.Generate
+  langs:
+  - csharp
+  - vb
+  name: Generator
+  nameWithType: Generator
+  fullName: DocFxToTemplate.Generator
+  type: Class
+  source:
+    id: Generator
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Generator.cs
+    startLine: 15
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate
+  syntax:
+    content: public sealed class Generator
+    content.vb: Public NotInheritable Class Generator
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: DocFxToTemplate.Generator.#ctor(Microsoft.Extensions.Logging.ILogger{DocFxToTemplate.Generator},DocFxToTemplate.GeneratorOptions)
+  commentId: M:DocFxToTemplate.Generator.#ctor(Microsoft.Extensions.Logging.ILogger{DocFxToTemplate.Generator},DocFxToTemplate.GeneratorOptions)
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger{DocFxToTemplate.Generator},DocFxToTemplate.GeneratorOptions)'
+  parent: DocFxToTemplate.Generator
+  langs:
+  - csharp
+  - vb
+  name: Generator(ILogger<Generator>, GeneratorOptions)
+  nameWithType: Generator.Generator(ILogger<Generator>, GeneratorOptions)
+  fullName: DocFxToTemplate.Generator.Generator(Microsoft.Extensions.Logging.ILogger<DocFxToTemplate.Generator>, DocFxToTemplate.GeneratorOptions)
+  type: Constructor
+  source:
+    id: .ctor
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Generator.cs
+    startLine: 20
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate
+  syntax:
+    content: public Generator(ILogger<Generator> logger, GeneratorOptions options)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{DocFxToTemplate.Generator}
+    - id: options
+      type: DocFxToTemplate.GeneratorOptions
+    content.vb: Public Sub New(logger As ILogger(Of Generator), options As GeneratorOptions)
+  overload: DocFxToTemplate.Generator.#ctor*
+  nameWithType.vb: Generator.New(ILogger(Of Generator), GeneratorOptions)
+  fullName.vb: DocFxToTemplate.Generator.New(Microsoft.Extensions.Logging.ILogger(Of DocFxToTemplate.Generator), DocFxToTemplate.GeneratorOptions)
+  name.vb: New(ILogger(Of Generator), GeneratorOptions)
+- uid: DocFxToTemplate.Generator.Generate
+  commentId: M:DocFxToTemplate.Generator.Generate
+  id: Generate
+  parent: DocFxToTemplate.Generator
+  langs:
+  - csharp
+  - vb
+  name: Generate()
+  nameWithType: Generator.Generate()
+  fullName: DocFxToTemplate.Generator.Generate()
+  type: Method
+  source:
+    id: Generate
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Generator.cs
+    startLine: 26
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate
+  syntax:
+    content: public Task Generate()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function Generate() As Task
+  overload: DocFxToTemplate.Generator.Generate*
+references:
+- uid: DocFxToTemplate
+  commentId: N:DocFxToTemplate
+  href: DocFxToTemplate.html
+  name: DocFxToTemplate
+  nameWithType: DocFxToTemplate
+  fullName: DocFxToTemplate
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DocFxToTemplate.Generator.#ctor*
+  commentId: Overload:DocFxToTemplate.Generator.#ctor
+  href: DocFxToTemplate.Generator.html#DocFxToTemplate_Generator__ctor_Microsoft_Extensions_Logging_ILogger_DocFxToTemplate_Generator__DocFxToTemplate_GeneratorOptions_
+  name: Generator
+  nameWithType: Generator.Generator
+  fullName: DocFxToTemplate.Generator.Generator
+  nameWithType.vb: Generator.New
+  fullName.vb: DocFxToTemplate.Generator.New
+  name.vb: New
+- uid: Microsoft.Extensions.Logging.ILogger{DocFxToTemplate.Generator}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{DocFxToTemplate.Generator}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<Generator>
+  nameWithType: ILogger<Generator>
+  fullName: Microsoft.Extensions.Logging.ILogger<DocFxToTemplate.Generator>
+  nameWithType.vb: ILogger(Of Generator)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of DocFxToTemplate.Generator)
+  name.vb: ILogger(Of Generator)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: DocFxToTemplate.Generator
+    name: Generator
+    href: DocFxToTemplate.Generator.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DocFxToTemplate.Generator
+    name: Generator
+    href: DocFxToTemplate.Generator.html
+  - name: )
+- uid: DocFxToTemplate.GeneratorOptions
+  commentId: T:DocFxToTemplate.GeneratorOptions
+  parent: DocFxToTemplate
+  href: DocFxToTemplate.GeneratorOptions.html
+  name: GeneratorOptions
+  nameWithType: GeneratorOptions
+  fullName: DocFxToTemplate.GeneratorOptions
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: DocFxToTemplate.Generator.Generate*
+  commentId: Overload:DocFxToTemplate.Generator.Generate
+  href: DocFxToTemplate.Generator.html#DocFxToTemplate_Generator_Generate
+  name: Generate
+  nameWithType: Generator.Generate
+  fullName: DocFxToTemplate.Generator.Generate
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

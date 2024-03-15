@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Description>Docusaurus Markdown generator using DocFX.</Description>
+        <RepositoryUrl>https://github.com/k-wojcik/DocFxToTemplate</RepositoryUrl>
+        <PackAsTool>true</PackAsTool>
+        <ToolCommandName>docfx-to-template</ToolCommandName>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>DocFxToTemplate.Tool</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\DocFxToTemplate\DocFxToTemplate.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Docfx.App" Version="2.73.2"/>
+        <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="4.1.1" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0"/>
+        <PackageReference Include="System.Text.Json" Version="8.0.3" />
+    </ItemGroup>
+</Project>

@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxToTemplate.Models.DocFx.LinkType
+  commentId: T:DocFxToTemplate.Models.DocFx.LinkType
+  id: LinkType
+  parent: DocFxToTemplate.Models.DocFx
+  children:
+  - DocFxToTemplate.Models.DocFx.LinkType.CRef
+  - DocFxToTemplate.Models.DocFx.LinkType.HRef
+  langs:
+  - csharp
+  - vb
+  name: LinkType
+  nameWithType: LinkType
+  fullName: DocFxToTemplate.Models.DocFx.LinkType
+  type: Enum
+  source:
+    id: LinkType
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\LinkInfo.cs
+    startLine: 36
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public enum LinkType
+    content.vb: Public Enum LinkType
+- uid: DocFxToTemplate.Models.DocFx.LinkType.CRef
+  commentId: F:DocFxToTemplate.Models.DocFx.LinkType.CRef
+  id: CRef
+  parent: DocFxToTemplate.Models.DocFx.LinkType
+  langs:
+  - csharp
+  - vb
+  name: CRef
+  nameWithType: LinkType.CRef
+  fullName: DocFxToTemplate.Models.DocFx.LinkType.CRef
+  type: Field
+  source:
+    id: CRef
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\LinkInfo.cs
+    startLine: 38
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: CRef = 0
+    return:
+      type: DocFxToTemplate.Models.DocFx.LinkType
+- uid: DocFxToTemplate.Models.DocFx.LinkType.HRef
+  commentId: F:DocFxToTemplate.Models.DocFx.LinkType.HRef
+  id: HRef
+  parent: DocFxToTemplate.Models.DocFx.LinkType
+  langs:
+  - csharp
+  - vb
+  name: HRef
+  nameWithType: LinkType.HRef
+  fullName: DocFxToTemplate.Models.DocFx.LinkType.HRef
+  type: Field
+  source:
+    id: HRef
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\LinkInfo.cs
+    startLine: 39
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: HRef = 1
+    return:
+      type: DocFxToTemplate.Models.DocFx.LinkType
+references:
+- uid: DocFxToTemplate.Models.DocFx
+  commentId: N:DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.html
+  name: DocFxToTemplate.Models.DocFx
+  nameWithType: DocFxToTemplate.Models.DocFx
+  fullName: DocFxToTemplate.Models.DocFx
+  spec.csharp:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+  spec.vb:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+- uid: DocFxToTemplate.Models.DocFx.LinkType
+  commentId: T:DocFxToTemplate.Models.DocFx.LinkType
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.LinkType.html
+  name: LinkType
+  nameWithType: LinkType
+  fullName: DocFxToTemplate.Models.DocFx.LinkType

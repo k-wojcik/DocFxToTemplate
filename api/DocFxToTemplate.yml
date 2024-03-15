@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxToTemplate
+  commentId: N:DocFxToTemplate
+  id: DocFxToTemplate
+  children:
+  - DocFxToTemplate.Generator
+  - DocFxToTemplate.GeneratorOptions
+  langs:
+  - csharp
+  - vb
+  name: DocFxToTemplate
+  nameWithType: DocFxToTemplate
+  fullName: DocFxToTemplate
+  type: Namespace
+  assemblies:
+  - DocFxToTemplate
+references:
+- uid: DocFxToTemplate.Generator
+  commentId: T:DocFxToTemplate.Generator
+  href: DocFxToTemplate.Generator.html
+  name: Generator
+  nameWithType: Generator
+  fullName: DocFxToTemplate.Generator
+- uid: DocFxToTemplate.GeneratorOptions
+  commentId: T:DocFxToTemplate.GeneratorOptions
+  parent: DocFxToTemplate
+  href: DocFxToTemplate.GeneratorOptions.html
+  name: GeneratorOptions
+  nameWithType: GeneratorOptions
+  fullName: DocFxToTemplate.GeneratorOptions
+- uid: DocFxToTemplate
+  commentId: N:DocFxToTemplate
+  href: DocFxToTemplate.html
+  name: DocFxToTemplate
+  nameWithType: DocFxToTemplate
+  fullName: DocFxToTemplate

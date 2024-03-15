@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxToTemplate.Models.DocFx.Attributes.MergeOption
+  commentId: T:DocFxToTemplate.Models.DocFx.Attributes.MergeOption
+  id: MergeOption
+  parent: DocFxToTemplate.Models.DocFx.Attributes
+  children:
+  - DocFxToTemplate.Models.DocFx.Attributes.MergeOption.Ignore
+  - DocFxToTemplate.Models.DocFx.Attributes.MergeOption.MergeKey
+  - DocFxToTemplate.Models.DocFx.Attributes.MergeOption.Replace
+  langs:
+  - csharp
+  - vb
+  name: MergeOption
+  nameWithType: MergeOption
+  fullName: DocFxToTemplate.Models.DocFx.Attributes.MergeOption
+  type: Enum
+  source:
+    id: MergeOption
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\MergeOptionAttribute.cs
+    startLine: 9
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx.Attributes
+  syntax:
+    content: public enum MergeOption
+    content.vb: Public Enum MergeOption
+- uid: DocFxToTemplate.Models.DocFx.Attributes.MergeOption.MergeKey
+  commentId: F:DocFxToTemplate.Models.DocFx.Attributes.MergeOption.MergeKey
+  id: MergeKey
+  parent: DocFxToTemplate.Models.DocFx.Attributes.MergeOption
+  langs:
+  - csharp
+  - vb
+  name: MergeKey
+  nameWithType: MergeOption.MergeKey
+  fullName: DocFxToTemplate.Models.DocFx.Attributes.MergeOption.MergeKey
+  type: Field
+  source:
+    id: MergeKey
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\MergeOptionAttribute.cs
+    startLine: 11
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx.Attributes
+  syntax:
+    content: MergeKey = 0
+    return:
+      type: DocFxToTemplate.Models.DocFx.Attributes.MergeOption
+- uid: DocFxToTemplate.Models.DocFx.Attributes.MergeOption.Ignore
+  commentId: F:DocFxToTemplate.Models.DocFx.Attributes.MergeOption.Ignore
+  id: Ignore
+  parent: DocFxToTemplate.Models.DocFx.Attributes.MergeOption
+  langs:
+  - csharp
+  - vb
+  name: Ignore
+  nameWithType: MergeOption.Ignore
+  fullName: DocFxToTemplate.Models.DocFx.Attributes.MergeOption.Ignore
+  type: Field
+  source:
+    id: Ignore
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\MergeOptionAttribute.cs
+    startLine: 12
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx.Attributes
+  syntax:
+    content: Ignore = 1
+    return:
+      type: DocFxToTemplate.Models.DocFx.Attributes.MergeOption
+- uid: DocFxToTemplate.Models.DocFx.Attributes.MergeOption.Replace
+  commentId: F:DocFxToTemplate.Models.DocFx.Attributes.MergeOption.Replace
+  id: Replace
+  parent: DocFxToTemplate.Models.DocFx.Attributes.MergeOption
+  langs:
+  - csharp
+  - vb
+  name: Replace
+  nameWithType: MergeOption.Replace
+  fullName: DocFxToTemplate.Models.DocFx.Attributes.MergeOption.Replace
+  type: Field
+  source:
+    id: Replace
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\MergeOptionAttribute.cs
+    startLine: 13
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx.Attributes
+  syntax:
+    content: Replace = 2
+    return:
+      type: DocFxToTemplate.Models.DocFx.Attributes.MergeOption
+references:
+- uid: DocFxToTemplate.Models.DocFx.Attributes
+  commentId: N:DocFxToTemplate.Models.DocFx.Attributes
+  href: DocFxToTemplate.html
+  name: DocFxToTemplate.Models.DocFx.Attributes
+  nameWithType: DocFxToTemplate.Models.DocFx.Attributes
+  fullName: DocFxToTemplate.Models.DocFx.Attributes
+  spec.csharp:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Attributes
+    name: Attributes
+    href: DocFxToTemplate.Models.DocFx.Attributes.html
+  spec.vb:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Attributes
+    name: Attributes
+    href: DocFxToTemplate.Models.DocFx.Attributes.html
+- uid: DocFxToTemplate.Models.DocFx.Attributes.MergeOption
+  commentId: T:DocFxToTemplate.Models.DocFx.Attributes.MergeOption
+  parent: DocFxToTemplate.Models.DocFx.Attributes
+  href: DocFxToTemplate.Models.DocFx.Attributes.MergeOption.html
+  name: MergeOption
+  nameWithType: MergeOption
+  fullName: DocFxToTemplate.Models.DocFx.Attributes.MergeOption

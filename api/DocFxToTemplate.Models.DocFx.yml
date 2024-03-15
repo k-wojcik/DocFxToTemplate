@@ -1,0 +1,414 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxToTemplate.Models.DocFx
+  commentId: N:DocFxToTemplate.Models.DocFx
+  id: DocFxToTemplate.Models.DocFx
+  children:
+  - DocFxToTemplate.Models.DocFx.AdditionalNotes
+  - DocFxToTemplate.Models.DocFx.ApiParameter
+  - DocFxToTemplate.Models.DocFx.ArgumentInfo
+  - DocFxToTemplate.Models.DocFx.AttributeInfo
+  - DocFxToTemplate.Models.DocFx.CompositeDictionary
+  - DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder
+  - DocFxToTemplate.Models.DocFx.Constants
+  - DocFxToTemplate.Models.DocFx.Constants.DevLang
+  - DocFxToTemplate.Models.DocFx.Constants.DocumentType
+  - DocFxToTemplate.Models.DocFx.Constants.EnvironmentVariables
+  - DocFxToTemplate.Models.DocFx.Constants.ExtensionMemberPrefix
+  - DocFxToTemplate.Models.DocFx.Constants.MetadataName
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  - DocFxToTemplate.Models.DocFx.Constants.Switches
+  - DocFxToTemplate.Models.DocFx.Constants.TableOfContents
+  - DocFxToTemplate.Models.DocFx.ExceptionInfo
+  - DocFxToTemplate.Models.DocFx.GitDetail
+  - DocFxToTemplate.Models.DocFx.ItemViewModel
+  - DocFxToTemplate.Models.DocFx.LinkInfo
+  - DocFxToTemplate.Models.DocFx.LinkType
+  - DocFxToTemplate.Models.DocFx.MarkdownLink
+  - DocFxToTemplate.Models.DocFx.MemberType
+  - DocFxToTemplate.Models.DocFx.NamedArgumentInfo
+  - DocFxToTemplate.Models.DocFx.PageViewModel
+  - DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  - DocFxToTemplate.Models.DocFx.SourceDetail
+  - DocFxToTemplate.Models.DocFx.SpecViewModel
+  - DocFxToTemplate.Models.DocFx.SyntaxDetailViewModel
+  - DocFxToTemplate.Models.DocFx.SyntaxLanguage
+  - DocFxToTemplate.Models.DocFx.TocItemViewModel
+  langs:
+  - csharp
+  - vb
+  name: DocFxToTemplate.Models.DocFx
+  nameWithType: DocFxToTemplate.Models.DocFx
+  fullName: DocFxToTemplate.Models.DocFx
+  type: Namespace
+  assemblies:
+  - DocFxToTemplate
+references:
+- uid: DocFxToTemplate.Models.DocFx.AdditionalNotes
+  commentId: T:DocFxToTemplate.Models.DocFx.AdditionalNotes
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.AdditionalNotes.html
+  name: AdditionalNotes
+  nameWithType: AdditionalNotes
+  fullName: DocFxToTemplate.Models.DocFx.AdditionalNotes
+- uid: DocFxToTemplate.Models.DocFx.ApiParameter
+  commentId: T:DocFxToTemplate.Models.DocFx.ApiParameter
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.ApiParameter.html
+  name: ApiParameter
+  nameWithType: ApiParameter
+  fullName: DocFxToTemplate.Models.DocFx.ApiParameter
+- uid: DocFxToTemplate.Models.DocFx.ArgumentInfo
+  commentId: T:DocFxToTemplate.Models.DocFx.ArgumentInfo
+  href: DocFxToTemplate.Models.DocFx.ArgumentInfo.html
+  name: ArgumentInfo
+  nameWithType: ArgumentInfo
+  fullName: DocFxToTemplate.Models.DocFx.ArgumentInfo
+- uid: DocFxToTemplate.Models.DocFx.AttributeInfo
+  commentId: T:DocFxToTemplate.Models.DocFx.AttributeInfo
+  href: DocFxToTemplate.Models.DocFx.AttributeInfo.html
+  name: AttributeInfo
+  nameWithType: AttributeInfo
+  fullName: DocFxToTemplate.Models.DocFx.AttributeInfo
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary
+  commentId: T:DocFxToTemplate.Models.DocFx.CompositeDictionary
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html
+  name: CompositeDictionary
+  nameWithType: CompositeDictionary
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary
+- uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder
+  commentId: T:DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html
+  name: CompositeDictionary.Builder
+  nameWithType: CompositeDictionary.Builder
+  fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder
+  spec.csharp:
+  - uid: DocFxToTemplate.Models.DocFx.CompositeDictionary
+    name: CompositeDictionary
+    href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder
+    name: Builder
+    href: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder.html
+  spec.vb:
+  - uid: DocFxToTemplate.Models.DocFx.CompositeDictionary
+    name: CompositeDictionary
+    href: DocFxToTemplate.Models.DocFx.CompositeDictionary.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder
+    name: Builder
+    href: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder.html
+- uid: DocFxToTemplate.Models.DocFx.Constants
+  commentId: T:DocFxToTemplate.Models.DocFx.Constants
+  href: DocFxToTemplate.Models.DocFx.Constants.html
+  name: Constants
+  nameWithType: Constants
+  fullName: DocFxToTemplate.Models.DocFx.Constants
+- uid: DocFxToTemplate.Models.DocFx.Constants.DocumentType
+  commentId: T:DocFxToTemplate.Models.DocFx.Constants.DocumentType
+  href: DocFxToTemplate.Models.DocFx.Constants.html
+  name: Constants.DocumentType
+  nameWithType: Constants.DocumentType
+  fullName: DocFxToTemplate.Models.DocFx.Constants.DocumentType
+  spec.csharp:
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+    href: DocFxToTemplate.Models.DocFx.Constants.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Constants.DocumentType
+    name: DocumentType
+    href: DocFxToTemplate.Models.DocFx.Constants.DocumentType.html
+  spec.vb:
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+    href: DocFxToTemplate.Models.DocFx.Constants.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Constants.DocumentType
+    name: DocumentType
+    href: DocFxToTemplate.Models.DocFx.Constants.DocumentType.html
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  commentId: T:DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  href: DocFxToTemplate.Models.DocFx.Constants.html
+  name: Constants.PropertyName
+  nameWithType: Constants.PropertyName
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  spec.csharp:
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+    href: DocFxToTemplate.Models.DocFx.Constants.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+    name: PropertyName
+    href: DocFxToTemplate.Models.DocFx.Constants.PropertyName.html
+  spec.vb:
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+    href: DocFxToTemplate.Models.DocFx.Constants.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+    name: PropertyName
+    href: DocFxToTemplate.Models.DocFx.Constants.PropertyName.html
+- uid: DocFxToTemplate.Models.DocFx.Constants.MetadataName
+  commentId: T:DocFxToTemplate.Models.DocFx.Constants.MetadataName
+  href: DocFxToTemplate.Models.DocFx.Constants.html
+  name: Constants.MetadataName
+  nameWithType: Constants.MetadataName
+  fullName: DocFxToTemplate.Models.DocFx.Constants.MetadataName
+  spec.csharp:
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+    href: DocFxToTemplate.Models.DocFx.Constants.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Constants.MetadataName
+    name: MetadataName
+    href: DocFxToTemplate.Models.DocFx.Constants.MetadataName.html
+  spec.vb:
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+    href: DocFxToTemplate.Models.DocFx.Constants.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Constants.MetadataName
+    name: MetadataName
+    href: DocFxToTemplate.Models.DocFx.Constants.MetadataName.html
+- uid: DocFxToTemplate.Models.DocFx.Constants.ExtensionMemberPrefix
+  commentId: T:DocFxToTemplate.Models.DocFx.Constants.ExtensionMemberPrefix
+  href: DocFxToTemplate.Models.DocFx.Constants.html
+  name: Constants.ExtensionMemberPrefix
+  nameWithType: Constants.ExtensionMemberPrefix
+  fullName: DocFxToTemplate.Models.DocFx.Constants.ExtensionMemberPrefix
+  spec.csharp:
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+    href: DocFxToTemplate.Models.DocFx.Constants.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Constants.ExtensionMemberPrefix
+    name: ExtensionMemberPrefix
+    href: DocFxToTemplate.Models.DocFx.Constants.ExtensionMemberPrefix.html
+  spec.vb:
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+    href: DocFxToTemplate.Models.DocFx.Constants.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Constants.ExtensionMemberPrefix
+    name: ExtensionMemberPrefix
+    href: DocFxToTemplate.Models.DocFx.Constants.ExtensionMemberPrefix.html
+- uid: DocFxToTemplate.Models.DocFx.Constants.DevLang
+  commentId: T:DocFxToTemplate.Models.DocFx.Constants.DevLang
+  href: DocFxToTemplate.Models.DocFx.Constants.html
+  name: Constants.DevLang
+  nameWithType: Constants.DevLang
+  fullName: DocFxToTemplate.Models.DocFx.Constants.DevLang
+  spec.csharp:
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+    href: DocFxToTemplate.Models.DocFx.Constants.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Constants.DevLang
+    name: DevLang
+    href: DocFxToTemplate.Models.DocFx.Constants.DevLang.html
+  spec.vb:
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+    href: DocFxToTemplate.Models.DocFx.Constants.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Constants.DevLang
+    name: DevLang
+    href: DocFxToTemplate.Models.DocFx.Constants.DevLang.html
+- uid: DocFxToTemplate.Models.DocFx.Constants.TableOfContents
+  commentId: T:DocFxToTemplate.Models.DocFx.Constants.TableOfContents
+  href: DocFxToTemplate.Models.DocFx.Constants.html
+  name: Constants.TableOfContents
+  nameWithType: Constants.TableOfContents
+  fullName: DocFxToTemplate.Models.DocFx.Constants.TableOfContents
+  spec.csharp:
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+    href: DocFxToTemplate.Models.DocFx.Constants.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Constants.TableOfContents
+    name: TableOfContents
+    href: DocFxToTemplate.Models.DocFx.Constants.TableOfContents.html
+  spec.vb:
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+    href: DocFxToTemplate.Models.DocFx.Constants.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Constants.TableOfContents
+    name: TableOfContents
+    href: DocFxToTemplate.Models.DocFx.Constants.TableOfContents.html
+- uid: DocFxToTemplate.Models.DocFx.Constants.EnvironmentVariables
+  commentId: T:DocFxToTemplate.Models.DocFx.Constants.EnvironmentVariables
+  href: DocFxToTemplate.Models.DocFx.Constants.html
+  name: Constants.EnvironmentVariables
+  nameWithType: Constants.EnvironmentVariables
+  fullName: DocFxToTemplate.Models.DocFx.Constants.EnvironmentVariables
+  spec.csharp:
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+    href: DocFxToTemplate.Models.DocFx.Constants.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Constants.EnvironmentVariables
+    name: EnvironmentVariables
+    href: DocFxToTemplate.Models.DocFx.Constants.EnvironmentVariables.html
+  spec.vb:
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+    href: DocFxToTemplate.Models.DocFx.Constants.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Constants.EnvironmentVariables
+    name: EnvironmentVariables
+    href: DocFxToTemplate.Models.DocFx.Constants.EnvironmentVariables.html
+- uid: DocFxToTemplate.Models.DocFx.Constants.Switches
+  commentId: T:DocFxToTemplate.Models.DocFx.Constants.Switches
+  href: DocFxToTemplate.Models.DocFx.Constants.html
+  name: Constants.Switches
+  nameWithType: Constants.Switches
+  fullName: DocFxToTemplate.Models.DocFx.Constants.Switches
+  spec.csharp:
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+    href: DocFxToTemplate.Models.DocFx.Constants.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Constants.Switches
+    name: Switches
+    href: DocFxToTemplate.Models.DocFx.Constants.Switches.html
+  spec.vb:
+  - uid: DocFxToTemplate.Models.DocFx.Constants
+    name: Constants
+    href: DocFxToTemplate.Models.DocFx.Constants.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx.Constants.Switches
+    name: Switches
+    href: DocFxToTemplate.Models.DocFx.Constants.Switches.html
+- uid: DocFxToTemplate.Models.DocFx.ExceptionInfo
+  commentId: T:DocFxToTemplate.Models.DocFx.ExceptionInfo
+  href: DocFxToTemplate.Models.DocFx.ExceptionInfo.html
+  name: ExceptionInfo
+  nameWithType: ExceptionInfo
+  fullName: DocFxToTemplate.Models.DocFx.ExceptionInfo
+- uid: DocFxToTemplate.Models.DocFx.GitDetail
+  commentId: T:DocFxToTemplate.Models.DocFx.GitDetail
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.GitDetail.html
+  name: GitDetail
+  nameWithType: GitDetail
+  fullName: DocFxToTemplate.Models.DocFx.GitDetail
+- uid: DocFxToTemplate.Models.DocFx.ItemViewModel
+  commentId: T:DocFxToTemplate.Models.DocFx.ItemViewModel
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.ItemViewModel.html
+  name: ItemViewModel
+  nameWithType: ItemViewModel
+  fullName: DocFxToTemplate.Models.DocFx.ItemViewModel
+- uid: DocFxToTemplate.Models.DocFx.LinkInfo
+  commentId: T:DocFxToTemplate.Models.DocFx.LinkInfo
+  href: DocFxToTemplate.Models.DocFx.LinkInfo.html
+  name: LinkInfo
+  nameWithType: LinkInfo
+  fullName: DocFxToTemplate.Models.DocFx.LinkInfo
+- uid: DocFxToTemplate.Models.DocFx.LinkType
+  commentId: T:DocFxToTemplate.Models.DocFx.LinkType
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.LinkType.html
+  name: LinkType
+  nameWithType: LinkType
+  fullName: DocFxToTemplate.Models.DocFx.LinkType
+- uid: DocFxToTemplate.Models.DocFx.MemberType
+  commentId: T:DocFxToTemplate.Models.DocFx.MemberType
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.MemberType.html
+  name: MemberType
+  nameWithType: MemberType
+  fullName: DocFxToTemplate.Models.DocFx.MemberType
+- uid: DocFxToTemplate.Models.DocFx.NamedArgumentInfo
+  commentId: T:DocFxToTemplate.Models.DocFx.NamedArgumentInfo
+  href: DocFxToTemplate.Models.DocFx.NamedArgumentInfo.html
+  name: NamedArgumentInfo
+  nameWithType: NamedArgumentInfo
+  fullName: DocFxToTemplate.Models.DocFx.NamedArgumentInfo
+- uid: DocFxToTemplate.Models.DocFx.PageViewModel
+  commentId: T:DocFxToTemplate.Models.DocFx.PageViewModel
+  href: DocFxToTemplate.Models.DocFx.PageViewModel.html
+  name: PageViewModel
+  nameWithType: PageViewModel
+  fullName: DocFxToTemplate.Models.DocFx.PageViewModel
+- uid: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  commentId: T:DocFxToTemplate.Models.DocFx.ReferenceViewModel
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.ReferenceViewModel.html
+  name: ReferenceViewModel
+  nameWithType: ReferenceViewModel
+  fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel
+- uid: DocFxToTemplate.Models.DocFx.SourceDetail
+  commentId: T:DocFxToTemplate.Models.DocFx.SourceDetail
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.SourceDetail.html
+  name: SourceDetail
+  nameWithType: SourceDetail
+  fullName: DocFxToTemplate.Models.DocFx.SourceDetail
+- uid: DocFxToTemplate.Models.DocFx.SpecViewModel
+  commentId: T:DocFxToTemplate.Models.DocFx.SpecViewModel
+  href: DocFxToTemplate.Models.DocFx.SpecViewModel.html
+  name: SpecViewModel
+  nameWithType: SpecViewModel
+  fullName: DocFxToTemplate.Models.DocFx.SpecViewModel
+- uid: DocFxToTemplate.Models.DocFx.SyntaxDetailViewModel
+  commentId: T:DocFxToTemplate.Models.DocFx.SyntaxDetailViewModel
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.SyntaxDetailViewModel.html
+  name: SyntaxDetailViewModel
+  nameWithType: SyntaxDetailViewModel
+  fullName: DocFxToTemplate.Models.DocFx.SyntaxDetailViewModel
+- uid: DocFxToTemplate.Models.DocFx.SyntaxLanguage
+  commentId: T:DocFxToTemplate.Models.DocFx.SyntaxLanguage
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.SyntaxLanguage.html
+  name: SyntaxLanguage
+  nameWithType: SyntaxLanguage
+  fullName: DocFxToTemplate.Models.DocFx.SyntaxLanguage
+- uid: DocFxToTemplate.Models.DocFx.TocItemViewModel
+  commentId: T:DocFxToTemplate.Models.DocFx.TocItemViewModel
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.TocItemViewModel.html
+  name: TocItemViewModel
+  nameWithType: TocItemViewModel
+  fullName: DocFxToTemplate.Models.DocFx.TocItemViewModel
+- uid: DocFxToTemplate.Models.DocFx.MarkdownLink
+  commentId: T:DocFxToTemplate.Models.DocFx.MarkdownLink
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.MarkdownLink.html
+  name: MarkdownLink
+  nameWithType: MarkdownLink
+  fullName: DocFxToTemplate.Models.DocFx.MarkdownLink
+- uid: DocFxToTemplate.Models.DocFx
+  commentId: N:DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.html
+  name: DocFxToTemplate.Models.DocFx
+  nameWithType: DocFxToTemplate.Models.DocFx
+  fullName: DocFxToTemplate.Models.DocFx
+  spec.csharp:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+  spec.vb:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html

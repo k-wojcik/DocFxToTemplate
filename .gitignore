@@ -1,0 +1,16 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+.idea/
+.vscode/
+/config.yaml
+/nupkg
+/.config/dotnet-tools.json
+
+/examples/*/.docusaurus
+/examples/*/node_modules
+/examples/*/docs/api
+/examples/*/api
+.vercel

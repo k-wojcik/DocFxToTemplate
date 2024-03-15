@@ -1,0 +1,1321 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  commentId: T:DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  id: Constants.PropertyName
+  parent: DocFxToTemplate.Models.DocFx
+  children:
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.AdditionalNotes
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Assemblies
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Children
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.CommentId
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Conceptual
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Content
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.DerivedClasses
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.DisplayName
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.DocumentType
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Documentation
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Exceptions
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.ExtensionMethods
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.FullName
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Href
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Id
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Implements
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Inheritance
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.InheritedMembers
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.IsEii
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Name
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.NameWithType
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Namespace
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.OutputFileName
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Overload
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Overridden
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Parent
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Path
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Platform
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.RedirectUrl
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Return
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.SeeAlsoContent
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Source
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Summary
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Syntax
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.SystemKeys
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Title
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.TitleOverwriteH1
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.TocHref
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.TopicHref
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.TopicUid
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Type
+  - DocFxToTemplate.Models.DocFx.Constants.PropertyName.Uid
+  langs:
+  - csharp
+  - vb
+  name: Constants.PropertyName
+  nameWithType: Constants.PropertyName
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  type: Class
+  source:
+    id: PropertyName
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 24
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public static class Constants.PropertyName
+    content.vb: Public Module Constants.PropertyName
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Uid
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Uid
+  id: Uid
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Uid
+  nameWithType: Constants.PropertyName.Uid
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Uid
+  type: Field
+  source:
+    id: Uid
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 26
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Uid = "uid"
+    return:
+      type: System.String
+    content.vb: Public Const Uid As String = "uid"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.CommentId
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.CommentId
+  id: CommentId
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: CommentId
+  nameWithType: Constants.PropertyName.CommentId
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.CommentId
+  type: Field
+  source:
+    id: CommentId
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 27
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string CommentId = "commentId"
+    return:
+      type: System.String
+    content.vb: Public Const CommentId As String = "commentId"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Id
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Id
+  id: Id
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Constants.PropertyName.Id
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Id
+  type: Field
+  source:
+    id: Id
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 28
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Id = "id"
+    return:
+      type: System.String
+    content.vb: Public Const Id As String = "id"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Href
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Href
+  id: Href
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Href
+  nameWithType: Constants.PropertyName.Href
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Href
+  type: Field
+  source:
+    id: Href
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 29
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Href = "href"
+    return:
+      type: System.String
+    content.vb: Public Const Href As String = "href"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Type
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Type
+  id: Type
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Constants.PropertyName.Type
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Type
+  type: Field
+  source:
+    id: Type
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 30
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Type = "type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "type"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Source
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Source
+  id: Source
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: Constants.PropertyName.Source
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Source
+  type: Field
+  source:
+    id: Source
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 31
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Source = "source"
+    return:
+      type: System.String
+    content.vb: Public Const Source As String = "source"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Path
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Path
+  id: Path
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: Constants.PropertyName.Path
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Path
+  type: Field
+  source:
+    id: Path
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 32
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Path = "path"
+    return:
+      type: System.String
+    content.vb: Public Const Path As String = "path"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.DocumentType
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.DocumentType
+  id: DocumentType
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: DocumentType
+  nameWithType: Constants.PropertyName.DocumentType
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.DocumentType
+  type: Field
+  source:
+    id: DocumentType
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 33
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string DocumentType = "documentType"
+    return:
+      type: System.String
+    content.vb: Public Const DocumentType As String = "documentType"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Title
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Title
+  id: Title
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: Constants.PropertyName.Title
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Title
+  type: Field
+  source:
+    id: Title
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 34
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Title = "title"
+    return:
+      type: System.String
+    content.vb: Public Const Title As String = "title"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.TitleOverwriteH1
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.TitleOverwriteH1
+  id: TitleOverwriteH1
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: TitleOverwriteH1
+  nameWithType: Constants.PropertyName.TitleOverwriteH1
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.TitleOverwriteH1
+  type: Field
+  source:
+    id: TitleOverwriteH1
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 35
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string TitleOverwriteH1 = "titleOverwriteH1"
+    return:
+      type: System.String
+    content.vb: Public Const TitleOverwriteH1 As String = "titleOverwriteH1"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Conceptual
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Conceptual
+  id: Conceptual
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Conceptual
+  nameWithType: Constants.PropertyName.Conceptual
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Conceptual
+  type: Field
+  source:
+    id: Conceptual
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 36
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Conceptual = "conceptual"
+    return:
+      type: System.String
+    content.vb: Public Const Conceptual As String = "conceptual"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Documentation
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Documentation
+  id: Documentation
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Documentation
+  nameWithType: Constants.PropertyName.Documentation
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Documentation
+  type: Field
+  source:
+    id: Documentation
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 37
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Documentation = "documentation"
+    return:
+      type: System.String
+    content.vb: Public Const Documentation As String = "documentation"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Summary
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Summary
+  id: Summary
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Summary
+  nameWithType: Constants.PropertyName.Summary
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Summary
+  type: Field
+  source:
+    id: Summary
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 38
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Summary = "summary"
+    return:
+      type: System.String
+    content.vb: Public Const Summary As String = "summary"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.IsEii
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.IsEii
+  id: IsEii
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: IsEii
+  nameWithType: Constants.PropertyName.IsEii
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.IsEii
+  type: Field
+  source:
+    id: IsEii
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 39
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string IsEii = "isEii"
+    return:
+      type: System.String
+    content.vb: Public Const IsEii As String = "isEii"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Name
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Name
+  id: Name
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Constants.PropertyName.Name
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Name
+  type: Field
+  source:
+    id: Name
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 41
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.DisplayName
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.DisplayName
+  id: DisplayName
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: Constants.PropertyName.DisplayName
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.DisplayName
+  type: Field
+  source:
+    id: DisplayName
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 42
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string DisplayName = "displayName"
+    return:
+      type: System.String
+    content.vb: Public Const DisplayName As String = "displayName"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.NameWithType
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.NameWithType
+  id: NameWithType
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: NameWithType
+  nameWithType: Constants.PropertyName.NameWithType
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.NameWithType
+  type: Field
+  source:
+    id: NameWithType
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 43
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string NameWithType = "nameWithType"
+    return:
+      type: System.String
+    content.vb: Public Const NameWithType As String = "nameWithType"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.FullName
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.FullName
+  id: FullName
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: Constants.PropertyName.FullName
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.FullName
+  type: Field
+  source:
+    id: FullName
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 44
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string FullName = "fullName"
+    return:
+      type: System.String
+    content.vb: Public Const FullName As String = "fullName"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Content
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Content
+  id: Content
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: Constants.PropertyName.Content
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Content
+  type: Field
+  source:
+    id: Content
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 45
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Content = "content"
+    return:
+      type: System.String
+    content.vb: Public Const Content As String = "content"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.TocHref
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.TocHref
+  id: TocHref
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: TocHref
+  nameWithType: Constants.PropertyName.TocHref
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.TocHref
+  type: Field
+  source:
+    id: TocHref
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 46
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string TocHref = "tocHref"
+    return:
+      type: System.String
+    content.vb: Public Const TocHref As String = "tocHref"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.TopicHref
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.TopicHref
+  id: TopicHref
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: TopicHref
+  nameWithType: Constants.PropertyName.TopicHref
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.TopicHref
+  type: Field
+  source:
+    id: TopicHref
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 47
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string TopicHref = "topicHref"
+    return:
+      type: System.String
+    content.vb: Public Const TopicHref As String = "topicHref"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.TopicUid
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.TopicUid
+  id: TopicUid
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: TopicUid
+  nameWithType: Constants.PropertyName.TopicUid
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.TopicUid
+  type: Field
+  source:
+    id: TopicUid
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 48
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string TopicUid = "topicUid"
+    return:
+      type: System.String
+    content.vb: Public Const TopicUid As String = "topicUid"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Platform
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Platform
+  id: Platform
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Platform
+  nameWithType: Constants.PropertyName.Platform
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Platform
+  type: Field
+  source:
+    id: Platform
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 49
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Platform = "platform"
+    return:
+      type: System.String
+    content.vb: Public Const Platform As String = "platform"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Parent
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Parent
+  id: Parent
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: Constants.PropertyName.Parent
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Parent
+  type: Field
+  source:
+    id: Parent
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 50
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Parent = "parent"
+    return:
+      type: System.String
+    content.vb: Public Const Parent As String = "parent"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Children
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Children
+  id: Children
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: Constants.PropertyName.Children
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Children
+  type: Field
+  source:
+    id: Children
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 51
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Children = "children"
+    return:
+      type: System.String
+    content.vb: Public Const Children As String = "children"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Namespace
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Namespace
+  id: Namespace
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Namespace
+  nameWithType: Constants.PropertyName.Namespace
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Namespace
+  type: Field
+  source:
+    id: Namespace
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 52
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Namespace = "namespace"
+    return:
+      type: System.String
+    content.vb: Public Const Namespace As String = "namespace"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Assemblies
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Assemblies
+  id: Assemblies
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Assemblies
+  nameWithType: Constants.PropertyName.Assemblies
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Assemblies
+  type: Field
+  source:
+    id: Assemblies
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 53
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Assemblies = "assemblies"
+    return:
+      type: System.String
+    content.vb: Public Const Assemblies As String = "assemblies"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Overridden
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Overridden
+  id: Overridden
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Overridden
+  nameWithType: Constants.PropertyName.Overridden
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Overridden
+  type: Field
+  source:
+    id: Overridden
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 54
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Overridden = "overridden"
+    return:
+      type: System.String
+    content.vb: Public Const Overridden As String = "overridden"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Exceptions
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Exceptions
+  id: Exceptions
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Exceptions
+  nameWithType: Constants.PropertyName.Exceptions
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Exceptions
+  type: Field
+  source:
+    id: Exceptions
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 55
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Exceptions = "exceptions"
+    return:
+      type: System.String
+    content.vb: Public Const Exceptions As String = "exceptions"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Inheritance
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Inheritance
+  id: Inheritance
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Inheritance
+  nameWithType: Constants.PropertyName.Inheritance
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Inheritance
+  type: Field
+  source:
+    id: Inheritance
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 56
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Inheritance = "inheritance"
+    return:
+      type: System.String
+    content.vb: Public Const Inheritance As String = "inheritance"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.DerivedClasses
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.DerivedClasses
+  id: DerivedClasses
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: DerivedClasses
+  nameWithType: Constants.PropertyName.DerivedClasses
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.DerivedClasses
+  type: Field
+  source:
+    id: DerivedClasses
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 57
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string DerivedClasses = "derivedClasses"
+    return:
+      type: System.String
+    content.vb: Public Const DerivedClasses As String = "derivedClasses"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Implements
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Implements
+  id: Implements
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Implements
+  nameWithType: Constants.PropertyName.Implements
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Implements
+  type: Field
+  source:
+    id: Implements
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 58
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Implements = "implements"
+    return:
+      type: System.String
+    content.vb: Public Const Implements As String = "implements"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.InheritedMembers
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.InheritedMembers
+  id: InheritedMembers
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: InheritedMembers
+  nameWithType: Constants.PropertyName.InheritedMembers
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.InheritedMembers
+  type: Field
+  source:
+    id: InheritedMembers
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 59
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string InheritedMembers = "inheritedMembers"
+    return:
+      type: System.String
+    content.vb: Public Const InheritedMembers As String = "inheritedMembers"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.ExtensionMethods
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.ExtensionMethods
+  id: ExtensionMethods
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: ExtensionMethods
+  nameWithType: Constants.PropertyName.ExtensionMethods
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.ExtensionMethods
+  type: Field
+  source:
+    id: ExtensionMethods
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 60
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string ExtensionMethods = "extensionMethods"
+    return:
+      type: System.String
+    content.vb: Public Const ExtensionMethods As String = "extensionMethods"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Overload
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Overload
+  id: Overload
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Overload
+  nameWithType: Constants.PropertyName.Overload
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Overload
+  type: Field
+  source:
+    id: Overload
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 61
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Overload = "overload"
+    return:
+      type: System.String
+    content.vb: Public Const Overload As String = "overload"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Return
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Return
+  id: Return
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Return
+  nameWithType: Constants.PropertyName.Return
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Return
+  type: Field
+  source:
+    id: Return
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 62
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Return = "return"
+    return:
+      type: System.String
+    content.vb: Public Const Return As String = "return"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.SeeAlsoContent
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.SeeAlsoContent
+  id: SeeAlsoContent
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: SeeAlsoContent
+  nameWithType: Constants.PropertyName.SeeAlsoContent
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.SeeAlsoContent
+  type: Field
+  source:
+    id: SeeAlsoContent
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 63
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string SeeAlsoContent = "seealsoContent"
+    return:
+      type: System.String
+    content.vb: Public Const SeeAlsoContent As String = "seealsoContent"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Syntax
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.Syntax
+  id: Syntax
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: Syntax
+  nameWithType: Constants.PropertyName.Syntax
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Syntax
+  type: Field
+  source:
+    id: Syntax
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 64
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string Syntax = "syntax"
+    return:
+      type: System.String
+    content.vb: Public Const Syntax As String = "syntax"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.AdditionalNotes
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.AdditionalNotes
+  id: AdditionalNotes
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: AdditionalNotes
+  nameWithType: Constants.PropertyName.AdditionalNotes
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.AdditionalNotes
+  type: Field
+  source:
+    id: AdditionalNotes
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 65
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string AdditionalNotes = "additionalNotes"
+    return:
+      type: System.String
+    content.vb: Public Const AdditionalNotes As String = "additionalNotes"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.SystemKeys
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.SystemKeys
+  id: SystemKeys
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: SystemKeys
+  nameWithType: Constants.PropertyName.SystemKeys
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.SystemKeys
+  type: Field
+  source:
+    id: SystemKeys
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 66
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string SystemKeys = "_systemKeys"
+    return:
+      type: System.String
+    content.vb: Public Const SystemKeys As String = "_systemKeys"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.OutputFileName
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.OutputFileName
+  id: OutputFileName
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: OutputFileName
+  nameWithType: Constants.PropertyName.OutputFileName
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.OutputFileName
+  type: Field
+  source:
+    id: OutputFileName
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 68
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string OutputFileName = "outputFileName"
+    return:
+      type: System.String
+    content.vb: Public Const OutputFileName As String = "outputFileName"
+- uid: DocFxToTemplate.Models.DocFx.Constants.PropertyName.RedirectUrl
+  commentId: F:DocFxToTemplate.Models.DocFx.Constants.PropertyName.RedirectUrl
+  id: RedirectUrl
+  parent: DocFxToTemplate.Models.DocFx.Constants.PropertyName
+  langs:
+  - csharp
+  - vb
+  name: RedirectUrl
+  nameWithType: Constants.PropertyName.RedirectUrl
+  fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.RedirectUrl
+  type: Field
+  source:
+    id: RedirectUrl
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    startLine: 70
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public const string RedirectUrl = "redirect_url"
+    return:
+      type: System.String
+    content.vb: Public Const RedirectUrl As String = "redirect_url"
+references:
+- uid: DocFxToTemplate.Models.DocFx
+  commentId: N:DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.html
+  name: DocFxToTemplate.Models.DocFx
+  nameWithType: DocFxToTemplate.Models.DocFx
+  fullName: DocFxToTemplate.Models.DocFx
+  spec.csharp:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+  spec.vb:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

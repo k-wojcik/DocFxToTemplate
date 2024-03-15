@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxToTemplate.Models.DocFx.SyntaxLanguage
+  commentId: T:DocFxToTemplate.Models.DocFx.SyntaxLanguage
+  id: SyntaxLanguage
+  parent: DocFxToTemplate.Models.DocFx
+  children:
+  - DocFxToTemplate.Models.DocFx.SyntaxLanguage.CSharp
+  - DocFxToTemplate.Models.DocFx.SyntaxLanguage.Default
+  - DocFxToTemplate.Models.DocFx.SyntaxLanguage.VB
+  langs:
+  - csharp
+  - vb
+  name: SyntaxLanguage
+  nameWithType: SyntaxLanguage
+  fullName: DocFxToTemplate.Models.DocFx.SyntaxLanguage
+  type: Enum
+  source:
+    id: SyntaxLanguage
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxLanguage.cs
+    startLine: 5
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: public enum SyntaxLanguage
+    content.vb: Public Enum SyntaxLanguage
+- uid: DocFxToTemplate.Models.DocFx.SyntaxLanguage.Default
+  commentId: F:DocFxToTemplate.Models.DocFx.SyntaxLanguage.Default
+  id: Default
+  parent: DocFxToTemplate.Models.DocFx.SyntaxLanguage
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: SyntaxLanguage.Default
+  fullName: DocFxToTemplate.Models.DocFx.SyntaxLanguage.Default
+  type: Field
+  source:
+    id: Default
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxLanguage.cs
+    startLine: 7
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: Default = 0
+    return:
+      type: DocFxToTemplate.Models.DocFx.SyntaxLanguage
+- uid: DocFxToTemplate.Models.DocFx.SyntaxLanguage.CSharp
+  commentId: F:DocFxToTemplate.Models.DocFx.SyntaxLanguage.CSharp
+  id: CSharp
+  parent: DocFxToTemplate.Models.DocFx.SyntaxLanguage
+  langs:
+  - csharp
+  - vb
+  name: CSharp
+  nameWithType: SyntaxLanguage.CSharp
+  fullName: DocFxToTemplate.Models.DocFx.SyntaxLanguage.CSharp
+  type: Field
+  source:
+    id: CSharp
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxLanguage.cs
+    startLine: 8
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: CSharp = 1
+    return:
+      type: DocFxToTemplate.Models.DocFx.SyntaxLanguage
+- uid: DocFxToTemplate.Models.DocFx.SyntaxLanguage.VB
+  commentId: F:DocFxToTemplate.Models.DocFx.SyntaxLanguage.VB
+  id: VB
+  parent: DocFxToTemplate.Models.DocFx.SyntaxLanguage
+  langs:
+  - csharp
+  - vb
+  name: VB
+  nameWithType: SyntaxLanguage.VB
+  fullName: DocFxToTemplate.Models.DocFx.SyntaxLanguage.VB
+  type: Field
+  source:
+    id: VB
+    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxLanguage.cs
+    startLine: 9
+  assemblies:
+  - DocFxToTemplate
+  namespace: DocFxToTemplate.Models.DocFx
+  syntax:
+    content: VB = 2
+    return:
+      type: DocFxToTemplate.Models.DocFx.SyntaxLanguage
+references:
+- uid: DocFxToTemplate.Models.DocFx
+  commentId: N:DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.html
+  name: DocFxToTemplate.Models.DocFx
+  nameWithType: DocFxToTemplate.Models.DocFx
+  fullName: DocFxToTemplate.Models.DocFx
+  spec.csharp:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+  spec.vb:
+  - uid: DocFxToTemplate
+    name: DocFxToTemplate
+    href: DocFxToTemplate.html
+  - name: .
+  - uid: DocFxToTemplate.Models
+    name: Models
+    href: DocFxToTemplate.Models.html
+  - name: .
+  - uid: DocFxToTemplate.Models.DocFx
+    name: DocFx
+    href: DocFxToTemplate.Models.DocFx.html
+- uid: DocFxToTemplate.Models.DocFx.SyntaxLanguage
+  commentId: T:DocFxToTemplate.Models.DocFx.SyntaxLanguage
+  parent: DocFxToTemplate.Models.DocFx
+  href: DocFxToTemplate.Models.DocFx.SyntaxLanguage.html
+  name: SyntaxLanguage
+  nameWithType: SyntaxLanguage
+  fullName: DocFxToTemplate.Models.DocFx.SyntaxLanguage
