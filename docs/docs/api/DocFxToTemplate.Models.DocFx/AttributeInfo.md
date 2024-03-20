@@ -33,7 +33,7 @@ public class AttributeInfo
 public string Type { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Constructor
@@ -45,7 +45,7 @@ public string Type { get; set; }
 public string Constructor { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Arguments
@@ -57,7 +57,7 @@ public string Constructor { get; set; }
 public List<ArgumentInfo> Arguments { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[ArgumentInfo](../DocFxToTemplate.Models.DocFx/ArgumentInfo)&gt;   
    
 ### NamedArguments
@@ -69,7 +69,7 @@ public List<ArgumentInfo> Arguments { get; set; }
 public List<NamedArgumentInfo> NamedArguments { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[NamedArgumentInfo](../DocFxToTemplate.Models.DocFx/NamedArgumentInfo)&gt;   
    
    

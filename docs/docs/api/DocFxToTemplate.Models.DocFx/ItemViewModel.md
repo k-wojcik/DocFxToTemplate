@@ -34,7 +34,7 @@ public class ItemViewModel
 public ItemViewModel[] Properties { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [ItemViewModel](../DocFxToTemplate.Models.DocFx/ItemViewModel)[]   
    
 ### Uid
@@ -47,7 +47,7 @@ public ItemViewModel[] Properties { get; set; }
 public string? Uid { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### CommentId
@@ -59,7 +59,7 @@ public string? Uid { get; set; }
 public string? CommentId { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Fields
@@ -72,7 +72,7 @@ public string? CommentId { get; set; }
 public ItemViewModel[] Fields { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [ItemViewModel](../DocFxToTemplate.Models.DocFx/ItemViewModel)[]   
    
 ### Id
@@ -84,7 +84,7 @@ public ItemViewModel[] Fields { get; set; }
 public string? Id { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Methods
@@ -97,7 +97,7 @@ public string? Id { get; set; }
 public ItemViewModel[] Methods { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [ItemViewModel](../DocFxToTemplate.Models.DocFx/ItemViewModel)[]   
    
 ### IsExplicitInterfaceImplementation
@@ -109,7 +109,7 @@ public ItemViewModel[] Methods { get; set; }
 public bool IsExplicitInterfaceImplementation { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [bool](https://learn.microsoft.com/dotnet/api/system.boolean)   
    
 ### Events
@@ -122,7 +122,7 @@ public bool IsExplicitInterfaceImplementation { get; set; }
 public ItemViewModel[] Events { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [ItemViewModel](../DocFxToTemplate.Models.DocFx/ItemViewModel)[]   
    
 ### IsExtensionMethod
@@ -134,7 +134,7 @@ public ItemViewModel[] Events { get; set; }
 public bool IsExtensionMethod { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [bool](https://learn.microsoft.com/dotnet/api/system.boolean)   
    
 ### InheritanceRefs
@@ -147,7 +147,7 @@ public bool IsExtensionMethod { get; set; }
 public List<ReferenceViewModel> InheritanceRefs { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[ReferenceViewModel](../DocFxToTemplate.Models.DocFx/ReferenceViewModel)&gt;   
    
 ### Parent
@@ -159,7 +159,7 @@ public List<ReferenceViewModel> InheritanceRefs { get; set; }
 public string Parent { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### DerivedClassesRefs
@@ -172,7 +172,7 @@ public string Parent { get; set; }
 public List<ReferenceViewModel> DerivedClassesRefs { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[ReferenceViewModel](../DocFxToTemplate.Models.DocFx/ReferenceViewModel)&gt;   
    
 ### Children
@@ -185,7 +185,7 @@ public List<ReferenceViewModel> DerivedClassesRefs { get; set; }
 public List<string>? Children { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### ImplementsRefs
@@ -198,7 +198,7 @@ public List<string>? Children { get; set; }
 public List<ReferenceViewModel> ImplementsRefs { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[ReferenceViewModel](../DocFxToTemplate.Models.DocFx/ReferenceViewModel)&gt;   
    
 ### Href
@@ -210,7 +210,7 @@ public List<ReferenceViewModel> ImplementsRefs { get; set; }
 public string Href { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### InheritedMembersRefs
@@ -223,7 +223,7 @@ public string Href { get; set; }
 public List<ReferenceViewModel> InheritedMembersRefs { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[ReferenceViewModel](../DocFxToTemplate.Models.DocFx/ReferenceViewModel)&gt;   
    
 ### SupportedLanguages
@@ -235,7 +235,7 @@ public List<ReferenceViewModel> InheritedMembersRefs { get; set; }
 public string[] SupportedLanguages { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)[]   
    
 ### ExtensionMethodsRefs
@@ -248,7 +248,7 @@ public string[] SupportedLanguages { get; set; }
 public List<ReferenceViewModel> ExtensionMethodsRefs { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[ReferenceViewModel](../DocFxToTemplate.Models.DocFx/ReferenceViewModel)&gt;   
    
 ### Name
@@ -260,7 +260,7 @@ public List<ReferenceViewModel> ExtensionMethodsRefs { get; set; }
 public string Name { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Names
@@ -272,7 +272,7 @@ public string Name { get; set; }
 public SortedList<string, string> Names { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [SortedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### Link
@@ -285,7 +285,7 @@ public SortedList<string, string> Names { get; set; }
 public MarkdownLink? Link { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [MarkdownLink](../DocFxToTemplate.Models.DocFx/MarkdownLink)   
    
 ### NameForCSharp
@@ -297,7 +297,7 @@ public MarkdownLink? Link { get; set; }
 public string NameForCSharp { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### NameForVB
@@ -309,7 +309,7 @@ public string NameForCSharp { get; set; }
 public string NameForVB { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### NameWithType
@@ -321,7 +321,7 @@ public string NameForVB { get; set; }
 public string NameWithType { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### NamesWithType
@@ -333,7 +333,7 @@ public string NameWithType { get; set; }
 public SortedList<string, string> NamesWithType { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [SortedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### NameWithTypeForCSharp
@@ -345,7 +345,7 @@ public SortedList<string, string> NamesWithType { get; set; }
 public string NameWithTypeForCSharp { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### NameWithTypeForVB
@@ -357,7 +357,7 @@ public string NameWithTypeForCSharp { get; set; }
 public string NameWithTypeForVB { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### FullName
@@ -369,7 +369,7 @@ public string NameWithTypeForVB { get; set; }
 public string FullName { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### FullNames
@@ -381,7 +381,7 @@ public string FullName { get; set; }
 public SortedList<string, string> FullNames { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [SortedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### FullNameForCSharp
@@ -393,7 +393,7 @@ public SortedList<string, string> FullNames { get; set; }
 public string FullNameForCSharp { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### FullNameForVB
@@ -405,7 +405,7 @@ public string FullNameForCSharp { get; set; }
 public string FullNameForVB { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Type
@@ -417,7 +417,7 @@ public string FullNameForVB { get; set; }
 public MemberType? Type { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [MemberType](../DocFxToTemplate.Models.DocFx/MemberType)?   
    
 ### Source
@@ -429,7 +429,7 @@ public MemberType? Type { get; set; }
 public SourceDetail? Source { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [SourceDetail](../DocFxToTemplate.Models.DocFx/SourceDetail)   
    
 ### Documentation
@@ -441,7 +441,7 @@ public SourceDetail? Source { get; set; }
 public SourceDetail Documentation { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [SourceDetail](../DocFxToTemplate.Models.DocFx/SourceDetail)   
    
 ### AssemblyNameList
@@ -454,7 +454,7 @@ public SourceDetail Documentation { get; set; }
 public List<string>? AssemblyNameList { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### NamespaceName
@@ -466,7 +466,7 @@ public List<string>? AssemblyNameList { get; set; }
 public string NamespaceName { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Summary
@@ -478,7 +478,7 @@ public string NamespaceName { get; set; }
 public string Summary { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### AdditionalNotes
@@ -490,7 +490,7 @@ public string Summary { get; set; }
 public AdditionalNotes AdditionalNotes { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [AdditionalNotes](../DocFxToTemplate.Models.DocFx/AdditionalNotes)   
    
 ### Remarks
@@ -502,7 +502,7 @@ public AdditionalNotes AdditionalNotes { get; set; }
 public string Remarks { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Examples
@@ -515,7 +515,7 @@ public string Remarks { get; set; }
 public List<string>? Examples { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### Syntax
@@ -527,7 +527,7 @@ public List<string>? Examples { get; set; }
 public SyntaxDetailViewModel? Syntax { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [SyntaxDetailViewModel](../DocFxToTemplate.Models.DocFx/SyntaxDetailViewModel)   
    
 ### Overridden
@@ -539,7 +539,7 @@ public SyntaxDetailViewModel? Syntax { get; set; }
 public string Overridden { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Overload
@@ -551,7 +551,7 @@ public string Overridden { get; set; }
 public string Overload { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Exceptions
@@ -563,7 +563,7 @@ public string Overload { get; set; }
 public List<ExceptionInfo>? Exceptions { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[ExceptionInfo](../DocFxToTemplate.Models.DocFx/ExceptionInfo)&gt;   
    
 ### SeeAlsos
@@ -575,7 +575,7 @@ public List<ExceptionInfo>? Exceptions { get; set; }
 public List<LinkInfo>? SeeAlsos { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[LinkInfo](../DocFxToTemplate.Models.DocFx/LinkInfo)&gt;   
    
 ### SeeAlsosUidReference
@@ -587,7 +587,7 @@ public List<LinkInfo>? SeeAlsos { get; set; }
 public List<string> SeeAlsosUidReference { get; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### Inheritance
@@ -600,7 +600,7 @@ public List<string> SeeAlsosUidReference { get; }
 public List<string>? Inheritance { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### DerivedClasses
@@ -613,7 +613,7 @@ public List<string>? Inheritance { get; set; }
 public List<string>? DerivedClasses { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### Implements
@@ -626,7 +626,7 @@ public List<string>? DerivedClasses { get; set; }
 public List<string>? Implements { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### InheritedMembers
@@ -639,7 +639,7 @@ public List<string>? Implements { get; set; }
 public List<string>? InheritedMembers { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### ExtensionMethods
@@ -652,7 +652,7 @@ public List<string>? InheritedMembers { get; set; }
 public List<string>? ExtensionMethods { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### Conceptual
@@ -664,7 +664,7 @@ public List<string>? ExtensionMethods { get; set; }
 public string Conceptual { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Platform
@@ -677,7 +677,7 @@ public string Conceptual { get; set; }
 public List<string>? Platform { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### Attributes
@@ -690,7 +690,7 @@ public List<string>? Platform { get; set; }
 public List<AttributeInfo>? Attributes { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[AttributeInfo](../DocFxToTemplate.Models.DocFx/AttributeInfo)&gt;   
    
 ### Metadata
@@ -702,7 +702,7 @@ public List<AttributeInfo>? Attributes { get; set; }
 public Dictionary<string, object> Metadata { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [object](https://learn.microsoft.com/dotnet/api/system.object)&gt;   
    
    

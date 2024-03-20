@@ -79,7 +79,7 @@ Assembly: {{ model.assembly_name_list[0] }}.dll
         {{- end }}   
 
         {{~ if item.syntax?.return -}}
-            #### Property Value
+            #### Property value
             {{~ include 'spec.tpl' item.syntax.return.reference }}   
             {{~ item.syntax?.return.description }}   
         {{~ end ~}}
@@ -91,10 +91,17 @@ Assembly: {{ model.assembly_name_list[0] }}.dll
     {{~ for item in model.fields -}}
         ### {{ item.name }}
         {{~ item.summary | md.summary }}   
+
         {{~ if item.syntax?.content -}}
             ```csharp title="{{ item.source?.path }}#L{{ item.source?.start_line + 1 }}"
             {{~ item.syntax?.content }}
             {{~ }}```
+        {{~ end ~}}
+        
+        {{~ if item.syntax?.return -}}
+            #### Field value
+            {{~ include 'spec.tpl' item.syntax.return.reference }}   
+            {{~ item.syntax?.return.description }}   
         {{~ end ~}}
     {{~ end ~}}
 {{~ end }}   
@@ -104,6 +111,11 @@ Assembly: {{ model.assembly_name_list[0] }}.dll
     {{~ for item in model.methods -}}
         ### {{ item.name | md.escape }}
         {{~ item.summary | md.summary }}   
+        {{~ if item.syntax?.content -}}
+            ```csharp title="{{ item.source?.path }}#L{{ item.source?.start_line + 1 }}"
+            {{~ item.syntax?.content }}
+            {{~ }}```
+        {{~ end ~}}
 
         {{~ if item.syntax.parameters?.size > 0 ~}}
         {{~ }}#### Parameters

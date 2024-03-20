@@ -30,6 +30,9 @@ public sealed class Generator
 ## Methods
 ### Generate()
    
+```csharp title="src/DocFxToTemplate/Generator.cs#L27"
+public Task Generate()
+```
 
 #### Returns
  [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)    

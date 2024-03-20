@@ -34,7 +34,7 @@ public class ExceptionInfo
 public string Type { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### CommentId
@@ -46,7 +46,7 @@ public string Type { get; set; }
 public string CommentId { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Description
@@ -58,7 +58,7 @@ public string CommentId { get; set; }
 public string Description { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
    

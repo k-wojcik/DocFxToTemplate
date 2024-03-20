@@ -33,7 +33,7 @@ public class ReferenceViewModel
 public string Uid { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### CommentId
@@ -45,7 +45,7 @@ public string Uid { get; set; }
 public string CommentId { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Parent
@@ -57,7 +57,7 @@ public string CommentId { get; set; }
 public string Parent { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Definition
@@ -69,7 +69,7 @@ public string Parent { get; set; }
 public string Definition { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### IsExternal
@@ -81,7 +81,7 @@ public string Definition { get; set; }
 public bool? IsExternal { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [bool](https://learn.microsoft.com/dotnet/api/system.boolean)?   
    
 ### Href
@@ -93,7 +93,7 @@ public bool? IsExternal { get; set; }
 public string Href { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Name
@@ -105,7 +105,7 @@ public string Href { get; set; }
 public string Name { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### NameInDevLangs
@@ -117,7 +117,7 @@ public string Name { get; set; }
 public SortedList<string, string> NameInDevLangs { get; }
 ```   
 
-#### Property Value
+#### Property value
 [SortedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### NameWithType
@@ -129,7 +129,7 @@ public SortedList<string, string> NameInDevLangs { get; }
 public string NameWithType { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### NameWithTypeInDevLangs
@@ -141,7 +141,7 @@ public string NameWithType { get; set; }
 public SortedList<string, string> NameWithTypeInDevLangs { get; }
 ```   
 
-#### Property Value
+#### Property value
 [SortedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### FullName
@@ -153,7 +153,7 @@ public SortedList<string, string> NameWithTypeInDevLangs { get; }
 public string FullName { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### FullNameInDevLangs
@@ -165,7 +165,7 @@ public string FullName { get; set; }
 public SortedList<string, string> FullNameInDevLangs { get; }
 ```   
 
-#### Property Value
+#### Property value
 [SortedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### SpecCsharp
@@ -176,7 +176,7 @@ public SortedList<string, string> FullNameInDevLangs { get; }
 public List<SpecViewModel> SpecCsharp { get; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[SpecViewModel](../DocFxToTemplate.Models.DocFx/SpecViewModel)&gt;   
    
 ### Item
@@ -188,7 +188,7 @@ public List<SpecViewModel> SpecCsharp { get; }
 public ItemViewModel? Item { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [ItemViewModel](../DocFxToTemplate.Models.DocFx/ItemViewModel)   
    
 ### Additional
@@ -200,7 +200,7 @@ public ItemViewModel? Item { get; set; }
 public Dictionary<string, object> Additional { get; }
 ```   
 
-#### Property Value
+#### Property value
 [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [object](https://learn.microsoft.com/dotnet/api/system.object)&gt;   
    
    

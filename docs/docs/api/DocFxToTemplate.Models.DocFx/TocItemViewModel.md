@@ -33,7 +33,7 @@ public class TocItemViewModel
 public string Uid { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Name
@@ -45,7 +45,7 @@ public string Uid { get; set; }
 public string Name { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### DisplayName
@@ -57,7 +57,7 @@ public string Name { get; set; }
 public string DisplayName { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Href
@@ -69,7 +69,7 @@ public string DisplayName { get; set; }
 public string Href { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### OriginalHref
@@ -81,7 +81,7 @@ public string Href { get; set; }
 public string OriginalHref { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### TocHref
@@ -93,7 +93,7 @@ public string OriginalHref { get; set; }
 public string TocHref { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### OriginalTocHref
@@ -105,7 +105,7 @@ public string TocHref { get; set; }
 public string OriginalTocHref { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### TopicHref
@@ -117,7 +117,7 @@ public string OriginalTocHref { get; set; }
 public string TopicHref { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### OriginalTopicHref
@@ -129,7 +129,7 @@ public string TopicHref { get; set; }
 public string OriginalTopicHref { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### AggregatedHref
@@ -141,7 +141,7 @@ public string OriginalTopicHref { get; set; }
 public string AggregatedHref { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### IncludedFrom
@@ -153,7 +153,7 @@ public string AggregatedHref { get; set; }
 public string IncludedFrom { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Homepage
@@ -165,7 +165,7 @@ public string IncludedFrom { get; set; }
 public string Homepage { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### OriginalHomepage
@@ -177,7 +177,7 @@ public string Homepage { get; set; }
 public string OriginalHomepage { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### HomepageUid
@@ -189,7 +189,7 @@ public string OriginalHomepage { get; set; }
 public string HomepageUid { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### TopicUid
@@ -201,7 +201,7 @@ public string HomepageUid { get; set; }
 public string TopicUid { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Order
@@ -213,7 +213,7 @@ public string TopicUid { get; set; }
 public int? Order { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [int](https://learn.microsoft.com/dotnet/api/system.int32)?   
    
 ### AggregatedUid
@@ -225,7 +225,7 @@ public int? Order { get; set; }
 public string AggregatedUid { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Items
@@ -237,7 +237,7 @@ public string AggregatedUid { get; set; }
 public List<TocItemViewModel> Items { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[TocItemViewModel](../DocFxToTemplate.Models.DocFx/TocItemViewModel)&gt;   
    
 ### IsHrefUpdated
@@ -249,7 +249,7 @@ public List<TocItemViewModel> Items { get; set; }
 public bool IsHrefUpdated { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [bool](https://learn.microsoft.com/dotnet/api/system.boolean)   
    
 ### Metadata
@@ -261,7 +261,7 @@ public bool IsHrefUpdated { get; set; }
 public Dictionary<string, object> Metadata { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [object](https://learn.microsoft.com/dotnet/api/system.object)&gt;   
    
    
@@ -271,6 +271,9 @@ public Dictionary<string, object> Metadata { get; set; }
 ## Methods
 ### Clone()
    
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L90"
+public TocItemViewModel Clone()
+```
 
 #### Returns
  [TocItemViewModel](../DocFxToTemplate.Models.DocFx/TocItemViewModel)    
@@ -278,6 +281,9 @@ public Dictionary<string, object> Metadata { get; set; }
 
 ### ToString()
 Returns a string that represents the current object.   
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L97"
+public override string ToString()
+```
 
 #### Returns
  [string](https://learn.microsoft.com/dotnet/api/system.string)    

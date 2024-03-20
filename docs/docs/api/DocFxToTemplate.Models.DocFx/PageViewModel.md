@@ -33,7 +33,7 @@ public class PageViewModel
 public List<ItemViewModel> Items { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[ItemViewModel](../DocFxToTemplate.Models.DocFx/ItemViewModel)&gt;   
    
 ### References
@@ -45,7 +45,7 @@ public List<ItemViewModel> Items { get; set; }
 public List<ReferenceViewModel> References { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[ReferenceViewModel](../DocFxToTemplate.Models.DocFx/ReferenceViewModel)&gt;   
    
 ### ShouldSkipMarkup
@@ -57,7 +57,7 @@ public List<ReferenceViewModel> References { get; set; }
 public bool ShouldSkipMarkup { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [bool](https://learn.microsoft.com/dotnet/api/system.boolean)   
    
 ### Metadata
@@ -68,7 +68,7 @@ public bool ShouldSkipMarkup { get; set; }
 public Dictionary<string, object> Metadata { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [object](https://learn.microsoft.com/dotnet/api/system.object)&gt;   
    
    

@@ -28,29 +28,54 @@ public static class Constants
 ## Fields
 ### ConfigFileName
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L10"
 public const string ConfigFileName = "docfx.json"
 ```
+        
+#### Field value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
 ### YamlExtension
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L11"
 public const string YamlExtension = ".yml"
 ```
+        
+#### Field value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
 ### ContentPlaceholder
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L12"
 public const string ContentPlaceholder = "*content"
 ```
+        
+#### Field value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
 ### PrefixSeparator
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L13"
 public const string PrefixSeparator = "."
 ```
+        
+#### Field value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
 ### TocYamlFileName
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L14"
 public const string TocYamlFileName = "toc.yml"
 ```
+        
+#### Field value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
    
 
    

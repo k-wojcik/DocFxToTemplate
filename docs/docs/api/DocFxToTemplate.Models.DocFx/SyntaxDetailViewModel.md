@@ -33,7 +33,7 @@ public class SyntaxDetailViewModel
 public string Content { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Contents
@@ -45,7 +45,7 @@ public string Content { get; set; }
 public SortedList<string, string> Contents { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [SortedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### ContentForCSharp
@@ -57,7 +57,7 @@ public SortedList<string, string> Contents { get; set; }
 public string ContentForCSharp { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### ContentForVB
@@ -69,7 +69,7 @@ public string ContentForCSharp { get; set; }
 public string ContentForVB { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Parameters
@@ -81,7 +81,7 @@ public string ContentForVB { get; set; }
 public List<ApiParameter>? Parameters { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[ApiParameter](../DocFxToTemplate.Models.DocFx/ApiParameter)&gt;   
    
 ### TypeParameters
@@ -93,7 +93,7 @@ public List<ApiParameter>? Parameters { get; set; }
 public List<ApiParameter>? TypeParameters { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[ApiParameter](../DocFxToTemplate.Models.DocFx/ApiParameter)&gt;   
    
 ### Return
@@ -105,7 +105,7 @@ public List<ApiParameter>? TypeParameters { get; set; }
 public ApiParameter? Return { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [ApiParameter](../DocFxToTemplate.Models.DocFx/ApiParameter)   
    
    

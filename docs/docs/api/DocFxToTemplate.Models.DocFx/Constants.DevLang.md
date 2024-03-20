@@ -28,14 +28,24 @@ public static class Constants.DevLang
 ## Fields
 ### CSharp
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L105"
 public const string CSharp = "csharp"
 ```
+        
+#### Field value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
 ### VB
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L106"
 public const string VB = "vb"
 ```
+        
+#### Field value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
    
 
    

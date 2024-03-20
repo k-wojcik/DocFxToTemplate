@@ -31,7 +31,7 @@ public class GeneratorOptions
 public required string YamlPath { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### OutputPath
@@ -41,7 +41,7 @@ public required string YamlPath { get; set; }
 public required string OutputPath { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### IndexSlug
@@ -51,7 +51,7 @@ public required string OutputPath { get; set; }
 public string IndexSlug { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
    

@@ -32,7 +32,7 @@ System.IEquatable\<DocFxToTemplate.Models.DocFx.MarkdownLink\>
 public string? AbsoluteAddress { get; init; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Name
@@ -42,7 +42,7 @@ public string? AbsoluteAddress { get; init; }
 public string Name { get; init; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
    

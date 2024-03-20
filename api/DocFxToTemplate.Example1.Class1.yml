@@ -4,7 +4,10 @@ items:
   commentId: T:DocFxToTemplate.Example1.Class1
   id: Class1
   parent: DocFxToTemplate.Example1
-  children: []
+  children:
+  - DocFxToTemplate.Example1.Class1.Method1(System.String)
+  - DocFxToTemplate.Example1.Class1.Property1
+  - DocFxToTemplate.Example1.Class1._field1
   langs:
   - csharp
   - vb
@@ -36,6 +39,96 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
+- uid: DocFxToTemplate.Example1.Class1._field1
+  commentId: F:DocFxToTemplate.Example1.Class1._field1
+  id: _field1
+  parent: DocFxToTemplate.Example1.Class1
+  langs:
+  - csharp
+  - vb
+  name: _field1
+  nameWithType: Class1._field1
+  fullName: DocFxToTemplate.Example1.Class1._field1
+  type: Field
+  source:
+    remote:
+      path: src/example/DocFxToTemplate.Example1/Class1.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
+    id: _field1
+    path: src/example/DocFxToTemplate.Example1/Class1.cs
+    startLine: 4
+  assemblies:
+  - DocFxToTemplate.Example1
+  namespace: DocFxToTemplate.Example1
+  syntax:
+    content: public string _field1
+    return:
+      type: System.String
+    content.vb: Public _field1 As String
+- uid: DocFxToTemplate.Example1.Class1.Property1
+  commentId: P:DocFxToTemplate.Example1.Class1.Property1
+  id: Property1
+  parent: DocFxToTemplate.Example1.Class1
+  langs:
+  - csharp
+  - vb
+  name: Property1
+  nameWithType: Class1.Property1
+  fullName: DocFxToTemplate.Example1.Class1.Property1
+  type: Property
+  source:
+    remote:
+      path: src/example/DocFxToTemplate.Example1/Class1.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
+    id: Property1
+    path: src/example/DocFxToTemplate.Example1/Class1.cs
+    startLine: 6
+  assemblies:
+  - DocFxToTemplate.Example1
+  namespace: DocFxToTemplate.Example1
+  syntax:
+    content: public string Property1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Property1 As String
+  overload: DocFxToTemplate.Example1.Class1.Property1*
+- uid: DocFxToTemplate.Example1.Class1.Method1(System.String)
+  commentId: M:DocFxToTemplate.Example1.Class1.Method1(System.String)
+  id: Method1(System.String)
+  parent: DocFxToTemplate.Example1.Class1
+  langs:
+  - csharp
+  - vb
+  name: Method1(string)
+  nameWithType: Class1.Method1(string)
+  fullName: DocFxToTemplate.Example1.Class1.Method1(string)
+  type: Method
+  source:
+    remote:
+      path: src/example/DocFxToTemplate.Example1/Class1.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
+    id: Method1
+    path: src/example/DocFxToTemplate.Example1/Class1.cs
+    startLine: 8
+  assemblies:
+  - DocFxToTemplate.Example1
+  namespace: DocFxToTemplate.Example1
+  syntax:
+    content: public Task Method1(string input1)
+    parameters:
+    - id: input1
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function Method1(input1 As String) As Task
+  overload: DocFxToTemplate.Example1.Class1.Method1*
+  nameWithType.vb: Class1.Method1(String)
+  fullName.vb: DocFxToTemplate.Example1.Class1.Method1(String)
+  name.vb: Method1(String)
 references:
 - uid: DocFxToTemplate.Example1
   commentId: N:DocFxToTemplate.Example1
@@ -296,3 +389,71 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: DocFxToTemplate.Example1.Class1.Property1*
+  commentId: Overload:DocFxToTemplate.Example1.Class1.Property1
+  href: DocFxToTemplate.Example1.Class1.html#DocFxToTemplate_Example1_Class1_Property1
+  name: Property1
+  nameWithType: Class1.Property1
+  fullName: DocFxToTemplate.Example1.Class1.Property1
+- uid: DocFxToTemplate.Example1.Class1.Method1*
+  commentId: Overload:DocFxToTemplate.Example1.Class1.Method1
+  href: DocFxToTemplate.Example1.Class1.html#DocFxToTemplate_Example1_Class1_Method1_System_String_
+  name: Method1
+  nameWithType: Class1.Method1
+  fullName: DocFxToTemplate.Example1.Class1.Method1
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

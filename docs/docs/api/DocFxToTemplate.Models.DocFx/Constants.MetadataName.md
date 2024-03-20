@@ -28,9 +28,14 @@ public static class Constants.MetadataName
 ## Fields
 ### Version
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L76"
 public const string Version = "version"
 ```
+        
+#### Field value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
    
 
    

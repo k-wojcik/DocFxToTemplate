@@ -25,14 +25,24 @@ public enum LinkType
 ## Fields
 ### CRef
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#L39"
 CRef = 0
 ```
+        
+#### Field value
+[LinkType](../DocFxToTemplate.Models.DocFx/LinkType)   
+   
 ### HRef
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#L40"
 HRef = 1
 ```
+        
+#### Field value
+[LinkType](../DocFxToTemplate.Models.DocFx/LinkType)   
+   
    
 
    

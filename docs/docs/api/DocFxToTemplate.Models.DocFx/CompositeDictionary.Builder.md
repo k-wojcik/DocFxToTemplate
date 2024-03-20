@@ -30,6 +30,9 @@ public sealed class CompositeDictionary.Builder
 ## Methods
 ### Add&lt;TValue&gt;(string, IDictionary&lt;string, TValue&gt;, Func&lt;object, TValue&gt;)
    
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L180"
+public CompositeDictionary.Builder Add<TValue>(string prefix, IDictionary<string, TValue> dict, Func<object, TValue> valueConverter = null)
+```
 
 #### Parameters
 `prefix` [string](https://learn.microsoft.com/dotnet/api/system.string)   
@@ -44,6 +47,9 @@ public sealed class CompositeDictionary.Builder
 
 ### Create()
    
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L213"
+public CompositeDictionary Create()
+```
 
 #### Returns
  [CompositeDictionary](../DocFxToTemplate.Models.DocFx/CompositeDictionary)    

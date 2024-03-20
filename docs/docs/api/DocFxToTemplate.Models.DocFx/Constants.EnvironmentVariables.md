@@ -31,7 +31,7 @@ public static class Constants.EnvironmentVariables
 public static string? KeepDebugInfo { get; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### NoCheckCertificateRevocationList
@@ -41,7 +41,7 @@ public static string? KeepDebugInfo { get; }
 public static bool NoCheckCertificateRevocationList { get; }
 ```   
 
-#### Property Value
+#### Property value
 [bool](https://learn.microsoft.com/dotnet/api/system.boolean)   
    
 ### SourceBranchName
@@ -51,7 +51,7 @@ public static bool NoCheckCertificateRevocationList { get; }
 public static string? SourceBranchName { get; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
    
@@ -59,19 +59,34 @@ public static string? SourceBranchName { get; }
 ## Fields
 ### DOCFX_KEEP_DEBUG_INFO
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L131"
 public const string DOCFX_KEEP_DEBUG_INFO = "DOCFX_KEEP_DEBUG_INFO"
 ```
+        
+#### Field value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
 ### DOCFX_NO_CHECK_CERTIFICATE_REVOCATION_LIST
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L133"
 public const string DOCFX_NO_CHECK_CERTIFICATE_REVOCATION_LIST = "DOCFX_NO_CHECK_CERTIFICATE_REVOCATION_LIST"
 ```
+        
+#### Field value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
 ### DOCFX_SOURCE_BRANCH_NAME
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L136"
 public const string DOCFX_SOURCE_BRANCH_NAME = "DOCFX_SOURCE_BRANCH_NAME"
 ```
+        
+#### Field value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
    
 
    

@@ -33,7 +33,7 @@ public class NamedArgumentInfo
 public string Name { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Type
@@ -45,7 +45,7 @@ public string Name { get; set; }
 public string Type { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Value
@@ -57,7 +57,7 @@ public string Type { get; set; }
 public object Value { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [object](https://learn.microsoft.com/dotnet/api/system.object)   
    
    

@@ -34,7 +34,7 @@ public class LinkInfo
 public LinkType LinkType { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [LinkType](../DocFxToTemplate.Models.DocFx/LinkType)   
    
 ### LinkId
@@ -47,7 +47,7 @@ public LinkType LinkType { get; set; }
 public string LinkId { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### CommentId
@@ -60,7 +60,7 @@ public string LinkId { get; set; }
 public string CommentId { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### AltText
@@ -72,7 +72,7 @@ public string CommentId { get; set; }
 public string AltText { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
    

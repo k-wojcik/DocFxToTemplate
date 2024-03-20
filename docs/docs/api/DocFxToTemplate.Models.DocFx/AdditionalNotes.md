@@ -33,7 +33,7 @@ public class AdditionalNotes
 public string Caller { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Implementer
@@ -45,7 +45,7 @@ public string Caller { get; set; }
 public string Implementer { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Inheritor
@@ -57,7 +57,7 @@ public string Implementer { get; set; }
 public string Inheritor { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
    

@@ -31,7 +31,7 @@ public static class Constants.Switches
 public static bool IsDotnetToolsMode { get; }
 ```   
 
-#### Property Value
+#### Property value
 [bool](https://learn.microsoft.com/dotnet/api/system.boolean)   
    
    
@@ -39,9 +39,14 @@ public static bool IsDotnetToolsMode { get; }
 ## Fields
 ### DotnetToolMode
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L151"
 public const string DotnetToolMode = "Docfx.DotnetToolMode"
 ```
+        
+#### Field value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
    
 
    

@@ -26,14 +26,24 @@ public enum Flags1
 ## Fields
 ### Flag1
    
+
 ```csharp title="src/example/DocFxToTemplate.Example1/Flags1.cs#L6"
 Flag1 = 0
 ```
+        
+#### Field value
+[Flags1](../DocFxToTemplate.Example1/Flags1)   
+   
 ### Flag2
    
+
 ```csharp title="src/example/DocFxToTemplate.Example1/Flags1.cs#L7"
 Flag2 = 1
 ```
+        
+#### Field value
+[Flags1](../DocFxToTemplate.Example1/Flags1)   
+   
    
 
    

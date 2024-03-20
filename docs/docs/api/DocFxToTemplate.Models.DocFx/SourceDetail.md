@@ -33,7 +33,7 @@ public class SourceDetail
 public GitDetail? Remote { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [GitDetail](../DocFxToTemplate.Models.DocFx/GitDetail)   
    
 ### Name
@@ -45,7 +45,7 @@ public GitDetail? Remote { get; set; }
 public string Name { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Href
@@ -57,7 +57,7 @@ The url path for current source, should be resolved at some late stage
 public string Href { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Path
@@ -69,7 +69,7 @@ The local path for current source, should be resolved to be relative path at som
 public string Path { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### StartLine
@@ -81,7 +81,7 @@ public string Path { get; set; }
 public int StartLine { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [int](https://learn.microsoft.com/dotnet/api/system.int32)   
    
 ### EndLine
@@ -93,7 +93,7 @@ public int StartLine { get; set; }
 public int EndLine { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [int](https://learn.microsoft.com/dotnet/api/system.int32)   
    
    

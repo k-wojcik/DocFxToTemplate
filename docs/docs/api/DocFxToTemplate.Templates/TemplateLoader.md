@@ -32,6 +32,9 @@ Scriban.Runtime.ITemplateLoader
 ### GetPath(TemplateContext, SourceSpan, string)
 Gets an absolute path for the specified include template name. Note that it is not necessarely a path on a disk,
 but an absolute path that can be used as a dictionary key for caching)   
+```csharp title="src/DocFxToTemplate/Templates/TemplateLoader.cs#L11"
+public string GetPath(TemplateContext context, SourceSpan callerSpan, string templateName)
+```
 
 #### Parameters
 `context` TemplateContext   
@@ -46,6 +49,9 @@ An absolute path or unique key for the specified template name
 
 ### Load(TemplateContext, SourceSpan, string)
 Loads a template using the specified template path/key.   
+```csharp title="src/DocFxToTemplate/Templates/TemplateLoader.cs#L16"
+public string Load(TemplateContext context, SourceSpan callerSpan, string templatePath)
+```
 
 #### Parameters
 `context` TemplateContext   
@@ -60,6 +66,9 @@ The content string loaded from the specified template path/key
 
 ### LoadAsync(TemplateContext, SourceSpan, string)
 Loads a template using the specified template path/key.   
+```csharp title="src/DocFxToTemplate/Templates/TemplateLoader.cs#L21"
+public ValueTask<string> LoadAsync(TemplateContext context, SourceSpan callerSpan, string templatePath)
+```
 
 #### Parameters
 `context` TemplateContext   

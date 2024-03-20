@@ -34,7 +34,7 @@ Relative path of current file to the Git Root Directory
 public string Path { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Branch
@@ -46,7 +46,7 @@ public string Path { get; set; }
 public string Branch { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Repo
@@ -58,7 +58,7 @@ public string Branch { get; set; }
 public string Repo { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
    

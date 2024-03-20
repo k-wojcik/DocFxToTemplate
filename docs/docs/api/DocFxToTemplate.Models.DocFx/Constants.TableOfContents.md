@@ -28,14 +28,24 @@ public static class Constants.TableOfContents
 ## Fields
 ### MarkdownTocFileName
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L111"
 public const string MarkdownTocFileName = "toc.md"
 ```
+        
+#### Field value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
 ### YamlTocFileName
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L112"
 public const string YamlTocFileName = "toc.yml"
 ```
+        
+#### Field value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
    
 
    

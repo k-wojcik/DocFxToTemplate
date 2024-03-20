@@ -32,7 +32,7 @@ Gets or sets the element with the specified key.
 public object this[string key] { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [object](https://learn.microsoft.com/dotnet/api/system.object)   
 The element with the specified key.   
 ### Count
@@ -42,7 +42,7 @@ Gets the number of elements contained in the System.Collections.Generic.ICollect
 public int Count { get; }
 ```   
 
-#### Property Value
+#### Property value
 [int](https://learn.microsoft.com/dotnet/api/system.int32)   
 The number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.   
 ### IsReadOnly
@@ -52,7 +52,7 @@ Gets a value indicating whether the System.Collections.Generic.ICollection%601 i
 public bool IsReadOnly { get; }
 ```   
 
-#### Property Value
+#### Property value
 [bool](https://learn.microsoft.com/dotnet/api/system.boolean)   
 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.   
 ### Keys
@@ -62,7 +62,7 @@ Gets an System.Collections.Generic.ICollection%601 containing the keys of the Sy
 public ICollection<string> Keys { get; }
 ```   
 
-#### Property Value
+#### Property value
 [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
 An <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> containing the keys of the object that implements <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.   
 ### Values
@@ -72,7 +72,7 @@ Gets an System.Collections.Generic.ICollection%601 containing the values in the 
 public ICollection<object> Values { get; }
 ```   
 
-#### Property Value
+#### Property value
 [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1)&lt;[object](https://learn.microsoft.com/dotnet/api/system.object)&gt;   
 An <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> containing the values in the object that implements <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.   
    
@@ -82,6 +82,9 @@ An <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-res
 ## Methods
 ### Add(string, object)
 Adds an element with the provided key and value to the System.Collections.Generic.IDictionary%602.   
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L68"
+public void Add(string key, object value)
+```
 
 #### Parameters
 `key` [string](https://learn.microsoft.com/dotnet/api/system.string)   
@@ -91,10 +94,16 @@ The object to use as the value of the element to add.
 
 ### Clear()
 Removes all items from the System.Collections.Generic.ICollection%601.   
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L82"
+public void Clear()
+```
 
 
 ### ContainsKey(string)
 Determines whether the System.Collections.Generic.IDictionary%602 contains an element with the specified key.   
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L92"
+public bool ContainsKey(string key)
+```
 
 #### Parameters
 `key` [string](https://learn.microsoft.com/dotnet/api/system.string)   
@@ -105,6 +114,9 @@ The key to locate in the <xref href="System.Collections.Generic.IDictionary%602"
 
 ### GetEnumerator()
 Returns an enumerator that iterates through the collection.   
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L111"
+public IEnumerator<KeyValuePair<string, object>> GetEnumerator()
+```
 
 #### Returns
  IEnumerator&lt;KeyValuePair&lt;string, object&gt;&gt;    
@@ -112,6 +124,9 @@ An enumerator that can be used to iterate through the collection.
 
 ### Remove(string)
 Removes the element with the specified key from the System.Collections.Generic.IDictionary%602.   
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L124"
+public bool Remove(string key)
+```
 
 #### Parameters
 `key` [string](https://learn.microsoft.com/dotnet/api/system.string)   
@@ -122,6 +137,9 @@ The key of the element to remove.
 
 ### TryGetValue(string, out object)
 Gets the value associated with the specified key.   
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L134"
+public bool TryGetValue(string key, out object value)
+```
 
 #### Parameters
 `key` [string](https://learn.microsoft.com/dotnet/api/system.string)   
@@ -134,6 +152,9 @@ When this method returns, the value associated with the specified key, if the ke
 
 ### CreateBuilder()
    
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L155"
+public static CompositeDictionary.Builder CreateBuilder()
+```
 
 #### Returns
  [CompositeDictionary.Builder](../DocFxToTemplate.Models.DocFx/CompositeDictionary.Builder)    

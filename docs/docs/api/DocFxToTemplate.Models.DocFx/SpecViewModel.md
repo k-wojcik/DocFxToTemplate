@@ -33,7 +33,7 @@ public class SpecViewModel
 public string Uid { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Name
@@ -45,7 +45,7 @@ public string Uid { get; set; }
 public string Name { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### IsExternal
@@ -57,7 +57,7 @@ public string Name { get; set; }
 public bool IsExternal { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [bool](https://learn.microsoft.com/dotnet/api/system.boolean)   
    
 ### Href
@@ -69,7 +69,7 @@ public bool IsExternal { get; set; }
 public string Href { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Item
@@ -81,7 +81,7 @@ public string Href { get; set; }
 public ItemViewModel? Item { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [ItemViewModel](../DocFxToTemplate.Models.DocFx/ItemViewModel)   
    
    

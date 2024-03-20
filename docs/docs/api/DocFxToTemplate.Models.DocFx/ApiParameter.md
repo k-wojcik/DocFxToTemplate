@@ -34,7 +34,7 @@ public class ApiParameter
 public string Name { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Type
@@ -46,7 +46,7 @@ public string Name { get; set; }
 public string Type { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Description
@@ -58,7 +58,7 @@ public string Type { get; set; }
 public string Description { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Attributes
@@ -71,7 +71,7 @@ public string Description { get; set; }
 public List<AttributeInfo> Attributes { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[AttributeInfo](../DocFxToTemplate.Models.DocFx/AttributeInfo)&gt;   
    
 ### Reference
@@ -84,7 +84,7 @@ public List<AttributeInfo> Attributes { get; set; }
 public ReferenceViewModel? Reference { get; set; }
 ```   
 
-#### Property Value
+#### Property value
 [ReferenceViewModel](../DocFxToTemplate.Models.DocFx/ReferenceViewModel)   
    
    

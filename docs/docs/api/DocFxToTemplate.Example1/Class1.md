@@ -23,8 +23,44 @@ public class Class1
 
    
 
+## Properties
+### Property1
+   
+            
+```csharp title="src/example/DocFxToTemplate.Example1/Class1.cs#L7"
+public string Property1 { get; set; }
+```   
+
+#### Property value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
    
 
+## Fields
+### _field1
+   
+
+```csharp title="src/example/DocFxToTemplate.Example1/Class1.cs#L5"
+public string _field1
+```
+        
+#### Field value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
+   
+
+## Methods
+### Method1(string)
+   
+```csharp title="src/example/DocFxToTemplate.Example1/Class1.cs#L9"
+public Task Method1(string input1)
+```
+
+#### Parameters
+`input1` [string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
+#### Returns
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)    
    
 
    

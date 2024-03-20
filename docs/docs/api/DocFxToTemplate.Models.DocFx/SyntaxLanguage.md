@@ -25,19 +25,34 @@ public enum SyntaxLanguage
 ## Fields
 ### Default
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxLanguage.cs#L8"
 Default = 0
 ```
+        
+#### Field value
+[SyntaxLanguage](../DocFxToTemplate.Models.DocFx/SyntaxLanguage)   
+   
 ### CSharp
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxLanguage.cs#L9"
 CSharp = 1
 ```
+        
+#### Field value
+[SyntaxLanguage](../DocFxToTemplate.Models.DocFx/SyntaxLanguage)   
+   
 ### VB
    
+
 ```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxLanguage.cs#L10"
 VB = 2
 ```
+        
+#### Field value
+[SyntaxLanguage](../DocFxToTemplate.Models.DocFx/SyntaxLanguage)   
+   
    
 
    
