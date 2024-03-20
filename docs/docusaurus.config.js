@@ -95,7 +95,7 @@ const config = {
                     },
                     {
                         href: 'https://github.com/k-wojcik/DocFxToTemplate',
-                        label: 'GitHub',
+						className: 'header-github-link',
                         position: 'right',
                     },
                 ],
