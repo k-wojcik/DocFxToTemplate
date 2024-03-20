@@ -24,13 +24,27 @@ public class LinkInfo
    
 
 ## Properties
-### AltText
+### LinkType
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#L27"
-[YamlMember(Alias = "altText")]
-[JsonPropertyName("altText")]
-public string AltText { get; set; }
+```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#L12"
+[YamlMember(Alias = "linkType")]
+[JsonPropertyName("linkType")]
+[MergeOption(MergeOption.Ignore)]
+public LinkType LinkType { get; set; }
+```   
+
+#### Property Value
+[LinkType](../DocFxToTemplate.Models.DocFx/LinkType)   
+   
+### LinkId
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#L17"
+[YamlMember(Alias = "linkId")]
+[MergeOption(MergeOption.MergeKey)]
+[JsonPropertyName("linkId")]
+public string LinkId { get; set; }
 ```   
 
 #### Property Value
@@ -49,31 +63,17 @@ public string CommentId { get; set; }
 #### Property Value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
-### LinkId
+### AltText
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#L17"
-[YamlMember(Alias = "linkId")]
-[MergeOption(MergeOption.MergeKey)]
-[JsonPropertyName("linkId")]
-public string LinkId { get; set; }
+```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#L27"
+[YamlMember(Alias = "altText")]
+[JsonPropertyName("altText")]
+public string AltText { get; set; }
 ```   
 
 #### Property Value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
-   
-### LinkType
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#L12"
-[YamlMember(Alias = "linkType")]
-[JsonPropertyName("linkType")]
-[MergeOption(MergeOption.Ignore)]
-public LinkType LinkType { get; set; }
-```   
-
-#### Property Value
-[LinkType](../DocFxToTemplate.Models.DocFx/LinkType)   
    
    
 

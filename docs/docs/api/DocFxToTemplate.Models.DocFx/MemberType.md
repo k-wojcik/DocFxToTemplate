@@ -23,40 +23,40 @@ public enum MemberType
    
 
 ## Fields
+### Default
+   
+```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L8"
+Default = 0
+```
+### Toc
+   
+```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L9"
+Toc = 1
+```
 ### Assembly
    
 ```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L10"
 Assembly = 2
 ```
-### AttachedEvent
+### Namespace
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L24"
-AttachedEvent = 16
-```
-### AttachedProperty
-   
-```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L25"
-AttachedProperty = 17
+```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L11"
+Namespace = 3
 ```
 ### Class
    
 ```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L12"
 Class = 4
 ```
-### Constructor
+### Interface
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L20"
-Constructor = 12
+```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L13"
+Interface = 5
 ```
-### Container
+### Struct
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L23"
-Container = 15
-```
-### Default
-   
-```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L8"
-Default = 0
+```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L14"
+Struct = 6
 ```
 ### Delegate
    
@@ -68,50 +68,50 @@ Delegate = 7
 ```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L16"
 Enum = 8
 ```
-### Event
-   
-```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L19"
-Event = 11
-```
 ### Field
    
 ```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L17"
 Field = 9
-```
-### Interface
-   
-```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L13"
-Interface = 5
-```
-### Method
-   
-```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L21"
-Method = 13
-```
-### Namespace
-   
-```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L11"
-Namespace = 3
-```
-### Operator
-   
-```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L22"
-Operator = 14
 ```
 ### Property
    
 ```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L18"
 Property = 10
 ```
-### Struct
+### Event
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L14"
-Struct = 6
+```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L19"
+Event = 11
 ```
-### Toc
+### Constructor
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L9"
-Toc = 1
+```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L20"
+Constructor = 12
+```
+### Method
+   
+```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L21"
+Method = 13
+```
+### Operator
+   
+```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L22"
+Operator = 14
+```
+### Container
+   
+```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L23"
+Container = 15
+```
+### AttachedEvent
+   
+```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L24"
+AttachedEvent = 16
+```
+### AttachedProperty
+   
+```csharp title="src/DocFxToTemplate/Models/DocFx/MemberType.cs#L25"
+AttachedProperty = 17
 ```
    
 

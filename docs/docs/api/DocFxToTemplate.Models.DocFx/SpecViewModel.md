@@ -24,13 +24,25 @@ public class SpecViewModel
    
 
 ## Properties
-### Href
+### Uid
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs#L23"
-[YamlMember(Alias = "href")]
-[JsonPropertyName("href")]
-public string Href { get; set; }
+```csharp title="src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs#L11"
+[YamlMember(Alias = "uid")]
+[JsonPropertyName("uid")]
+public string Uid { get; set; }
+```   
+
+#### Property Value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
+### Name
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs#L15"
+[YamlMember(Alias = "name")]
+[JsonPropertyName("name")]
+public string Name { get; set; }
 ```   
 
 #### Property Value
@@ -48,6 +60,18 @@ public bool IsExternal { get; set; }
 #### Property Value
 [bool](https://learn.microsoft.com/dotnet/api/system.boolean)   
    
+### Href
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs#L23"
+[YamlMember(Alias = "href")]
+[JsonPropertyName("href")]
+public string Href { get; set; }
+```   
+
+#### Property Value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
 ### Item
    
             
@@ -59,30 +83,6 @@ public ItemViewModel? Item { get; set; }
 
 #### Property Value
 [ItemViewModel](../DocFxToTemplate.Models.DocFx/ItemViewModel)   
-   
-### Name
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs#L15"
-[YamlMember(Alias = "name")]
-[JsonPropertyName("name")]
-public string Name { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
-   
-### Uid
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs#L11"
-[YamlMember(Alias = "uid")]
-[JsonPropertyName("uid")]
-public string Uid { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
    
    
 

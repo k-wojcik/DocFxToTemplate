@@ -31,6 +31,11 @@ public static class Constants
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L10"
 public const string ConfigFileName = "docfx.json"
 ```
+### YamlExtension
+   
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L11"
+public const string YamlExtension = ".yml"
+```
 ### ContentPlaceholder
    
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L12"
@@ -45,11 +50,6 @@ public const string PrefixSeparator = "."
    
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L14"
 public const string TocYamlFileName = "toc.yml"
-```
-### YamlExtension
-   
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L11"
-public const string YamlExtension = ".yml"
 ```
    
 

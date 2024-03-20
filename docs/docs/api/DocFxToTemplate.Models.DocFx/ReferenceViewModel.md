@@ -24,17 +24,17 @@ public class ReferenceViewModel
    
 
 ## Properties
-### Additional
+### Uid
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L72"
-[ExtensibleMember]
-[JsonIgnore]
-public Dictionary<string, object> Additional { get; }
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L12"
+[YamlMember(Alias = "uid")]
+[JsonPropertyName("uid")]
+public string Uid { get; set; }
 ```   
 
 #### Property Value
-[Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [object](https://learn.microsoft.com/dotnet/api/system.object)&gt;   
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### CommentId
    
@@ -43,6 +43,18 @@ public Dictionary<string, object> Additional { get; }
 [YamlMember(Alias = "commentId")]
 [JsonPropertyName("commentId")]
 public string CommentId { get; set; }
+```   
+
+#### Property Value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
+### Parent
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L20"
+[YamlMember(Alias = "parent")]
+[JsonPropertyName("parent")]
+public string Parent { get; set; }
 ```   
 
 #### Property Value
@@ -60,42 +72,6 @@ public string Definition { get; set; }
 #### Property Value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
-### FullName
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L53"
-[YamlMember(Alias = "fullName")]
-[JsonPropertyName("fullName")]
-public string FullName { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
-   
-### FullNameInDevLangs
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L57"
-[ExtensibleMember("fullName.")]
-[JsonIgnore]
-public SortedList<string, string> FullNameInDevLangs { get; }
-```   
-
-#### Property Value
-[SortedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
-   
-### Href
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L33"
-[YamlMember(Alias = "href")]
-[JsonPropertyName("href")]
-public string Href { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
-   
 ### IsExternal
    
             
@@ -108,17 +84,17 @@ public bool? IsExternal { get; set; }
 #### Property Value
 [bool](https://learn.microsoft.com/dotnet/api/system.boolean)?   
    
-### Item
+### Href
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L68"
-[YamlIgnore]
-[JsonIgnore]
-public ItemViewModel? Item { get; set; }
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L33"
+[YamlMember(Alias = "href")]
+[JsonPropertyName("href")]
+public string Href { get; set; }
 ```   
 
 #### Property Value
-[ItemViewModel](../DocFxToTemplate.Models.DocFx/ItemViewModel)   
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Name
    
@@ -168,17 +144,29 @@ public SortedList<string, string> NameWithTypeInDevLangs { get; }
 #### Property Value
 [SortedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
-### Parent
+### FullName
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L20"
-[YamlMember(Alias = "parent")]
-[JsonPropertyName("parent")]
-public string Parent { get; set; }
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L53"
+[YamlMember(Alias = "fullName")]
+[JsonPropertyName("fullName")]
+public string FullName { get; set; }
 ```   
 
 #### Property Value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
+### FullNameInDevLangs
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L57"
+[ExtensibleMember("fullName.")]
+[JsonIgnore]
+public SortedList<string, string> FullNameInDevLangs { get; }
+```   
+
+#### Property Value
+[SortedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
    
 ### SpecCsharp
    
@@ -191,17 +179,29 @@ public List<SpecViewModel> SpecCsharp { get; }
 #### Property Value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[SpecViewModel](../DocFxToTemplate.Models.DocFx/SpecViewModel)&gt;   
    
-### Uid
+### Item
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L12"
-[YamlMember(Alias = "uid")]
-[JsonPropertyName("uid")]
-public string Uid { get; set; }
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L68"
+[YamlIgnore]
+[JsonIgnore]
+public ItemViewModel? Item { get; set; }
 ```   
 
 #### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
+[ItemViewModel](../DocFxToTemplate.Models.DocFx/ItemViewModel)   
+   
+### Additional
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L72"
+[ExtensibleMember]
+[JsonIgnore]
+public Dictionary<string, object> Additional { get; }
+```   
+
+#### Property Value
+[Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [object](https://learn.microsoft.com/dotnet/api/system.object)&gt;   
    
    
 

@@ -24,31 +24,6 @@ public class ApiParameter
    
 
 ## Properties
-### Attributes
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#L28"
-[YamlMember(Alias = "attributes")]
-[JsonPropertyName("attributes")]
-[MergeOption(MergeOption.Ignore)]
-public List<AttributeInfo> Attributes { get; set; }
-```   
-
-#### Property Value
-[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[AttributeInfo](../DocFxToTemplate.Models.DocFx/AttributeInfo)&gt;   
-   
-### Description
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#L23"
-[YamlMember(Alias = "description")]
-[JsonPropertyName("description")]
-public string Description { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
-   
 ### Name
    
             
@@ -62,6 +37,43 @@ public string Name { get; set; }
 #### Property Value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
+### Type
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#L18"
+[YamlMember(Alias = "type")]
+[JsonPropertyName("type")]
+public string Type { get; set; }
+```   
+
+#### Property Value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
+### Description
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#L23"
+[YamlMember(Alias = "description")]
+[JsonPropertyName("description")]
+public string Description { get; set; }
+```   
+
+#### Property Value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
+### Attributes
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#L28"
+[YamlMember(Alias = "attributes")]
+[JsonPropertyName("attributes")]
+[MergeOption(MergeOption.Ignore)]
+public List<AttributeInfo> Attributes { get; set; }
+```   
+
+#### Property Value
+[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[AttributeInfo](../DocFxToTemplate.Models.DocFx/AttributeInfo)&gt;   
+   
 ### Reference
    
             
@@ -74,18 +86,6 @@ public ReferenceViewModel? Reference { get; set; }
 
 #### Property Value
 [ReferenceViewModel](../DocFxToTemplate.Models.DocFx/ReferenceViewModel)   
-   
-### Type
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#L18"
-[YamlMember(Alias = "type")]
-[JsonPropertyName("type")]
-public string Type { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
    
    
 

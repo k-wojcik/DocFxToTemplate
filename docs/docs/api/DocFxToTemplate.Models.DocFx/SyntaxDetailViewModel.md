@@ -36,6 +36,18 @@ public string Content { get; set; }
 #### Property Value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
+### Contents
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs#L16"
+[ExtensibleMember("content.")]
+[JsonIgnore]
+public SortedList<string, string> Contents { get; set; }
+```   
+
+#### Property Value
+[SortedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
+   
 ### ContentForCSharp
    
             
@@ -60,18 +72,6 @@ public string ContentForVB { get; set; }
 #### Property Value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
-### Contents
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs#L16"
-[ExtensibleMember("content.")]
-[JsonIgnore]
-public SortedList<string, string> Contents { get; set; }
-```   
-
-#### Property Value
-[SortedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
-   
 ### Parameters
    
             
@@ -79,6 +79,18 @@ public SortedList<string, string> Contents { get; set; }
 [YamlMember(Alias = "parameters")]
 [JsonPropertyName("parameters")]
 public List<ApiParameter>? Parameters { get; set; }
+```   
+
+#### Property Value
+[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[ApiParameter](../DocFxToTemplate.Models.DocFx/ApiParameter)&gt;   
+   
+### TypeParameters
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs#L60"
+[YamlMember(Alias = "typeParameters")]
+[JsonPropertyName("typeParameters")]
+public List<ApiParameter>? TypeParameters { get; set; }
 ```   
 
 #### Property Value
@@ -95,18 +107,6 @@ public ApiParameter? Return { get; set; }
 
 #### Property Value
 [ApiParameter](../DocFxToTemplate.Models.DocFx/ApiParameter)   
-   
-### TypeParameters
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs#L60"
-[YamlMember(Alias = "typeParameters")]
-[JsonPropertyName("typeParameters")]
-public List<ApiParameter>? TypeParameters { get; set; }
-```   
-
-#### Property Value
-[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[ApiParameter](../DocFxToTemplate.Models.DocFx/ApiParameter)&gt;   
    
    
 

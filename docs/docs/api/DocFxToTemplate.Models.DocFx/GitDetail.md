@@ -25,18 +25,6 @@ public record GitDetail : IEquatable<GitDetail>
 System.IEquatable\<DocFxToTemplate.Models.DocFx.GitDetail\>   
 
 ## Properties
-### Branch
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/GitDetail.cs#L18"
-[YamlMember(Alias = "branch")]
-[JsonPropertyName("branch")]
-public string Branch { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
-   
 ### Path
 Relative path of current file to the Git Root Directory   
             
@@ -44,6 +32,18 @@ Relative path of current file to the Git Root Directory
 [YamlMember(Alias = "path")]
 [JsonPropertyName("path")]
 public string Path { get; set; }
+```   
+
+#### Property Value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
+### Branch
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/GitDetail.cs#L18"
+[YamlMember(Alias = "branch")]
+[JsonPropertyName("branch")]
+public string Branch { get; set; }
 ```   
 
 #### Property Value

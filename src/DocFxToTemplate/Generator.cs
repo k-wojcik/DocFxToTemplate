@@ -38,8 +38,7 @@ public sealed class Generator
         var context = new GeneratorContext()
         {
             Items = items.Items
-                .OrderBy(x => x.Name)
-                .ThenBy(x => x.Uid)
+                .OrderByDefault()
                 .ToList(),
             Options = _options,
         };

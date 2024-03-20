@@ -23,15 +23,15 @@ public enum SyntaxLanguage
    
 
 ## Fields
-### CSharp
-   
-```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxLanguage.cs#L9"
-CSharp = 1
-```
 ### Default
    
 ```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxLanguage.cs#L8"
 Default = 0
+```
+### CSharp
+   
+```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxLanguage.cs#L9"
+CSharp = 1
 ```
 ### VB
    

@@ -24,17 +24,17 @@ public class AttributeInfo
    
 
 ## Properties
-### Arguments
+### Type
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs#L21"
-[YamlMember(Alias = "arguments")]
-[JsonPropertyName("arguments")]
-public List<ArgumentInfo> Arguments { get; set; }
+```csharp title="src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs#L12"
+[YamlMember(Alias = "type")]
+[JsonPropertyName("type")]
+public string Type { get; set; }
 ```   
 
 #### Property Value
-[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[ArgumentInfo](../DocFxToTemplate.Models.DocFx/ArgumentInfo)&gt;   
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
    
 ### Constructor
    
@@ -48,6 +48,18 @@ public string Constructor { get; set; }
 #### Property Value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
+### Arguments
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs#L21"
+[YamlMember(Alias = "arguments")]
+[JsonPropertyName("arguments")]
+public List<ArgumentInfo> Arguments { get; set; }
+```   
+
+#### Property Value
+[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[ArgumentInfo](../DocFxToTemplate.Models.DocFx/ArgumentInfo)&gt;   
+   
 ### NamedArguments
    
             
@@ -59,18 +71,6 @@ public List<NamedArgumentInfo> NamedArguments { get; set; }
 
 #### Property Value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[NamedArgumentInfo](../DocFxToTemplate.Models.DocFx/NamedArgumentInfo)&gt;   
-   
-### Type
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs#L12"
-[YamlMember(Alias = "type")]
-[JsonPropertyName("type")]
-public string Type { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
    
    
 

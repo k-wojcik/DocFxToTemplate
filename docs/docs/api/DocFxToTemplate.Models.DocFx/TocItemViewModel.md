@@ -24,25 +24,25 @@ public class TocItemViewModel
    
 
 ## Properties
-### AggregatedHref
+### Uid
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L49"
-[YamlIgnore]
-[JsonIgnore]
-public string AggregatedHref { get; set; }
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L13"
+[YamlMember(Alias = "uid")]
+[JsonPropertyName("uid")]
+public string Uid { get; set; }
 ```   
 
 #### Property Value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
-### AggregatedUid
+### Name
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L75"
-[YamlIgnore]
-[JsonIgnore]
-public string AggregatedUid { get; set; }
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L17"
+[YamlMember(Alias = "name")]
+[JsonPropertyName("name")]
+public string Name { get; set; }
 ```   
 
 #### Property Value
@@ -60,30 +60,6 @@ public string DisplayName { get; set; }
 #### Property Value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
-### Homepage
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L55"
-[YamlMember(Alias = "homepage")]
-[JsonPropertyName("homepage")]
-public string Homepage { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
-   
-### HomepageUid
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L63"
-[YamlMember(Alias = "homepageUid")]
-[JsonPropertyName("homepageUid")]
-public string HomepageUid { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
-   
 ### Href
    
             
@@ -91,90 +67,6 @@ public string HomepageUid { get; set; }
 [YamlMember(Alias = "href")]
 [JsonPropertyName("href")]
 public string Href { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
-   
-### IncludedFrom
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L51"
-[YamlMember(Alias = "includedFrom")]
-[JsonPropertyName("includedFrom")]
-public string IncludedFrom { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
-   
-### IsHrefUpdated
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L81"
-[YamlIgnore]
-[JsonIgnore]
-public bool IsHrefUpdated { get; set; }
-```   
-
-#### Property Value
-[bool](https://learn.microsoft.com/dotnet/api/system.boolean)   
-   
-### Items
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L77"
-[YamlMember(Alias = "items")]
-[JsonPropertyName("items")]
-public List<TocItemViewModel> Items { get; set; }
-```   
-
-#### Property Value
-[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[TocItemViewModel](../DocFxToTemplate.Models.DocFx/TocItemViewModel)&gt;   
-   
-### Metadata
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L83"
-[ExtensibleMember]
-[JsonIgnore]
-public Dictionary<string, object> Metadata { get; set; }
-```   
-
-#### Property Value
-[Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [object](https://learn.microsoft.com/dotnet/api/system.object)&gt;   
-   
-### Name
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L17"
-[YamlMember(Alias = "name")]
-[JsonPropertyName("name")]
-public string Name { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
-   
-### Order
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L71"
-[YamlMember(Alias = "order")]
-[JsonPropertyName("order")]
-public int? Order { get; set; }
-```   
-
-#### Property Value
-[int](https://learn.microsoft.com/dotnet/api/system.int32)?   
-   
-### OriginalHomepage
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L59"
-[YamlMember(Alias = "originalHomepage")]
-[JsonPropertyName("originalHomepage")]
-public string OriginalHomepage { get; set; }
 ```   
 
 #### Property Value
@@ -192,30 +84,6 @@ public string OriginalHref { get; set; }
 #### Property Value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
-### OriginalTocHref
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L37"
-[YamlMember(Alias = "originalTocHref")]
-[JsonPropertyName("originalTocHref")]
-public string OriginalTocHref { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
-   
-### OriginalTopicHref
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L45"
-[YamlMember(Alias = "originalTopicHref")]
-[JsonPropertyName("originalTopicHref")]
-public string OriginalTopicHref { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
-   
 ### TocHref
    
             
@@ -223,6 +91,18 @@ public string OriginalTopicHref { get; set; }
 [YamlMember(Alias = "tocHref")]
 [JsonPropertyName("tocHref")]
 public string TocHref { get; set; }
+```   
+
+#### Property Value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
+### OriginalTocHref
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L37"
+[YamlMember(Alias = "originalTocHref")]
+[JsonPropertyName("originalTocHref")]
+public string OriginalTocHref { get; set; }
 ```   
 
 #### Property Value
@@ -240,6 +120,78 @@ public string TopicHref { get; set; }
 #### Property Value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
+### OriginalTopicHref
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L45"
+[YamlMember(Alias = "originalTopicHref")]
+[JsonPropertyName("originalTopicHref")]
+public string OriginalTopicHref { get; set; }
+```   
+
+#### Property Value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
+### AggregatedHref
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L49"
+[YamlIgnore]
+[JsonIgnore]
+public string AggregatedHref { get; set; }
+```   
+
+#### Property Value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
+### IncludedFrom
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L51"
+[YamlMember(Alias = "includedFrom")]
+[JsonPropertyName("includedFrom")]
+public string IncludedFrom { get; set; }
+```   
+
+#### Property Value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
+### Homepage
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L55"
+[YamlMember(Alias = "homepage")]
+[JsonPropertyName("homepage")]
+public string Homepage { get; set; }
+```   
+
+#### Property Value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
+### OriginalHomepage
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L59"
+[YamlMember(Alias = "originalHomepage")]
+[JsonPropertyName("originalHomepage")]
+public string OriginalHomepage { get; set; }
+```   
+
+#### Property Value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
+### HomepageUid
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L63"
+[YamlMember(Alias = "homepageUid")]
+[JsonPropertyName("homepageUid")]
+public string HomepageUid { get; set; }
+```   
+
+#### Property Value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
 ### TopicUid
    
             
@@ -252,17 +204,65 @@ public string TopicUid { get; set; }
 #### Property Value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
-### Uid
+### Order
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L13"
-[YamlMember(Alias = "uid")]
-[JsonPropertyName("uid")]
-public string Uid { get; set; }
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L71"
+[YamlMember(Alias = "order")]
+[JsonPropertyName("order")]
+public int? Order { get; set; }
+```   
+
+#### Property Value
+[int](https://learn.microsoft.com/dotnet/api/system.int32)?   
+   
+### AggregatedUid
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L75"
+[YamlIgnore]
+[JsonIgnore]
+public string AggregatedUid { get; set; }
 ```   
 
 #### Property Value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
+### Items
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L77"
+[YamlMember(Alias = "items")]
+[JsonPropertyName("items")]
+public List<TocItemViewModel> Items { get; set; }
+```   
+
+#### Property Value
+[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[TocItemViewModel](../DocFxToTemplate.Models.DocFx/TocItemViewModel)&gt;   
+   
+### IsHrefUpdated
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L81"
+[YamlIgnore]
+[JsonIgnore]
+public bool IsHrefUpdated { get; set; }
+```   
+
+#### Property Value
+[bool](https://learn.microsoft.com/dotnet/api/system.boolean)   
+   
+### Metadata
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L83"
+[ExtensibleMember]
+[JsonIgnore]
+public Dictionary<string, object> Metadata { get; set; }
+```   
+
+#### Property Value
+[Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [object](https://learn.microsoft.com/dotnet/api/system.object)&gt;   
    
    
 

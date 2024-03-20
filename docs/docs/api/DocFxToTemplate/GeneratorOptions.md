@@ -24,11 +24,11 @@ public class GeneratorOptions
    
 
 ## Properties
-### IndexSlug
+### YamlPath
    
             
-```csharp title="src/DocFxToTemplate/GeneratorOptions.cs#L8"
-public string IndexSlug { get; set; }
+```csharp title="src/DocFxToTemplate/GeneratorOptions.cs#L5"
+public required string YamlPath { get; set; }
 ```   
 
 #### Property Value
@@ -44,11 +44,11 @@ public required string OutputPath { get; set; }
 #### Property Value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
-### YamlPath
+### IndexSlug
    
             
-```csharp title="src/DocFxToTemplate/GeneratorOptions.cs#L5"
-public required string YamlPath { get; set; }
+```csharp title="src/DocFxToTemplate/GeneratorOptions.cs#L8"
+public string IndexSlug { get; set; }
 ```   
 
 #### Property Value

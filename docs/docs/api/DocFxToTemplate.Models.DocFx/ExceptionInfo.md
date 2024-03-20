@@ -24,6 +24,19 @@ public class ExceptionInfo
    
 
 ## Properties
+### Type
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/ExceptionInfo.cs#L12"
+[YamlMember(Alias = "type")]
+[MergeOption(MergeOption.MergeKey)]
+[JsonPropertyName("type")]
+public string Type { get; set; }
+```   
+
+#### Property Value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
 ### CommentId
    
             
@@ -43,19 +56,6 @@ public string CommentId { get; set; }
 [YamlMember(Alias = "description")]
 [JsonPropertyName("description")]
 public string Description { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
-   
-### Type
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/ExceptionInfo.cs#L12"
-[YamlMember(Alias = "type")]
-[MergeOption(MergeOption.MergeKey)]
-[JsonPropertyName("type")]
-public string Type { get; set; }
 ```   
 
 #### Property Value

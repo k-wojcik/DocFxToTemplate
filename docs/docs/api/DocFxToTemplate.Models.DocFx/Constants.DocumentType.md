@@ -31,25 +31,25 @@ public static class Constants.DocumentType
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L18"
 public const string Conceptual = "Conceptual"
 ```
+### Toc
+   
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L19"
+public const string Toc = "Toc"
+```
 ### ManagedReference
    
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L20"
 public const string ManagedReference = "ManagedReference"
-```
-### Redirection
-   
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L22"
-public const string Redirection = "Redirection"
 ```
 ### Resource
    
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L21"
 public const string Resource = "Resource"
 ```
-### Toc
+### Redirection
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L19"
-public const string Toc = "Toc"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L22"
+public const string Redirection = "Redirection"
 ```
    
 

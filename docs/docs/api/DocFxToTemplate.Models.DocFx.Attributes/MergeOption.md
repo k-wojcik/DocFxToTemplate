@@ -23,15 +23,15 @@ public enum MergeOption
    
 
 ## Fields
-### Ignore
-   
-```csharp title="src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs#L13"
-Ignore = 1
-```
 ### MergeKey
    
 ```csharp title="src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs#L12"
 MergeKey = 0
+```
+### Ignore
+   
+```csharp title="src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs#L13"
+Ignore = 1
 ```
 ### Replace
    

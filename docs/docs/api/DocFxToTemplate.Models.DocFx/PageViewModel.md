@@ -36,17 +36,6 @@ public List<ItemViewModel> Items { get; set; }
 #### Property Value
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)&lt;[ItemViewModel](../DocFxToTemplate.Models.DocFx/ItemViewModel)&gt;   
    
-### Metadata
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/PageViewModel.cs#L24"
-[JsonExtensionData]
-public Dictionary<string, object> Metadata { get; set; }
-```   
-
-#### Property Value
-[Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [object](https://learn.microsoft.com/dotnet/api/system.object)&gt;   
-   
 ### References
    
             
@@ -70,6 +59,17 @@ public bool ShouldSkipMarkup { get; set; }
 
 #### Property Value
 [bool](https://learn.microsoft.com/dotnet/api/system.boolean)   
+   
+### Metadata
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/PageViewModel.cs#L24"
+[JsonExtensionData]
+public Dictionary<string, object> Metadata { get; set; }
+```   
+
+#### Property Value
+[Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string), [object](https://learn.microsoft.com/dotnet/api/system.object)&gt;   
    
    
 

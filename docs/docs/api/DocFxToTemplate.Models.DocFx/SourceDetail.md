@@ -24,29 +24,17 @@ public class SourceDetail
    
 
 ## Properties
-### EndLine
+### Remote
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#L37"
-[YamlMember(Alias = "endLine")]
-[JsonPropertyName("endLine")]
-public int EndLine { get; set; }
+```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#L11"
+[YamlMember(Alias = "remote")]
+[JsonPropertyName("remote")]
+public GitDetail? Remote { get; set; }
 ```   
 
 #### Property Value
-[int](https://learn.microsoft.com/dotnet/api/system.int32)   
-   
-### Href
-The url path for current source, should be resolved at some late stage   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#L22"
-[YamlMember(Alias = "href")]
-[JsonPropertyName("href")]
-public string Href { get; set; }
-```   
-
-#### Property Value
-[string](https://learn.microsoft.com/dotnet/api/system.string)   
+[GitDetail](../DocFxToTemplate.Models.DocFx/GitDetail)   
    
 ### Name
    
@@ -55,6 +43,18 @@ public string Href { get; set; }
 [YamlMember(Alias = "id")]
 [JsonPropertyName("id")]
 public string Name { get; set; }
+```   
+
+#### Property Value
+[string](https://learn.microsoft.com/dotnet/api/system.string)   
+   
+### Href
+The url path for current source, should be resolved at some late stage   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#L22"
+[YamlMember(Alias = "href")]
+[JsonPropertyName("href")]
+public string Href { get; set; }
 ```   
 
 #### Property Value
@@ -72,18 +72,6 @@ public string Path { get; set; }
 #### Property Value
 [string](https://learn.microsoft.com/dotnet/api/system.string)   
    
-### Remote
-   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#L11"
-[YamlMember(Alias = "remote")]
-[JsonPropertyName("remote")]
-public GitDetail? Remote { get; set; }
-```   
-
-#### Property Value
-[GitDetail](../DocFxToTemplate.Models.DocFx/GitDetail)   
-   
 ### StartLine
    
             
@@ -91,6 +79,18 @@ public GitDetail? Remote { get; set; }
 [YamlMember(Alias = "startLine")]
 [JsonPropertyName("startLine")]
 public int StartLine { get; set; }
+```   
+
+#### Property Value
+[int](https://learn.microsoft.com/dotnet/api/system.int32)   
+   
+### EndLine
+   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#L37"
+[YamlMember(Alias = "endLine")]
+[JsonPropertyName("endLine")]
+public int EndLine { get; set; }
 ```   
 
 #### Property Value

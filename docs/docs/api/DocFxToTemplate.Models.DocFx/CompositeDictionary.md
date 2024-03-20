@@ -25,6 +25,16 @@ public class CompositeDictionary : IDictionary<string, object>, ICollection<KeyV
 System.Collections.Generic.ICollection\<System.Collections.Generic.KeyValuePair\<System.String,System.Object\>\>, System.Collections.Generic.IDictionary\<System.String,System.Object\>, System.Collections.Generic.IEnumerable\<System.Collections.Generic.KeyValuePair\<System.String,System.Object\>\>, System.Collections.IEnumerable   
 
 ## Properties
+### this[string]
+Gets or sets the element with the specified key.   
+            
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L24"
+public object this[string key] { get; set; }
+```   
+
+#### Property Value
+[object](https://learn.microsoft.com/dotnet/api/system.object)   
+The element with the specified key.   
 ### Count
 Gets the number of elements contained in the System.Collections.Generic.ICollection%601.   
             
@@ -55,16 +65,6 @@ public ICollection<string> Keys { get; }
 #### Property Value
 [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1)&lt;[string](https://learn.microsoft.com/dotnet/api/system.string)&gt;   
 An <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> containing the keys of the object that implements <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.   
-### this[string]
-Gets or sets the element with the specified key.   
-            
-```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L24"
-public object this[string key] { get; set; }
-```   
-
-#### Property Value
-[object](https://learn.microsoft.com/dotnet/api/system.object)   
-The element with the specified key.   
 ### Values
 Gets an System.Collections.Generic.ICollection%601 containing the values in the System.Collections.Generic.IDictionary%602.   
             
@@ -103,13 +103,6 @@ The key to locate in the <xref href="System.Collections.Generic.IDictionary%602"
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)    
 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> contains an element with the key; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.   
 
-### CreateBuilder()
-   
-
-#### Returns
- [CompositeDictionary.Builder](../DocFxToTemplate.Models.DocFx/CompositeDictionary.Builder)    
-   
-
 ### GetEnumerator()
 Returns an enumerator that iterates through the collection.   
 
@@ -138,6 +131,13 @@ When this method returns, the value associated with the specified key, if the ke
 #### Returns
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)    
 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the object that implements <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> contains an element with the specified key; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.   
+
+### CreateBuilder()
+   
+
+#### Returns
+ [CompositeDictionary.Builder](../DocFxToTemplate.Models.DocFx/CompositeDictionary.Builder)    
+   
 
    
 
