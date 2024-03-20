@@ -6,11 +6,11 @@ description: TODO
 
 # Class MarkdownLink
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/ItemViewModel.cs#L64](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/ItemViewModel.cs#L64)    
    
 
-```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#63" 
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#L64" 
 public record MarkdownLink : IEquatable<MarkdownLink>
 ```
 
@@ -28,7 +28,7 @@ System.IEquatable\<DocFxToTemplate.Models.DocFx.MarkdownLink\>
 ### AbsoluteAddress
    
             
-```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#63"
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#L64"
 public string? AbsoluteAddress { get; init; }
 ```   
 
@@ -38,7 +38,7 @@ public string? AbsoluteAddress { get; init; }
 ### Name
    
             
-```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#63"
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#L64"
 public string Name { get; init; }
 ```   
 

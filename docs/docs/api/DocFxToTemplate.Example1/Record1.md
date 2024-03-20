@@ -6,11 +6,11 @@ description: TODO
 
 # Class Record1
 Namespace: DocFxToTemplate.Example1   
-Assembly: DocFxToTemplate.Example1.dll
-    
+Assembly: DocFxToTemplate.Example1.dll  
+Source: [src/example/DocFxToTemplate.Example1/Record1.cs#L3](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/example/DocFxToTemplate.Example1/Record1.cs#L3)    
    
 
-```csharp title="src/example/DocFxToTemplate.Example1/Record1.cs#2" 
+```csharp title="src/example/DocFxToTemplate.Example1/Record1.cs#L3" 
 public record Record1 : IEquatable<Record1>
 ```
 

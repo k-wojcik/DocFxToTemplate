@@ -6,11 +6,11 @@ description: TODO
 
 # Class Constants.EnvironmentVariables
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/Constants.cs#L115](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/Constants.cs#L115)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#114" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L115" 
 public static class Constants.EnvironmentVariables
 ```
 
@@ -27,7 +27,7 @@ public static class Constants.EnvironmentVariables
 ### KeepDebugInfo
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#139"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L140"
 public static string? KeepDebugInfo { get; }
 ```   
 
@@ -37,7 +37,7 @@ public static string? KeepDebugInfo { get; }
 ### NoCheckCertificateRevocationList
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#141"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L142"
 public static bool NoCheckCertificateRevocationList { get; }
 ```   
 
@@ -47,7 +47,7 @@ public static bool NoCheckCertificateRevocationList { get; }
 ### SourceBranchName
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#144"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L145"
 public static string? SourceBranchName { get; }
 ```   
 
@@ -59,17 +59,17 @@ public static string? SourceBranchName { get; }
 ## Fields
 ### DOCFX_KEEP_DEBUG_INFO
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#130"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L131"
 public const string DOCFX_KEEP_DEBUG_INFO = "DOCFX_KEEP_DEBUG_INFO"
 ```
 ### DOCFX_NO_CHECK_CERTIFICATE_REVOCATION_LIST
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#132"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L133"
 public const string DOCFX_NO_CHECK_CERTIFICATE_REVOCATION_LIST = "DOCFX_NO_CHECK_CERTIFICATE_REVOCATION_LIST"
 ```
 ### DOCFX_SOURCE_BRANCH_NAME
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#135"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L136"
 public const string DOCFX_SOURCE_BRANCH_NAME = "DOCFX_SOURCE_BRANCH_NAME"
 ```
    

@@ -280,7 +280,7 @@ public sealed class Generator
 
         var functionsScriptObject = new ScriptObject();
         var functions = new ScriptObject();
-        functions.Import(typeof(Scriban.MakrdownFunctions), null, x => x.Name.ToLower());
+        functions.Import(typeof(Scriban.MarkdownFunctions), null, x => x.Name.ToLower());
         functionsScriptObject.Add("md", functions);
         templateContext.PushGlobal(functionsScriptObject);
 

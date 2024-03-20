@@ -6,11 +6,11 @@ description: TODO
 
 # Class Constants.TableOfContents
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/Constants.cs#L109](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/Constants.cs#L109)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#108" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L109" 
 public static class Constants.TableOfContents
 ```
 
@@ -28,12 +28,12 @@ public static class Constants.TableOfContents
 ## Fields
 ### MarkdownTocFileName
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#110"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L111"
 public const string MarkdownTocFileName = "toc.md"
 ```
 ### YamlTocFileName
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#111"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L112"
 public const string YamlTocFileName = "toc.yml"
 ```
    

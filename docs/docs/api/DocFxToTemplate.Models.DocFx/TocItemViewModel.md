@@ -6,11 +6,11 @@ description: TODO
 
 # Class TocItemViewModel
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L11](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L11)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#10" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L11" 
 public class TocItemViewModel
 ```
 
@@ -27,7 +27,7 @@ public class TocItemViewModel
 ### AggregatedHref
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#48"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L49"
 [YamlIgnore]
 [JsonIgnore]
 public string AggregatedHref { get; set; }
@@ -39,7 +39,7 @@ public string AggregatedHref { get; set; }
 ### AggregatedUid
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#74"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L75"
 [YamlIgnore]
 [JsonIgnore]
 public string AggregatedUid { get; set; }
@@ -51,7 +51,7 @@ public string AggregatedUid { get; set; }
 ### DisplayName
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#20"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L21"
 [YamlMember(Alias = "displayName")]
 [JsonPropertyName("displayName")]
 public string DisplayName { get; set; }
@@ -63,7 +63,7 @@ public string DisplayName { get; set; }
 ### Homepage
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#54"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L55"
 [YamlMember(Alias = "homepage")]
 [JsonPropertyName("homepage")]
 public string Homepage { get; set; }
@@ -75,7 +75,7 @@ public string Homepage { get; set; }
 ### HomepageUid
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#62"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L63"
 [YamlMember(Alias = "homepageUid")]
 [JsonPropertyName("homepageUid")]
 public string HomepageUid { get; set; }
@@ -87,7 +87,7 @@ public string HomepageUid { get; set; }
 ### Href
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#24"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L25"
 [YamlMember(Alias = "href")]
 [JsonPropertyName("href")]
 public string Href { get; set; }
@@ -99,7 +99,7 @@ public string Href { get; set; }
 ### IncludedFrom
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#50"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L51"
 [YamlMember(Alias = "includedFrom")]
 [JsonPropertyName("includedFrom")]
 public string IncludedFrom { get; set; }
@@ -111,7 +111,7 @@ public string IncludedFrom { get; set; }
 ### IsHrefUpdated
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#80"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L81"
 [YamlIgnore]
 [JsonIgnore]
 public bool IsHrefUpdated { get; set; }
@@ -123,7 +123,7 @@ public bool IsHrefUpdated { get; set; }
 ### Items
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#76"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L77"
 [YamlMember(Alias = "items")]
 [JsonPropertyName("items")]
 public List<TocItemViewModel> Items { get; set; }
@@ -135,7 +135,7 @@ public List<TocItemViewModel> Items { get; set; }
 ### Metadata
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#82"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L83"
 [ExtensibleMember]
 [JsonIgnore]
 public Dictionary<string, object> Metadata { get; set; }
@@ -147,7 +147,7 @@ public Dictionary<string, object> Metadata { get; set; }
 ### Name
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#16"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L17"
 [YamlMember(Alias = "name")]
 [JsonPropertyName("name")]
 public string Name { get; set; }
@@ -159,7 +159,7 @@ public string Name { get; set; }
 ### Order
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#70"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L71"
 [YamlMember(Alias = "order")]
 [JsonPropertyName("order")]
 public int? Order { get; set; }
@@ -171,7 +171,7 @@ public int? Order { get; set; }
 ### OriginalHomepage
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#58"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L59"
 [YamlMember(Alias = "originalHomepage")]
 [JsonPropertyName("originalHomepage")]
 public string OriginalHomepage { get; set; }
@@ -183,7 +183,7 @@ public string OriginalHomepage { get; set; }
 ### OriginalHref
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#28"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L29"
 [YamlMember(Alias = "originalHref")]
 [JsonPropertyName("originalHref")]
 public string OriginalHref { get; set; }
@@ -195,7 +195,7 @@ public string OriginalHref { get; set; }
 ### OriginalTocHref
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#36"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L37"
 [YamlMember(Alias = "originalTocHref")]
 [JsonPropertyName("originalTocHref")]
 public string OriginalTocHref { get; set; }
@@ -207,7 +207,7 @@ public string OriginalTocHref { get; set; }
 ### OriginalTopicHref
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#44"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L45"
 [YamlMember(Alias = "originalTopicHref")]
 [JsonPropertyName("originalTopicHref")]
 public string OriginalTopicHref { get; set; }
@@ -219,7 +219,7 @@ public string OriginalTopicHref { get; set; }
 ### TocHref
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#32"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L33"
 [YamlMember(Alias = "tocHref")]
 [JsonPropertyName("tocHref")]
 public string TocHref { get; set; }
@@ -231,7 +231,7 @@ public string TocHref { get; set; }
 ### TopicHref
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#40"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L41"
 [YamlMember(Alias = "topicHref")]
 [JsonPropertyName("topicHref")]
 public string TopicHref { get; set; }
@@ -243,7 +243,7 @@ public string TopicHref { get; set; }
 ### TopicUid
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#66"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L67"
 [YamlMember(Alias = "topicUid")]
 [JsonPropertyName("topicUid")]
 public string TopicUid { get; set; }
@@ -255,7 +255,7 @@ public string TopicUid { get; set; }
 ### Uid
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#12"
+```csharp title="src/DocFxToTemplate/Models/DocFx/TocItemViewModel.cs#L13"
 [YamlMember(Alias = "uid")]
 [JsonPropertyName("uid")]
 public string Uid { get; set; }

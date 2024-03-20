@@ -70,7 +70,7 @@ items:
 
       [JsonPropertyName("remote")]
 
-      public GitDetail Remote { get; set; }
+      public GitDetail? Remote { get; set; }
     parameters: []
     return:
       type: DocFxToTemplate.Models.DocFx.GitDetail

@@ -6,11 +6,11 @@ description: TODO
 
 # Class Constants.DevLang
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/Constants.cs#L103](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/Constants.cs#L103)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#102" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L103" 
 public static class Constants.DevLang
 ```
 
@@ -28,12 +28,12 @@ public static class Constants.DevLang
 ## Fields
 ### CSharp
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#104"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L105"
 public const string CSharp = "csharp"
 ```
 ### VB
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#105"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L106"
 public const string VB = "vb"
 ```
    

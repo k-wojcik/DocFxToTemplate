@@ -6,11 +6,11 @@ description: TODO
 
 # Class MergeOptionAttribute
 Namespace: DocFxToTemplate.Models.DocFx.Attributes   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs#L3](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs#L3)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs#2" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs#L3" 
 public class MergeOptionAttribute : Attribute
 ```
 

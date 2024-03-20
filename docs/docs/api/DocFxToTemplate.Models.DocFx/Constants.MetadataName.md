@@ -6,11 +6,11 @@ description: TODO
 
 # Class Constants.MetadataName
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/Constants.cs#L74](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/Constants.cs#L74)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#73" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L74" 
 public static class Constants.MetadataName
 ```
 
@@ -28,7 +28,7 @@ public static class Constants.MetadataName
 ## Fields
 ### Version
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#75"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L76"
 public const string Version = "version"
 ```
    

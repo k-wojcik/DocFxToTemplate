@@ -6,15 +6,17 @@ description: TODO
 
 # {{ model.type }} {{ model.name | md.escape }}
 Namespace: {{ model.namespace_name }}   
-Assembly: {{ model.assembly_name_list[0] }}.dll
+Assembly: {{ model.assembly_name_list[0] }}.dll  
+{{~ source_repo_link = model.source | md.source_repo_link ~}}
+{{~ if source_repo_link ~}} Source: {{ source_repo_link }} {{~ end ~}}
     
 {{~ model.summary | md.summary }}   
 
 {{~ if model.syntax?.content -}}
-    ```csharp title="{{ model.source?.path }}#{{ model.source?.start_line }}" 
+    ```csharp title="{{ model.source?.path }}#L{{ model.source?.start_line + 1 }}" 
     {{~ model.syntax?.content }}
     {{~ }}```
-{{~ end ~}}   
+{{~ end ~}}
 
 {{~ if model.inheritance_refs?.size > 0 -}}
 **Inheritance:**   
@@ -71,7 +73,7 @@ Assembly: {{ model.assembly_name_list[0] }}.dll
         {{~ item.summary | md.summary }}   
             
         {{~ if item.syntax?.content -}}
-            ```csharp title="{{ item.source?.path }}#{{ item.source?.start_line }}"
+            ```csharp title="{{ item.source?.path }}#L{{ item.source?.start_line + 1 }}"
             {{~ item.syntax?.content }}
             {{~ }}```
         {{- end }}   
@@ -90,7 +92,7 @@ Assembly: {{ model.assembly_name_list[0] }}.dll
         ### {{ item.name }}
         {{~ item.summary | md.summary }}   
         {{~ if item.syntax?.content -}}
-            ```csharp title="{{ item.source?.path }}#{{ item.source?.start_line }}"
+            ```csharp title="{{ item.source?.path }}#L{{ item.source?.start_line + 1 }}"
             {{~ item.syntax?.content }}
             {{~ }}```
         {{~ end ~}}

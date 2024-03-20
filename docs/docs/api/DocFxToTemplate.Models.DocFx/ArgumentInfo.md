@@ -6,11 +6,11 @@ description: TODO
 
 # Class ArgumentInfo
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs#L10](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs#L10)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs#9" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs#L10" 
 public class ArgumentInfo
 ```
 
@@ -27,7 +27,7 @@ public class ArgumentInfo
 ### Type
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs#11"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs#L12"
 [YamlMember(Alias = "type")]
 [JsonPropertyName("type")]
 public string Type { get; set; }
@@ -39,7 +39,7 @@ public string Type { get; set; }
 ### Value
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs#16"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs#L17"
 [YamlMember(Alias = "value")]
 [JsonPropertyName("value")]
 public object Value { get; set; }

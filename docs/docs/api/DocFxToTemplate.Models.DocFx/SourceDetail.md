@@ -6,11 +6,11 @@ description: TODO
 
 # Class SourceDetail
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#L9](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#L9)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#8" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#L9" 
 public class SourceDetail
 ```
 
@@ -27,7 +27,7 @@ public class SourceDetail
 ### EndLine
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#36"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#L37"
 [YamlMember(Alias = "endLine")]
 [JsonPropertyName("endLine")]
 public int EndLine { get; set; }
@@ -39,7 +39,7 @@ public int EndLine { get; set; }
 ### Href
 The url path for current source, should be resolved at some late stage   
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#21"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#L22"
 [YamlMember(Alias = "href")]
 [JsonPropertyName("href")]
 public string Href { get; set; }
@@ -51,7 +51,7 @@ public string Href { get; set; }
 ### Name
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#14"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#L15"
 [YamlMember(Alias = "id")]
 [JsonPropertyName("id")]
 public string Name { get; set; }
@@ -63,7 +63,7 @@ public string Name { get; set; }
 ### Path
 The local path for current source, should be resolved to be relative path at some late stage   
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#28"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#L29"
 [YamlMember(Alias = "path")]
 [JsonPropertyName("path")]
 public string Path { get; set; }
@@ -75,10 +75,10 @@ public string Path { get; set; }
 ### Remote
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#10"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#L11"
 [YamlMember(Alias = "remote")]
 [JsonPropertyName("remote")]
-public GitDetail Remote { get; set; }
+public GitDetail? Remote { get; set; }
 ```   
 
 #### Property Value
@@ -87,7 +87,7 @@ public GitDetail Remote { get; set; }
 ### StartLine
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#32"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SourceDetail.cs#L33"
 [YamlMember(Alias = "startLine")]
 [JsonPropertyName("startLine")]
 public int StartLine { get; set; }

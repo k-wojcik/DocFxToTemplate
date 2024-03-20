@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Docfx.Common.Git;
 using Docfx.Dotnet;
 using DocFxToTemplate;
 using McMaster.Extensions.CommandLineUtils;

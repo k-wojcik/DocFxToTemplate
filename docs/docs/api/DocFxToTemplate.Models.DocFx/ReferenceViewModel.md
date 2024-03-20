@@ -6,11 +6,11 @@ description: TODO
 
 # Class ReferenceViewModel
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L10](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L10)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#9" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L10" 
 public class ReferenceViewModel
 ```
 
@@ -27,7 +27,7 @@ public class ReferenceViewModel
 ### Additional
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#71"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L72"
 [ExtensibleMember]
 [JsonIgnore]
 public Dictionary<string, object> Additional { get; }
@@ -39,7 +39,7 @@ public Dictionary<string, object> Additional { get; }
 ### CommentId
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#15"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L16"
 [YamlMember(Alias = "commentId")]
 [JsonPropertyName("commentId")]
 public string CommentId { get; set; }
@@ -51,7 +51,7 @@ public string CommentId { get; set; }
 ### Definition
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#23"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L24"
 [YamlMember(Alias = "definition")]
 [JsonPropertyName("definition")]
 public string Definition { get; set; }
@@ -63,7 +63,7 @@ public string Definition { get; set; }
 ### FullName
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#52"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L53"
 [YamlMember(Alias = "fullName")]
 [JsonPropertyName("fullName")]
 public string FullName { get; set; }
@@ -75,7 +75,7 @@ public string FullName { get; set; }
 ### FullNameInDevLangs
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#56"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L57"
 [ExtensibleMember("fullName.")]
 [JsonIgnore]
 public SortedList<string, string> FullNameInDevLangs { get; }
@@ -87,7 +87,7 @@ public SortedList<string, string> FullNameInDevLangs { get; }
 ### Href
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#32"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L33"
 [YamlMember(Alias = "href")]
 [JsonPropertyName("href")]
 public string Href { get; set; }
@@ -99,7 +99,7 @@ public string Href { get; set; }
 ### IsExternal
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#28"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L29"
 [YamlMember(Alias = "isExternal")]
 [JsonPropertyName("isExternal")]
 public bool? IsExternal { get; set; }
@@ -111,7 +111,7 @@ public bool? IsExternal { get; set; }
 ### Item
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#67"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L68"
 [YamlIgnore]
 [JsonIgnore]
 public ItemViewModel? Item { get; set; }
@@ -123,7 +123,7 @@ public ItemViewModel? Item { get; set; }
 ### Name
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#36"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L37"
 [YamlMember(Alias = "name")]
 [JsonPropertyName("name")]
 public string Name { get; set; }
@@ -135,7 +135,7 @@ public string Name { get; set; }
 ### NameInDevLangs
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#40"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L41"
 [ExtensibleMember("name.")]
 [JsonIgnore]
 public SortedList<string, string> NameInDevLangs { get; }
@@ -147,7 +147,7 @@ public SortedList<string, string> NameInDevLangs { get; }
 ### NameWithType
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#44"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L45"
 [YamlMember(Alias = "nameWithType")]
 [JsonPropertyName("nameWithType")]
 public string NameWithType { get; set; }
@@ -159,7 +159,7 @@ public string NameWithType { get; set; }
 ### NameWithTypeInDevLangs
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#48"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L49"
 [ExtensibleMember("nameWithType.")]
 [JsonIgnore]
 public SortedList<string, string> NameWithTypeInDevLangs { get; }
@@ -171,7 +171,7 @@ public SortedList<string, string> NameWithTypeInDevLangs { get; }
 ### Parent
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#19"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L20"
 [YamlMember(Alias = "parent")]
 [JsonPropertyName("parent")]
 public string Parent { get; set; }
@@ -183,7 +183,7 @@ public string Parent { get; set; }
 ### SpecCsharp
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#64"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L65"
 [YamlMember(Alias = "spec.csharp")]
 public List<SpecViewModel> SpecCsharp { get; }
 ```   
@@ -194,7 +194,7 @@ public List<SpecViewModel> SpecCsharp { get; }
 ### Uid
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#11"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs#L12"
 [YamlMember(Alias = "uid")]
 [JsonPropertyName("uid")]
 public string Uid { get; set; }

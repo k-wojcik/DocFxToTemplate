@@ -6,11 +6,11 @@ description: TODO
 
 # Class PageViewModel
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/PageViewModel.cs#L9](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/PageViewModel.cs#L9)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/PageViewModel.cs#8" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/PageViewModel.cs#L9" 
 public class PageViewModel
 ```
 
@@ -27,7 +27,7 @@ public class PageViewModel
 ### Items
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/PageViewModel.cs#10"
+```csharp title="src/DocFxToTemplate/Models/DocFx/PageViewModel.cs#L11"
 [YamlMember(Alias = "items")]
 [JsonPropertyName("items")]
 public List<ItemViewModel> Items { get; set; }
@@ -39,7 +39,7 @@ public List<ItemViewModel> Items { get; set; }
 ### Metadata
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/PageViewModel.cs#23"
+```csharp title="src/DocFxToTemplate/Models/DocFx/PageViewModel.cs#L24"
 [JsonExtensionData]
 public Dictionary<string, object> Metadata { get; set; }
 ```   
@@ -50,7 +50,7 @@ public Dictionary<string, object> Metadata { get; set; }
 ### References
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/PageViewModel.cs#14"
+```csharp title="src/DocFxToTemplate/Models/DocFx/PageViewModel.cs#L15"
 [YamlMember(Alias = "references")]
 [JsonPropertyName("references")]
 public List<ReferenceViewModel> References { get; set; }
@@ -62,7 +62,7 @@ public List<ReferenceViewModel> References { get; set; }
 ### ShouldSkipMarkup
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/PageViewModel.cs#18"
+```csharp title="src/DocFxToTemplate/Models/DocFx/PageViewModel.cs#L19"
 [YamlMember(Alias = "shouldSkipMarkup")]
 [JsonPropertyName("shouldSkipMarkup")]
 public bool ShouldSkipMarkup { get; set; }

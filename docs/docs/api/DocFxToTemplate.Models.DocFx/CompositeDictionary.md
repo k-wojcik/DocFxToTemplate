@@ -6,11 +6,11 @@ description: TODO
 
 # Class CompositeDictionary
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L9](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L9)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#8" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L9" 
 public class CompositeDictionary : IDictionary<string, object>, ICollection<KeyValuePair<string, object>>, IEnumerable<KeyValuePair<string, object>>, IEnumerable
 ```
 
@@ -28,7 +28,7 @@ System.Collections.Generic.ICollection\<System.Collections.Generic.KeyValuePair\
 ### Count
 Gets the number of elements contained in the System.Collections.Generic.ICollection%601.   
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#54"
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L55"
 public int Count { get; }
 ```   
 
@@ -38,7 +38,7 @@ The number of elements contained in the <xref href="System.Collections.Generic.I
 ### IsReadOnly
 Gets a value indicating whether the System.Collections.Generic.ICollection%601 is read-only.   
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#56"
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L57"
 public bool IsReadOnly { get; }
 ```   
 
@@ -48,7 +48,7 @@ public bool IsReadOnly { get; }
 ### Keys
 Gets an System.Collections.Generic.ICollection%601 containing the keys of the System.Collections.Generic.IDictionary%602.   
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#58"
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L59"
 public ICollection<string> Keys { get; }
 ```   
 
@@ -58,7 +58,7 @@ An <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-res
 ### this[string]
 Gets or sets the element with the specified key.   
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#23"
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L24"
 public object this[string key] { get; set; }
 ```   
 
@@ -68,7 +68,7 @@ The element with the specified key.
 ### Values
 Gets an System.Collections.Generic.ICollection%601 containing the values in the System.Collections.Generic.IDictionary%602.   
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#60"
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L61"
 public ICollection<object> Values { get; }
 ```   
 

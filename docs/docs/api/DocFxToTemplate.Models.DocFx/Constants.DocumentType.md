@@ -6,11 +6,11 @@ description: TODO
 
 # Class Constants.DocumentType
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/Constants.cs#L16](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/Constants.cs#L16)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#15" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L16" 
 public static class Constants.DocumentType
 ```
 
@@ -28,27 +28,27 @@ public static class Constants.DocumentType
 ## Fields
 ### Conceptual
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#17"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L18"
 public const string Conceptual = "Conceptual"
 ```
 ### ManagedReference
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#19"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L20"
 public const string ManagedReference = "ManagedReference"
 ```
 ### Redirection
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#21"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L22"
 public const string Redirection = "Redirection"
 ```
 ### Resource
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#20"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L21"
 public const string Resource = "Resource"
 ```
 ### Toc
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#18"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L19"
 public const string Toc = "Toc"
 ```
    

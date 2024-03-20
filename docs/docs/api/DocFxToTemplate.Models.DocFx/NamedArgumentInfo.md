@@ -6,11 +6,11 @@ description: TODO
 
 # Class NamedArgumentInfo
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs#L10](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs#L10)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs#9" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs#L10" 
 public class NamedArgumentInfo
 ```
 
@@ -27,7 +27,7 @@ public class NamedArgumentInfo
 ### Name
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs#11"
+```csharp title="src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs#L12"
 [YamlMember(Alias = "name")]
 [JsonPropertyName("name")]
 public string Name { get; set; }
@@ -39,7 +39,7 @@ public string Name { get; set; }
 ### Type
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs#15"
+```csharp title="src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs#L16"
 [YamlMember(Alias = "type")]
 [JsonPropertyName("type")]
 public string Type { get; set; }
@@ -51,7 +51,7 @@ public string Type { get; set; }
 ### Value
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs#20"
+```csharp title="src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs#L21"
 [YamlMember(Alias = "value")]
 [JsonPropertyName("value")]
 public object Value { get; set; }

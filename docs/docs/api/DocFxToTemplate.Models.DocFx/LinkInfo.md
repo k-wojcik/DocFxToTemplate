@@ -6,11 +6,11 @@ description: TODO
 
 # Class LinkInfo
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#L10](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#L10)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#9" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#L10" 
 public class LinkInfo
 ```
 
@@ -27,7 +27,7 @@ public class LinkInfo
 ### AltText
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#26"
+```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#L27"
 [YamlMember(Alias = "altText")]
 [JsonPropertyName("altText")]
 public string AltText { get; set; }
@@ -39,7 +39,7 @@ public string AltText { get; set; }
 ### CommentId
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#21"
+```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#L22"
 [YamlMember(Alias = "commentId")]
 [JsonPropertyName("commentId")]
 [MergeOption(MergeOption.Ignore)]
@@ -52,7 +52,7 @@ public string CommentId { get; set; }
 ### LinkId
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#16"
+```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#L17"
 [YamlMember(Alias = "linkId")]
 [MergeOption(MergeOption.MergeKey)]
 [JsonPropertyName("linkId")]
@@ -65,7 +65,7 @@ public string LinkId { get; set; }
 ### LinkType
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#11"
+```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#L12"
 [YamlMember(Alias = "linkType")]
 [JsonPropertyName("linkType")]
 [MergeOption(MergeOption.Ignore)]

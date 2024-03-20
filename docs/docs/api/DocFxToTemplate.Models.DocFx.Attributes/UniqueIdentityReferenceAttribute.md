@@ -6,11 +6,11 @@ description: TODO
 
 # Class UniqueIdentityReferenceAttribute
 Namespace: DocFxToTemplate.Models.DocFx.Attributes   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/Attributes/UniqueIdentityReferenceAttribute.cs#L3](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/Attributes/UniqueIdentityReferenceAttribute.cs#L3)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/Attributes/UniqueIdentityReferenceAttribute.cs#2" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Attributes/UniqueIdentityReferenceAttribute.cs#L3" 
 public class UniqueIdentityReferenceAttribute : Attribute
 ```
 

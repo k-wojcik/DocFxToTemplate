@@ -6,11 +6,11 @@ description: TODO
 
 # Class ApiParameter
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#L11](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#L11)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#10" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#L11" 
 public class ApiParameter
 ```
 
@@ -27,7 +27,7 @@ public class ApiParameter
 ### Attributes
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#27"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#L28"
 [YamlMember(Alias = "attributes")]
 [JsonPropertyName("attributes")]
 [MergeOption(MergeOption.Ignore)]
@@ -40,7 +40,7 @@ public List<AttributeInfo> Attributes { get; set; }
 ### Description
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#22"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#L23"
 [YamlMember(Alias = "description")]
 [JsonPropertyName("description")]
 public string Description { get; set; }
@@ -52,7 +52,7 @@ public string Description { get; set; }
 ### Name
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#12"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#L13"
 [YamlMember(Alias = "id")]
 [JsonPropertyName("id")]
 [MergeOption(MergeOption.MergeKey)]
@@ -65,7 +65,7 @@ public string Name { get; set; }
 ### Reference
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#32"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#L33"
 [JsonIgnore]
 [YamlIgnore]
 [IgnoreDataMember]
@@ -78,7 +78,7 @@ public ReferenceViewModel? Reference { get; set; }
 ### Type
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#17"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ApiParameter.cs#L18"
 [YamlMember(Alias = "type")]
 [JsonPropertyName("type")]
 public string Type { get; set; }

@@ -6,11 +6,11 @@ description: TODO
 
 # Class Constants.Switches
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/Constants.cs#L149](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/Constants.cs#L149)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#148" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L149" 
 public static class Constants.Switches
 ```
 
@@ -27,7 +27,7 @@ public static class Constants.Switches
 ### IsDotnetToolsMode
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#152"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L153"
 public static bool IsDotnetToolsMode { get; }
 ```   
 
@@ -39,7 +39,7 @@ public static bool IsDotnetToolsMode { get; }
 ## Fields
 ### DotnetToolMode
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#150"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L151"
 public const string DotnetToolMode = "Docfx.DotnetToolMode"
 ```
    

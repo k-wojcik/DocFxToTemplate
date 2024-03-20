@@ -6,11 +6,11 @@ description: TODO
 
 # Class Generator
 Namespace: DocFxToTemplate   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Generator.cs#L16](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Generator.cs#L16)    
    
 
-```csharp title="src/DocFxToTemplate/Generator.cs#15" 
+```csharp title="src/DocFxToTemplate/Generator.cs#L16" 
 public sealed class Generator
 ```
 

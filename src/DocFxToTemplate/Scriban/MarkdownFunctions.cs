@@ -1,11 +1,13 @@
-﻿using DocFxToTemplate.Blocks;
+﻿using Docfx.Common.Git;
+using DocFxToTemplate.Blocks;
 using DocFxToTemplate.Extensions;
 using DocFxToTemplate.Models.DocFx;
 using Scriban;
 
 namespace DocFxToTemplate.Scriban;
 
-internal static class MakrdownFunctions
+// ReSharper disable MemberCanBePrivate.Global
+internal static class MarkdownFunctions
 {
     public static string? Escape(string? input) => input.HtmlEscape();
 
@@ -47,11 +49,32 @@ internal static class MakrdownFunctions
         var link = input.GetLink(generatorContext.Items);
         return $"[{StringExtensions.HtmlEscape(input.NameWithType)}]({link?.AbsoluteAddress})";
     }
+
+    public static string? Source_Repo_RawLink(this SourceDetail? source)
+    {
+        if (source?.Remote is null)
+        {
+            return null;
+        }
+
+        var gitSource = new GitSource(
+            source.Remote.Repo, 
+            source.Remote.Branch, 
+            source.Remote.Path,
+            source.StartLine + 1);
+        return GitUtility.GetSourceUrl(gitSource);
+    }
     
-    public static string? Item_Source_Link(this ItemViewModel item)
-        => item.Source?.Remote != null
-            ? $"[{item.Source.Path}]({item.Source.Remote.Repo}/blob/{item.Source.Remote.Branch}/{item.Source.Remote.Path}#L{item.Source.StartLine + 1})"
-            : null;
+    public static string? Source_Repo_Link(this SourceDetail? source)
+    {
+        if (source?.Remote is null)
+        {
+            return null;
+        }
+
+        var rawLink = Source_Repo_RawLink(source);
+        return $"[{source.Remote.Path}#L{source.StartLine + 1}]({rawLink})";
+    }
     
     public static string? Summary(TemplateContext context, string? summary) =>
         SummaryFunction.Summary(context, summary);

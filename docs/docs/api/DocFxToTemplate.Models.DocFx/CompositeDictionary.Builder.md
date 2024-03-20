@@ -6,11 +6,11 @@ description: TODO
 
 # Class CompositeDictionary.Builder
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L172](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L172)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#171" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#L172" 
 public sealed class CompositeDictionary.Builder
 ```
 

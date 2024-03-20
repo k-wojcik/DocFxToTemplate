@@ -6,11 +6,11 @@ description: TODO
 
 # Class ItemViewModel
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/ItemViewModel.cs#L9](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/ItemViewModel.cs#L9)    
    
 
-```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#8" 
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#L9" 
 public class ItemViewModel
 ```
 
@@ -27,7 +27,7 @@ public class ItemViewModel
 ### AdditionalNotes
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#210"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L211"
 [YamlMember(Alias = "additionalNotes")]
 [JsonPropertyName("additionalNotes")]
 public AdditionalNotes AdditionalNotes { get; set; }
@@ -39,7 +39,7 @@ public AdditionalNotes AdditionalNotes { get; set; }
 ### AssemblyNameList
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#195"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L196"
 [YamlMember(Alias = "assemblies")]
 [MergeOption(MergeOption.Ignore)]
 [JsonPropertyName("assemblies")]
@@ -52,7 +52,7 @@ public List<string>? AssemblyNameList { get; set; }
 ### Attributes
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#293"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L294"
 [YamlMember(Alias = "attributes")]
 [JsonPropertyName("attributes")]
 [MergeOption(MergeOption.Ignore)]
@@ -65,7 +65,7 @@ public List<AttributeInfo>? Attributes { get; set; }
 ### Children
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#37"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L38"
 [YamlMember(Alias = "children")]
 [MergeOption(MergeOption.Ignore)]
 [JsonPropertyName("children")]
@@ -78,7 +78,7 @@ public List<string>? Children { get; set; }
 ### CommentId
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#16"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L17"
 [YamlMember(Alias = "commentId")]
 [JsonPropertyName("commentId")]
 public string? CommentId { get; set; }
@@ -90,7 +90,7 @@ public string? CommentId { get; set; }
 ### Conceptual
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#283"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L284"
 [YamlMember(Alias = "conceptual")]
 [JsonPropertyName("conceptual")]
 public string Conceptual { get; set; }
@@ -102,7 +102,7 @@ public string Conceptual { get; set; }
 ### DerivedClasses
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#259"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L260"
 [YamlMember(Alias = "derivedClasses")]
 [MergeOption(MergeOption.Ignore)]
 [JsonPropertyName("derivedClasses")]
@@ -115,7 +115,7 @@ public List<string>? DerivedClasses { get; set; }
 ### DerivedClassesRefs
    
             
-```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#36"
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#L37"
 [JsonIgnore]
 [YamlIgnore]
 [IgnoreDataMember]
@@ -128,7 +128,7 @@ public List<ReferenceViewModel> DerivedClassesRefs { get; set; }
 ### Documentation
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#191"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L192"
 [YamlMember(Alias = "documentation")]
 [JsonPropertyName("documentation")]
 public SourceDetail Documentation { get; set; }
@@ -140,7 +140,7 @@ public SourceDetail Documentation { get; set; }
 ### Events
    
             
-```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#26"
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#L27"
 [JsonIgnore]
 [YamlIgnore]
 [IgnoreDataMember]
@@ -153,7 +153,7 @@ public ItemViewModel[] Events { get; set; }
 ### Examples
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#219"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L220"
 [YamlMember(Alias = "example")]
 [JsonPropertyName("example")]
 [MergeOption(MergeOption.Replace)]
@@ -166,7 +166,7 @@ public List<string>? Examples { get; set; }
 ### Exceptions
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#239"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L240"
 [YamlMember(Alias = "exceptions")]
 [JsonPropertyName("exceptions")]
 public List<ExceptionInfo>? Exceptions { get; set; }
@@ -178,7 +178,7 @@ public List<ExceptionInfo>? Exceptions { get; set; }
 ### ExtensionMethods
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#277"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L278"
 [YamlMember(Alias = "extensionMethods")]
 [MergeOption(MergeOption.Ignore)]
 [JsonPropertyName("extensionMethods")]
@@ -191,7 +191,7 @@ public List<string>? ExtensionMethods { get; set; }
 ### ExtensionMethodsRefs
    
             
-```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#51"
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#L52"
 [JsonIgnore]
 [YamlIgnore]
 [IgnoreDataMember]
@@ -204,7 +204,7 @@ public List<ReferenceViewModel> ExtensionMethodsRefs { get; set; }
 ### Fields
    
             
-```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#16"
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#L17"
 [JsonIgnore]
 [YamlIgnore]
 [IgnoreDataMember]
@@ -217,7 +217,7 @@ public ItemViewModel[] Fields { get; set; }
 ### FullName
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#139"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L140"
 [YamlMember(Alias = "fullName")]
 [JsonPropertyName("fullName")]
 public string FullName { get; set; }
@@ -229,7 +229,7 @@ public string FullName { get; set; }
 ### FullNameForCSharp
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#147"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L148"
 [YamlIgnore]
 [JsonIgnore]
 public string FullNameForCSharp { get; set; }
@@ -241,7 +241,7 @@ public string FullNameForCSharp { get; set; }
 ### FullNameForVB
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#165"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L166"
 [YamlIgnore]
 [JsonIgnore]
 public string FullNameForVB { get; set; }
@@ -253,7 +253,7 @@ public string FullNameForVB { get; set; }
 ### FullNames
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#143"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L144"
 [ExtensibleMember("fullName.")]
 [JsonIgnore]
 public SortedList<string, string> FullNames { get; set; }
@@ -265,7 +265,7 @@ public SortedList<string, string> FullNames { get; set; }
 ### Href
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#43"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L44"
 [YamlMember(Alias = "href")]
 [JsonPropertyName("href")]
 public string Href { get; set; }
@@ -277,7 +277,7 @@ public string Href { get; set; }
 ### Id
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#20"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L21"
 [YamlMember(Alias = "id")]
 [JsonPropertyName("id")]
 public string? Id { get; set; }
@@ -289,7 +289,7 @@ public string? Id { get; set; }
 ### Implements
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#265"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L266"
 [YamlMember(Alias = "implements")]
 [MergeOption(MergeOption.Ignore)]
 [JsonPropertyName("implements")]
@@ -302,7 +302,7 @@ public List<string>? Implements { get; set; }
 ### ImplementsRefs
    
             
-```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#41"
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#L42"
 [JsonIgnore]
 [YamlIgnore]
 [IgnoreDataMember]
@@ -315,7 +315,7 @@ public List<ReferenceViewModel> ImplementsRefs { get; set; }
 ### Inheritance
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#253"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L254"
 [YamlMember(Alias = "inheritance")]
 [MergeOption(MergeOption.Ignore)]
 [JsonPropertyName("inheritance")]
@@ -328,7 +328,7 @@ public List<string>? Inheritance { get; set; }
 ### InheritanceRefs
    
             
-```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#31"
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#L32"
 [JsonIgnore]
 [YamlIgnore]
 [IgnoreDataMember]
@@ -341,7 +341,7 @@ public List<ReferenceViewModel> InheritanceRefs { get; set; }
 ### InheritedMembers
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#271"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L272"
 [YamlMember(Alias = "inheritedMembers")]
 [MergeOption(MergeOption.Ignore)]
 [JsonPropertyName("inheritedMembers")]
@@ -354,7 +354,7 @@ public List<string>? InheritedMembers { get; set; }
 ### InheritedMembersRefs
    
             
-```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#46"
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#L47"
 [JsonIgnore]
 [YamlIgnore]
 [IgnoreDataMember]
@@ -367,7 +367,7 @@ public List<ReferenceViewModel> InheritedMembersRefs { get; set; }
 ### IsExplicitInterfaceImplementation
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#24"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L25"
 [YamlMember(Alias = "isEii")]
 [JsonPropertyName("isEii")]
 public bool IsExplicitInterfaceImplementation { get; set; }
@@ -379,7 +379,7 @@ public bool IsExplicitInterfaceImplementation { get; set; }
 ### IsExtensionMethod
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#28"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L29"
 [YamlMember(Alias = "isExtensionMethod")]
 [JsonPropertyName("isExtensionMethod")]
 public bool IsExtensionMethod { get; set; }
@@ -391,7 +391,7 @@ public bool IsExtensionMethod { get; set; }
 ### Link
    
             
-```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#57"
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#L58"
 [JsonIgnore]
 [YamlIgnore]
 [IgnoreDataMember]
@@ -404,7 +404,7 @@ public MarkdownLink? Link { get; set; }
 ### Metadata
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#298"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L299"
 [ExtensibleMember]
 [JsonIgnore]
 public Dictionary<string, object> Metadata { get; set; }
@@ -416,7 +416,7 @@ public Dictionary<string, object> Metadata { get; set; }
 ### Methods
    
             
-```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#21"
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#L22"
 [JsonIgnore]
 [YamlIgnore]
 [IgnoreDataMember]
@@ -429,7 +429,7 @@ public ItemViewModel[] Methods { get; set; }
 ### Name
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#51"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L52"
 [YamlMember(Alias = "name")]
 [JsonPropertyName("name")]
 public string Name { get; set; }
@@ -441,7 +441,7 @@ public string Name { get; set; }
 ### NameForCSharp
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#59"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L60"
 [YamlIgnore]
 [JsonIgnore]
 public string NameForCSharp { get; set; }
@@ -453,7 +453,7 @@ public string NameForCSharp { get; set; }
 ### NameForVB
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#77"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L78"
 [YamlIgnore]
 [JsonIgnore]
 public string NameForVB { get; set; }
@@ -465,7 +465,7 @@ public string NameForVB { get; set; }
 ### Names
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#55"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L56"
 [ExtensibleMember("name.")]
 [JsonIgnore]
 public SortedList<string, string> Names { get; set; }
@@ -477,7 +477,7 @@ public SortedList<string, string> Names { get; set; }
 ### NamespaceName
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#200"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L201"
 [YamlMember(Alias = "namespace")]
 [JsonPropertyName("namespace")]
 public string NamespaceName { get; set; }
@@ -489,7 +489,7 @@ public string NamespaceName { get; set; }
 ### NamesWithType
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#99"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L100"
 [ExtensibleMember("nameWithType.")]
 [JsonIgnore]
 public SortedList<string, string> NamesWithType { get; set; }
@@ -501,7 +501,7 @@ public SortedList<string, string> NamesWithType { get; set; }
 ### NameWithType
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#95"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L96"
 [YamlMember(Alias = "nameWithType")]
 [JsonPropertyName("nameWithType")]
 public string NameWithType { get; set; }
@@ -513,7 +513,7 @@ public string NameWithType { get; set; }
 ### NameWithTypeForCSharp
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#103"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L104"
 [YamlIgnore]
 [JsonIgnore]
 public string NameWithTypeForCSharp { get; set; }
@@ -525,7 +525,7 @@ public string NameWithTypeForCSharp { get; set; }
 ### NameWithTypeForVB
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#121"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L122"
 [YamlIgnore]
 [JsonIgnore]
 public string NameWithTypeForVB { get; set; }
@@ -537,7 +537,7 @@ public string NameWithTypeForVB { get; set; }
 ### Overload
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#234"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L235"
 [YamlMember(Alias = "overload")]
 [JsonPropertyName("overload")]
 public string Overload { get; set; }
@@ -549,7 +549,7 @@ public string Overload { get; set; }
 ### Overridden
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#229"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L230"
 [YamlMember(Alias = "overridden")]
 [JsonPropertyName("overridden")]
 public string Overridden { get; set; }
@@ -561,7 +561,7 @@ public string Overridden { get; set; }
 ### Parent
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#32"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L33"
 [YamlMember(Alias = "parent")]
 [JsonPropertyName("parent")]
 public string Parent { get; set; }
@@ -573,7 +573,7 @@ public string Parent { get; set; }
 ### Platform
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#288"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L289"
 [YamlMember(Alias = "platform")]
 [JsonPropertyName("platform")]
 [MergeOption(MergeOption.Replace)]
@@ -586,7 +586,7 @@ public List<string>? Platform { get; set; }
 ### Properties
    
             
-```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#11"
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#L12"
 [JsonIgnore]
 [YamlIgnore]
 [IgnoreDataMember]
@@ -599,7 +599,7 @@ public ItemViewModel[] Properties { get; set; }
 ### Remarks
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#214"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L215"
 [YamlMember(Alias = "remarks")]
 [JsonPropertyName("remarks")]
 public string Remarks { get; set; }
@@ -611,7 +611,7 @@ public string Remarks { get; set; }
 ### SeeAlsos
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#243"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L244"
 [YamlMember(Alias = "seealso")]
 [JsonPropertyName("seealso")]
 public List<LinkInfo>? SeeAlsos { get; set; }
@@ -623,7 +623,7 @@ public List<LinkInfo>? SeeAlsos { get; set; }
 ### SeeAlsosUidReference
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#247"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L248"
 [YamlIgnore]
 [JsonIgnore]
 public List<string> SeeAlsosUidReference { get; }
@@ -635,7 +635,7 @@ public List<string> SeeAlsosUidReference { get; }
 ### Source
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#187"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L188"
 [YamlMember(Alias = "source")]
 [JsonPropertyName("source")]
 public SourceDetail? Source { get; set; }
@@ -647,7 +647,7 @@ public SourceDetail? Source { get; set; }
 ### Summary
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#205"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L206"
 [YamlMember(Alias = "summary")]
 [JsonPropertyName("summary")]
 public string Summary { get; set; }
@@ -659,7 +659,7 @@ public string Summary { get; set; }
 ### SupportedLanguages
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#47"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L48"
 [YamlMember(Alias = "langs")]
 [JsonPropertyName("langs")]
 public string[] SupportedLanguages { get; set; }
@@ -671,7 +671,7 @@ public string[] SupportedLanguages { get; set; }
 ### Syntax
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#225"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L226"
 [YamlMember(Alias = "syntax")]
 [JsonPropertyName("syntax")]
 public SyntaxDetailViewModel? Syntax { get; set; }
@@ -683,7 +683,7 @@ public SyntaxDetailViewModel? Syntax { get; set; }
 ### Type
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#183"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L184"
 [YamlMember(Alias = "type")]
 [JsonPropertyName("type")]
 public MemberType? Type { get; set; }
@@ -695,7 +695,7 @@ public MemberType? Type { get; set; }
 ### Uid
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#11"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs#L12"
 [YamlMember(Alias = "uid")]
 [JsonPropertyName("uid")]
 [MergeOption(MergeOption.MergeKey)]

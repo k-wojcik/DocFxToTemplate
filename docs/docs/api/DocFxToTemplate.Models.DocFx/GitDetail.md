@@ -6,11 +6,11 @@ description: TODO
 
 # Class GitDetail
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/GitDetail.cs#L9](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/GitDetail.cs#L9)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/GitDetail.cs#8" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/GitDetail.cs#L9" 
 public record GitDetail : IEquatable<GitDetail>
 ```
 
@@ -28,7 +28,7 @@ System.IEquatable\<DocFxToTemplate.Models.DocFx.GitDetail\>
 ### Branch
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/GitDetail.cs#17"
+```csharp title="src/DocFxToTemplate/Models/DocFx/GitDetail.cs#L18"
 [YamlMember(Alias = "branch")]
 [JsonPropertyName("branch")]
 public string Branch { get; set; }
@@ -40,7 +40,7 @@ public string Branch { get; set; }
 ### Path
 Relative path of current file to the Git Root Directory   
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/GitDetail.cs#13"
+```csharp title="src/DocFxToTemplate/Models/DocFx/GitDetail.cs#L14"
 [YamlMember(Alias = "path")]
 [JsonPropertyName("path")]
 public string Path { get; set; }
@@ -52,7 +52,7 @@ public string Path { get; set; }
 ### Repo
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/GitDetail.cs#21"
+```csharp title="src/DocFxToTemplate/Models/DocFx/GitDetail.cs#L22"
 [YamlMember(Alias = "repo")]
 [JsonPropertyName("repo")]
 public string Repo { get; set; }

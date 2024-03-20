@@ -6,11 +6,11 @@ description: TODO
 
 # Class TemplateLoader
 Namespace: DocFxToTemplate.Templates   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Templates/TemplateLoader.cs#L7](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Templates/TemplateLoader.cs#L7)    
    
 
-```csharp title="src/DocFxToTemplate/Templates/TemplateLoader.cs#6" 
+```csharp title="src/DocFxToTemplate/Templates/TemplateLoader.cs#L7" 
 public class TemplateLoader : ITemplateLoader
 ```
 

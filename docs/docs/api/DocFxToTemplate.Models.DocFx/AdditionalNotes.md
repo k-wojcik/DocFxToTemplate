@@ -6,11 +6,11 @@ description: TODO
 
 # Class AdditionalNotes
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs#L10](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs#L10)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs#9" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs#L10" 
 public class AdditionalNotes
 ```
 
@@ -27,7 +27,7 @@ public class AdditionalNotes
 ### Caller
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs#11"
+```csharp title="src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs#L12"
 [YamlMember(Alias = "caller")]
 [JsonPropertyName("caller")]
 public string Caller { get; set; }
@@ -39,7 +39,7 @@ public string Caller { get; set; }
 ### Implementer
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs#16"
+```csharp title="src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs#L17"
 [YamlMember(Alias = "implementer")]
 [JsonPropertyName("implementer")]
 public string Implementer { get; set; }
@@ -51,7 +51,7 @@ public string Implementer { get; set; }
 ### Inheritor
    
             
-```csharp title="src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs#21"
+```csharp title="src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs#L22"
 [YamlMember(Alias = "inheritor")]
 [JsonPropertyName("inheritor")]
 public string Inheritor { get; set; }

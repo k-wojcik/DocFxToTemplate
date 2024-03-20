@@ -6,11 +6,11 @@ description: TODO
 
 # Class GeneratorOptions
 Namespace: DocFxToTemplate   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/GeneratorOptions.cs#L3](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/GeneratorOptions.cs#L3)    
    
 
-```csharp title="src/DocFxToTemplate/GeneratorOptions.cs#2" 
+```csharp title="src/DocFxToTemplate/GeneratorOptions.cs#L3" 
 public class GeneratorOptions
 ```
 
@@ -27,7 +27,7 @@ public class GeneratorOptions
 ### IndexSlug
    
             
-```csharp title="src/DocFxToTemplate/GeneratorOptions.cs#7"
+```csharp title="src/DocFxToTemplate/GeneratorOptions.cs#L8"
 public string IndexSlug { get; set; }
 ```   
 
@@ -37,7 +37,7 @@ public string IndexSlug { get; set; }
 ### OutputPath
    
             
-```csharp title="src/DocFxToTemplate/GeneratorOptions.cs#5"
+```csharp title="src/DocFxToTemplate/GeneratorOptions.cs#L6"
 public required string OutputPath { get; set; }
 ```   
 
@@ -47,7 +47,7 @@ public required string OutputPath { get; set; }
 ### YamlPath
    
             
-```csharp title="src/DocFxToTemplate/GeneratorOptions.cs#4"
+```csharp title="src/DocFxToTemplate/GeneratorOptions.cs#L5"
 public required string YamlPath { get; set; }
 ```   
 

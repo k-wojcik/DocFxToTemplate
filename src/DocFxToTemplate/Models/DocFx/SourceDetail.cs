@@ -10,7 +10,7 @@ public class SourceDetail
 {
     [YamlMember(Alias = "remote")]
     [JsonPropertyName("remote")]
-    public GitDetail Remote { get; set; }
+    public GitDetail? Remote { get; set; }
 
     [YamlMember(Alias = "id")]
     [JsonPropertyName("id")]

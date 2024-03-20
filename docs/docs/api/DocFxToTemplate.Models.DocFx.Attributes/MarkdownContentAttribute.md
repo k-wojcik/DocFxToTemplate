@@ -6,11 +6,11 @@ description: TODO
 
 # Class MarkdownContentAttribute
 Namespace: DocFxToTemplate.Models.DocFx.Attributes   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/Attributes/MarkdownContentAttribute.cs#L3](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/Attributes/MarkdownContentAttribute.cs#L3)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/Attributes/MarkdownContentAttribute.cs#2" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Attributes/MarkdownContentAttribute.cs#L3" 
 public class MarkdownContentAttribute : Attribute
 ```
 

@@ -6,11 +6,11 @@ description: TODO
 
 # Class Constants
 Namespace: DocFxToTemplate.Models.DocFx   
-Assembly: DocFxToTemplate.dll
-    
+Assembly: DocFxToTemplate.dll  
+Source: [src/DocFxToTemplate/Models/DocFx/Constants.cs#L8](https://github.com/k-wojcik/DocFxToTemplate/blob/master/src/DocFxToTemplate/Models/DocFx/Constants.cs#L8)    
    
 
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#7" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L8" 
 public static class Constants
 ```
 
@@ -28,27 +28,27 @@ public static class Constants
 ## Fields
 ### ConfigFileName
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#9"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L10"
 public const string ConfigFileName = "docfx.json"
 ```
 ### ContentPlaceholder
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#11"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L12"
 public const string ContentPlaceholder = "*content"
 ```
 ### PrefixSeparator
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#12"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L13"
 public const string PrefixSeparator = "."
 ```
 ### TocYamlFileName
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#13"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L14"
 public const string TocYamlFileName = "toc.yml"
 ```
 ### YamlExtension
    
-```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#10"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#L11"
 public const string YamlExtension = ".yml"
 ```
    
