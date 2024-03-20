@@ -68,8 +68,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: ItemViewModel
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/ItemViewModel.cs
     startLine: 8
   assemblies:
   - DocFxToTemplate
@@ -99,8 +103,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Uid
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Uid
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 11
   assemblies:
   - DocFxToTemplate
@@ -156,8 +164,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.CommentId
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: CommentId
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 16
   assemblies:
   - DocFxToTemplate
@@ -204,8 +216,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Id
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Id
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 20
   assemblies:
   - DocFxToTemplate
@@ -252,8 +268,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.IsExplicitInterfaceImplementation
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: IsExplicitInterfaceImplementation
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 24
   assemblies:
   - DocFxToTemplate
@@ -300,8 +320,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.IsExtensionMethod
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: IsExtensionMethod
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 28
   assemblies:
   - DocFxToTemplate
@@ -348,8 +372,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Parent
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Parent
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 32
   assemblies:
   - DocFxToTemplate
@@ -396,8 +424,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Children
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Children
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 37
   assemblies:
   - DocFxToTemplate
@@ -453,8 +485,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Href
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Href
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 43
   assemblies:
   - DocFxToTemplate
@@ -501,8 +537,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.SupportedLanguages
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: SupportedLanguages
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 47
   assemblies:
   - DocFxToTemplate
@@ -549,8 +589,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Name
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Name
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 51
   assemblies:
   - DocFxToTemplate
@@ -597,8 +641,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Names
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Names
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 55
   assemblies:
   - DocFxToTemplate
@@ -641,8 +689,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.NameForCSharp
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: NameForCSharp
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 59
   assemblies:
   - DocFxToTemplate
@@ -683,8 +735,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.NameForVB
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: NameForVB
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 77
   assemblies:
   - DocFxToTemplate
@@ -725,8 +781,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.NameWithType
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: NameWithType
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 95
   assemblies:
   - DocFxToTemplate
@@ -773,8 +833,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.NamesWithType
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: NamesWithType
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 99
   assemblies:
   - DocFxToTemplate
@@ -817,8 +881,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.NameWithTypeForCSharp
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: NameWithTypeForCSharp
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 103
   assemblies:
   - DocFxToTemplate
@@ -859,8 +927,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.NameWithTypeForVB
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: NameWithTypeForVB
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 121
   assemblies:
   - DocFxToTemplate
@@ -901,8 +973,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.FullName
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: FullName
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 139
   assemblies:
   - DocFxToTemplate
@@ -949,8 +1025,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.FullNames
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: FullNames
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 143
   assemblies:
   - DocFxToTemplate
@@ -993,8 +1073,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.FullNameForCSharp
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: FullNameForCSharp
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 147
   assemblies:
   - DocFxToTemplate
@@ -1035,8 +1119,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.FullNameForVB
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: FullNameForVB
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 165
   assemblies:
   - DocFxToTemplate
@@ -1077,8 +1165,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Type
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Type
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 183
   assemblies:
   - DocFxToTemplate
@@ -1125,8 +1217,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Source
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Source
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 187
   assemblies:
   - DocFxToTemplate
@@ -1173,8 +1269,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Documentation
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Documentation
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 191
   assemblies:
   - DocFxToTemplate
@@ -1221,8 +1321,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.AssemblyNameList
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: AssemblyNameList
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 195
   assemblies:
   - DocFxToTemplate
@@ -1278,8 +1382,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.NamespaceName
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: NamespaceName
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 200
   assemblies:
   - DocFxToTemplate
@@ -1326,8 +1434,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Summary
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Summary
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 205
   assemblies:
   - DocFxToTemplate
@@ -1374,8 +1486,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.AdditionalNotes
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: AdditionalNotes
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 210
   assemblies:
   - DocFxToTemplate
@@ -1422,8 +1538,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Remarks
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Remarks
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 214
   assemblies:
   - DocFxToTemplate
@@ -1470,8 +1590,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Examples
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Examples
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 219
   assemblies:
   - DocFxToTemplate
@@ -1527,8 +1651,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Syntax
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Syntax
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 225
   assemblies:
   - DocFxToTemplate
@@ -1575,8 +1703,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Overridden
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Overridden
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 229
   assemblies:
   - DocFxToTemplate
@@ -1623,8 +1755,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Overload
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Overload
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 234
   assemblies:
   - DocFxToTemplate
@@ -1671,8 +1807,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Exceptions
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Exceptions
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 239
   assemblies:
   - DocFxToTemplate
@@ -1719,8 +1859,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.SeeAlsos
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: SeeAlsos
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 243
   assemblies:
   - DocFxToTemplate
@@ -1767,8 +1911,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.SeeAlsosUidReference
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: SeeAlsosUidReference
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 247
   assemblies:
   - DocFxToTemplate
@@ -1809,8 +1957,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Inheritance
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Inheritance
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 253
   assemblies:
   - DocFxToTemplate
@@ -1866,8 +2018,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.DerivedClasses
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: DerivedClasses
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 259
   assemblies:
   - DocFxToTemplate
@@ -1923,8 +2079,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Implements
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Implements
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 265
   assemblies:
   - DocFxToTemplate
@@ -1980,8 +2140,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.InheritedMembers
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: InheritedMembers
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 271
   assemblies:
   - DocFxToTemplate
@@ -2037,8 +2201,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.ExtensionMethods
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: ExtensionMethods
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 277
   assemblies:
   - DocFxToTemplate
@@ -2094,8 +2262,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Conceptual
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Conceptual
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 283
   assemblies:
   - DocFxToTemplate
@@ -2142,8 +2314,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Platform
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Platform
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 288
   assemblies:
   - DocFxToTemplate
@@ -2199,8 +2375,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Attributes
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Attributes
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 293
   assemblies:
   - DocFxToTemplate
@@ -2256,8 +2436,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Metadata
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Metadata
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ItemViewModel.cs
     startLine: 298
   assemblies:
   - DocFxToTemplate
@@ -2298,8 +2482,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Properties
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Properties
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/ItemViewModel.cs
     startLine: 11
   assemblies:
   - DocFxToTemplate
@@ -2347,8 +2535,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Fields
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Fields
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/ItemViewModel.cs
     startLine: 16
   assemblies:
   - DocFxToTemplate
@@ -2396,8 +2588,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Methods
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Methods
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/ItemViewModel.cs
     startLine: 21
   assemblies:
   - DocFxToTemplate
@@ -2445,8 +2641,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Events
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Events
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/ItemViewModel.cs
     startLine: 26
   assemblies:
   - DocFxToTemplate
@@ -2494,8 +2694,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.InheritanceRefs
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: InheritanceRefs
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/ItemViewModel.cs
     startLine: 31
   assemblies:
   - DocFxToTemplate
@@ -2543,8 +2747,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.DerivedClassesRefs
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: DerivedClassesRefs
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/ItemViewModel.cs
     startLine: 36
   assemblies:
   - DocFxToTemplate
@@ -2592,8 +2800,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.ImplementsRefs
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: ImplementsRefs
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/ItemViewModel.cs
     startLine: 41
   assemblies:
   - DocFxToTemplate
@@ -2641,8 +2853,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.InheritedMembersRefs
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: InheritedMembersRefs
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/ItemViewModel.cs
     startLine: 46
   assemblies:
   - DocFxToTemplate
@@ -2690,8 +2906,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.ExtensionMethodsRefs
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: ExtensionMethodsRefs
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/ItemViewModel.cs
     startLine: 51
   assemblies:
   - DocFxToTemplate
@@ -2739,8 +2959,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ItemViewModel.Link
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Link
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/ItemViewModel.cs
     startLine: 57
   assemblies:
   - DocFxToTemplate

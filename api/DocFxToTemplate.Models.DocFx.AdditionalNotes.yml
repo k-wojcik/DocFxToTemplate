@@ -16,8 +16,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.AdditionalNotes
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: AdditionalNotes
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\AdditionalNotes.cs
+    path: src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs
     startLine: 9
   assemblies:
   - DocFxToTemplate
@@ -47,8 +51,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.AdditionalNotes.Caller
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Caller
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\AdditionalNotes.cs
+    path: src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs
     startLine: 11
   assemblies:
   - DocFxToTemplate
@@ -95,8 +103,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.AdditionalNotes.Implementer
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Implementer
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\AdditionalNotes.cs
+    path: src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs
     startLine: 16
   assemblies:
   - DocFxToTemplate
@@ -143,8 +155,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.AdditionalNotes.Inheritor
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Inheritor
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\AdditionalNotes.cs
+    path: src/DocFxToTemplate/Models/DocFx/AdditionalNotes.cs
     startLine: 21
   assemblies:
   - DocFxToTemplate

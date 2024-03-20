@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ExceptionInfo.cs#9" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/ExceptionInfo.cs#9" 
 public class ExceptionInfo
 ```
 
@@ -27,7 +27,7 @@ public class ExceptionInfo
 ### CommentId
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ExceptionInfo.cs#17"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ExceptionInfo.cs#17"
 [YamlMember(Alias = "commentId")]
 [JsonPropertyName("commentId")]
 public string CommentId { get; set; }
@@ -39,7 +39,7 @@ public string CommentId { get; set; }
 ### Description
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ExceptionInfo.cs#21"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ExceptionInfo.cs#21"
 [YamlMember(Alias = "description")]
 [JsonPropertyName("description")]
 public string Description { get; set; }
@@ -51,7 +51,7 @@ public string Description { get; set; }
 ### Type
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ExceptionInfo.cs#11"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ExceptionInfo.cs#11"
 [YamlMember(Alias = "type")]
 [MergeOption(MergeOption.MergeKey)]
 [JsonPropertyName("type")]

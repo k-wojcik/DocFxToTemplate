@@ -16,8 +16,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ExceptionInfo
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ExceptionInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: ExceptionInfo
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ExceptionInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/ExceptionInfo.cs
     startLine: 9
   assemblies:
   - DocFxToTemplate
@@ -47,8 +51,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ExceptionInfo.Type
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ExceptionInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Type
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ExceptionInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/ExceptionInfo.cs
     startLine: 11
   assemblies:
   - DocFxToTemplate
@@ -104,8 +112,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ExceptionInfo.CommentId
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ExceptionInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: CommentId
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ExceptionInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/ExceptionInfo.cs
     startLine: 17
   assemblies:
   - DocFxToTemplate
@@ -152,8 +164,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ExceptionInfo.Description
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ExceptionInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Description
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ExceptionInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/ExceptionInfo.cs
     startLine: 21
   assemblies:
   - DocFxToTemplate

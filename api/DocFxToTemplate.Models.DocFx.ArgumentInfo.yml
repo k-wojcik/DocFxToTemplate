@@ -15,8 +15,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ArgumentInfo
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: ArgumentInfo
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ArgumentInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs
     startLine: 9
   assemblies:
   - DocFxToTemplate
@@ -46,8 +50,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ArgumentInfo.Type
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Type
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ArgumentInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs
     startLine: 11
   assemblies:
   - DocFxToTemplate
@@ -94,8 +102,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ArgumentInfo.Value
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Value
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ArgumentInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs
     startLine: 16
   assemblies:
   - DocFxToTemplate

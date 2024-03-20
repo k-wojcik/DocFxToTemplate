@@ -13,8 +13,12 @@ items:
   fullName: DocFxToTemplate.Example1.Struct1
   type: Struct
   source:
+    remote:
+      path: src/example/DocFxToTemplate.Example1/Struct1.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Struct1
-    path: T:\Projekty\DocFxToTemplate\src\example\DocFxToTemplate.Example1\Struct1.cs
+    path: src/example/DocFxToTemplate.Example1/Struct1.cs
     startLine: 2
   assemblies:
   - DocFxToTemplate.Example1

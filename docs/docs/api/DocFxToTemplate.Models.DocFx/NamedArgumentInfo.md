@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\NamedArgumentInfo.cs#9" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs#9" 
 public class NamedArgumentInfo
 ```
 
@@ -27,7 +27,7 @@ public class NamedArgumentInfo
 ### Name
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\NamedArgumentInfo.cs#11"
+```csharp title="src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs#11"
 [YamlMember(Alias = "name")]
 [JsonPropertyName("name")]
 public string Name { get; set; }
@@ -39,7 +39,7 @@ public string Name { get; set; }
 ### Type
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\NamedArgumentInfo.cs#15"
+```csharp title="src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs#15"
 [YamlMember(Alias = "type")]
 [JsonPropertyName("type")]
 public string Type { get; set; }
@@ -51,7 +51,7 @@ public string Type { get; set; }
 ### Value
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\NamedArgumentInfo.cs#20"
+```csharp title="src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs#20"
 [YamlMember(Alias = "value")]
 [JsonPropertyName("value")]
 public object Value { get; set; }

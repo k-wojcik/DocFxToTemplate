@@ -15,8 +15,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Builder
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    path: src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs
     startLine: 171
   assemblies:
   - DocFxToTemplate
@@ -45,8 +49,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder.Add<TValue>(string, System.Collections.Generic.IDictionary<string, TValue>, System.Func<object, TValue>)
   type: Method
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Add
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    path: src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs
     startLine: 179
   assemblies:
   - DocFxToTemplate
@@ -81,8 +89,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.CompositeDictionary.Builder.Create()
   type: Method
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Create
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs
+    path: src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs
     startLine: 212
   assemblies:
   - DocFxToTemplate

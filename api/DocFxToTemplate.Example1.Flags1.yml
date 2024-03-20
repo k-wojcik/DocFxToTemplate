@@ -15,8 +15,12 @@ items:
   fullName: DocFxToTemplate.Example1.Flags1
   type: Enum
   source:
+    remote:
+      path: src/example/DocFxToTemplate.Example1/Flags1.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Flags1
-    path: T:\Projekty\DocFxToTemplate\src\example\DocFxToTemplate.Example1\Flags1.cs
+    path: src/example/DocFxToTemplate.Example1/Flags1.cs
     startLine: 2
   assemblies:
   - DocFxToTemplate.Example1
@@ -46,8 +50,12 @@ items:
   fullName: DocFxToTemplate.Example1.Flags1.Flag1
   type: Field
   source:
+    remote:
+      path: src/example/DocFxToTemplate.Example1/Flags1.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Flag1
-    path: T:\Projekty\DocFxToTemplate\src\example\DocFxToTemplate.Example1\Flags1.cs
+    path: src/example/DocFxToTemplate.Example1/Flags1.cs
     startLine: 5
   assemblies:
   - DocFxToTemplate.Example1
@@ -68,8 +76,12 @@ items:
   fullName: DocFxToTemplate.Example1.Flags1.Flag2
   type: Field
   source:
+    remote:
+      path: src/example/DocFxToTemplate.Example1/Flags1.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Flag2
-    path: T:\Projekty\DocFxToTemplate\src\example\DocFxToTemplate.Example1\Flags1.cs
+    path: src/example/DocFxToTemplate.Example1/Flags1.cs
     startLine: 6
   assemblies:
   - DocFxToTemplate.Example1

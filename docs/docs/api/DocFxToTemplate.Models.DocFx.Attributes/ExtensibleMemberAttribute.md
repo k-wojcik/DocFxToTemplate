@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\ExtensibleMemberAttribute.cs#2" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Attributes/ExtensibleMemberAttribute.cs#2" 
 public class ExtensibleMemberAttribute : Attribute
 ```
 

@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Generator.cs#15" 
+```csharp title="src/DocFxToTemplate/Generator.cs#15" 
 public sealed class Generator
 ```
 

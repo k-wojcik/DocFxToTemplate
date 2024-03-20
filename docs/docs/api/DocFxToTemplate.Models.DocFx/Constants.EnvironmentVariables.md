@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#114" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#114" 
 public static class Constants.EnvironmentVariables
 ```
 
@@ -27,7 +27,7 @@ public static class Constants.EnvironmentVariables
 ### KeepDebugInfo
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#139"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#139"
 public static string? KeepDebugInfo { get; }
 ```   
 
@@ -37,7 +37,7 @@ public static string? KeepDebugInfo { get; }
 ### NoCheckCertificateRevocationList
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#141"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#141"
 public static bool NoCheckCertificateRevocationList { get; }
 ```   
 
@@ -47,7 +47,7 @@ public static bool NoCheckCertificateRevocationList { get; }
 ### SourceBranchName
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#144"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#144"
 public static string? SourceBranchName { get; }
 ```   
 
@@ -59,17 +59,17 @@ public static string? SourceBranchName { get; }
 ## Fields
 ### DOCFX_KEEP_DEBUG_INFO
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#130"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#130"
 public const string DOCFX_KEEP_DEBUG_INFO = "DOCFX_KEEP_DEBUG_INFO"
 ```
 ### DOCFX_NO_CHECK_CERTIFICATE_REVOCATION_LIST
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#132"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#132"
 public const string DOCFX_NO_CHECK_CERTIFICATE_REVOCATION_LIST = "DOCFX_NO_CHECK_CERTIFICATE_REVOCATION_LIST"
 ```
 ### DOCFX_SOURCE_BRANCH_NAME
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#135"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#135"
 public const string DOCFX_SOURCE_BRANCH_NAME = "DOCFX_SOURCE_BRANCH_NAME"
 ```
    

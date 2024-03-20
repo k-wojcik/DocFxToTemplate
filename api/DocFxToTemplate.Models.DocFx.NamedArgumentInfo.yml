@@ -16,8 +16,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.NamedArgumentInfo
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: NamedArgumentInfo
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\NamedArgumentInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs
     startLine: 9
   assemblies:
   - DocFxToTemplate
@@ -47,8 +51,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.NamedArgumentInfo.Name
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Name
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\NamedArgumentInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs
     startLine: 11
   assemblies:
   - DocFxToTemplate
@@ -95,8 +103,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.NamedArgumentInfo.Type
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Type
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\NamedArgumentInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs
     startLine: 15
   assemblies:
   - DocFxToTemplate
@@ -143,8 +155,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.NamedArgumentInfo.Value
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Value
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\NamedArgumentInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/NamedArgumentInfo.cs
     startLine: 20
   assemblies:
   - DocFxToTemplate

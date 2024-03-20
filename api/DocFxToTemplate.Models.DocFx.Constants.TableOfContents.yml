@@ -15,8 +15,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.TableOfContents
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: TableOfContents
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 108
   assemblies:
   - DocFxToTemplate
@@ -46,8 +50,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.TableOfContents.MarkdownTocFileName
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: MarkdownTocFileName
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 110
   assemblies:
   - DocFxToTemplate
@@ -69,8 +77,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.TableOfContents.YamlTocFileName
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: YamlTocFileName
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 111
   assemblies:
   - DocFxToTemplate

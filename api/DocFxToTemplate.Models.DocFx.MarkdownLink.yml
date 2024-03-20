@@ -16,8 +16,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.MarkdownLink
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: MarkdownLink
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/ItemViewModel.cs
     startLine: 63
   assemblies:
   - DocFxToTemplate
@@ -49,8 +53,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.MarkdownLink.MarkdownLink(string, string?)
   type: Constructor
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: .ctor
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/ItemViewModel.cs
     startLine: 63
   assemblies:
   - DocFxToTemplate
@@ -79,8 +87,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.MarkdownLink.Name
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Name
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/ItemViewModel.cs
     startLine: 63
   assemblies:
   - DocFxToTemplate
@@ -104,8 +116,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.MarkdownLink.AbsoluteAddress
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/ItemViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: AbsoluteAddress
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs
+    path: src/DocFxToTemplate/Models/ItemViewModel.cs
     startLine: 63
   assemblies:
   - DocFxToTemplate

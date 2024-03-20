@@ -14,8 +14,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.MetadataName
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: MetadataName
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 73
   assemblies:
   - DocFxToTemplate
@@ -45,8 +49,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.MetadataName.Version
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Version
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 75
   assemblies:
   - DocFxToTemplate

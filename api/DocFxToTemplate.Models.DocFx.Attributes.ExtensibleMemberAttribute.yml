@@ -15,8 +15,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Attributes/ExtensibleMemberAttribute.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: ExtensibleMemberAttribute
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\ExtensibleMemberAttribute.cs
+    path: src/DocFxToTemplate/Models/DocFx/Attributes/ExtensibleMemberAttribute.cs
     startLine: 2
   assemblies:
   - DocFxToTemplate
@@ -82,8 +86,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute.ExtensibleMemberAttribute()
   type: Constructor
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Attributes/ExtensibleMemberAttribute.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: .ctor
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\ExtensibleMemberAttribute.cs
+    path: src/DocFxToTemplate/Models/DocFx/Attributes/ExtensibleMemberAttribute.cs
     startLine: 4
   assemblies:
   - DocFxToTemplate
@@ -107,8 +115,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Attributes.ExtensibleMemberAttribute.ExtensibleMemberAttribute(string)
   type: Constructor
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Attributes/ExtensibleMemberAttribute.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: .ctor
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\ExtensibleMemberAttribute.cs
+    path: src/DocFxToTemplate/Models/DocFx/Attributes/ExtensibleMemberAttribute.cs
     startLine: 8
   assemblies:
   - DocFxToTemplate

@@ -17,8 +17,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.LinkInfo
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/LinkInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: LinkInfo
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\LinkInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/LinkInfo.cs
     startLine: 9
   assemblies:
   - DocFxToTemplate
@@ -48,8 +52,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.LinkInfo.LinkType
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/LinkInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: LinkType
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\LinkInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/LinkInfo.cs
     startLine: 11
   assemblies:
   - DocFxToTemplate
@@ -105,8 +113,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.LinkInfo.LinkId
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/LinkInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: LinkId
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\LinkInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/LinkInfo.cs
     startLine: 16
   assemblies:
   - DocFxToTemplate
@@ -162,8 +174,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.LinkInfo.CommentId
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/LinkInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: CommentId
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\LinkInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/LinkInfo.cs
     startLine: 21
   assemblies:
   - DocFxToTemplate
@@ -219,8 +235,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.LinkInfo.AltText
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/LinkInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: AltText
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\LinkInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/LinkInfo.cs
     startLine: 26
   assemblies:
   - DocFxToTemplate

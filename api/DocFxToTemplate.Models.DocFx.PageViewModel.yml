@@ -17,8 +17,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.PageViewModel
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/PageViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: PageViewModel
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\PageViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/PageViewModel.cs
     startLine: 8
   assemblies:
   - DocFxToTemplate
@@ -48,8 +52,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.PageViewModel.Items
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/PageViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Items
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\PageViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/PageViewModel.cs
     startLine: 10
   assemblies:
   - DocFxToTemplate
@@ -96,8 +104,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.PageViewModel.References
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/PageViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: References
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\PageViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/PageViewModel.cs
     startLine: 14
   assemblies:
   - DocFxToTemplate
@@ -144,8 +156,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.PageViewModel.ShouldSkipMarkup
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/PageViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: ShouldSkipMarkup
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\PageViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/PageViewModel.cs
     startLine: 18
   assemblies:
   - DocFxToTemplate
@@ -192,8 +208,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.PageViewModel.Metadata
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/PageViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Metadata
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\PageViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/PageViewModel.cs
     startLine: 23
   assemblies:
   - DocFxToTemplate

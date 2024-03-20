@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\GeneratorOptions.cs#2" 
+```csharp title="src/DocFxToTemplate/GeneratorOptions.cs#2" 
 public class GeneratorOptions
 ```
 
@@ -27,7 +27,7 @@ public class GeneratorOptions
 ### IndexSlug
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\GeneratorOptions.cs#7"
+```csharp title="src/DocFxToTemplate/GeneratorOptions.cs#7"
 public string IndexSlug { get; set; }
 ```   
 
@@ -37,7 +37,7 @@ public string IndexSlug { get; set; }
 ### OutputPath
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\GeneratorOptions.cs#5"
+```csharp title="src/DocFxToTemplate/GeneratorOptions.cs#5"
 public required string OutputPath { get; set; }
 ```   
 
@@ -47,7 +47,7 @@ public required string OutputPath { get; set; }
 ### YamlPath
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\GeneratorOptions.cs#4"
+```csharp title="src/DocFxToTemplate/GeneratorOptions.cs#4"
 public required string YamlPath { get; set; }
 ```   
 

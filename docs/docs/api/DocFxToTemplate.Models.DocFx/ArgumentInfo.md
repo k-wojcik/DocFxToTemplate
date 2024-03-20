@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ArgumentInfo.cs#9" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs#9" 
 public class ArgumentInfo
 ```
 
@@ -27,7 +27,7 @@ public class ArgumentInfo
 ### Type
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ArgumentInfo.cs#11"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs#11"
 [YamlMember(Alias = "type")]
 [JsonPropertyName("type")]
 public string Type { get; set; }
@@ -39,7 +39,7 @@ public string Type { get; set; }
 ### Value
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ArgumentInfo.cs#16"
+```csharp title="src/DocFxToTemplate/Models/DocFx/ArgumentInfo.cs#16"
 [YamlMember(Alias = "value")]
 [JsonPropertyName("value")]
 public object Value { get; set; }

@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\AttributeInfo.cs#9" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs#9" 
 public class AttributeInfo
 ```
 
@@ -27,7 +27,7 @@ public class AttributeInfo
 ### Arguments
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\AttributeInfo.cs#20"
+```csharp title="src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs#20"
 [YamlMember(Alias = "arguments")]
 [JsonPropertyName("arguments")]
 public List<ArgumentInfo> Arguments { get; set; }
@@ -39,7 +39,7 @@ public List<ArgumentInfo> Arguments { get; set; }
 ### Constructor
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\AttributeInfo.cs#16"
+```csharp title="src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs#16"
 [YamlMember(Alias = "ctor")]
 [JsonPropertyName("ctor")]
 public string Constructor { get; set; }
@@ -51,7 +51,7 @@ public string Constructor { get; set; }
 ### NamedArguments
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\AttributeInfo.cs#24"
+```csharp title="src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs#24"
 [YamlMember(Alias = "namedArguments")]
 [JsonPropertyName("namedArguments")]
 public List<NamedArgumentInfo> NamedArguments { get; set; }
@@ -63,7 +63,7 @@ public List<NamedArgumentInfo> NamedArguments { get; set; }
 ### Type
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\AttributeInfo.cs#11"
+```csharp title="src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs#11"
 [YamlMember(Alias = "type")]
 [JsonPropertyName("type")]
 public string Type { get; set; }

@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs#63" 
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#63" 
 public record MarkdownLink : IEquatable<MarkdownLink>
 ```
 
@@ -28,7 +28,7 @@ System.IEquatable\<DocFxToTemplate.Models.DocFx.MarkdownLink\>
 ### AbsoluteAddress
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs#63"
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#63"
 public string? AbsoluteAddress { get; init; }
 ```   
 
@@ -38,7 +38,7 @@ public string? AbsoluteAddress { get; init; }
 ### Name
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\ItemViewModel.cs#63"
+```csharp title="src/DocFxToTemplate/Models/ItemViewModel.cs#63"
 public string Name { get; init; }
 ```   
 

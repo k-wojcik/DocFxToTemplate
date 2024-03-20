@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#102" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#102" 
 public static class Constants.DevLang
 ```
 
@@ -28,12 +28,12 @@ public static class Constants.DevLang
 ## Fields
 ### CSharp
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#104"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#104"
 public const string CSharp = "csharp"
 ```
 ### VB
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#105"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#105"
 public const string VB = "vb"
 ```
    

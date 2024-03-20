@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\LinkInfo.cs#36" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#36" 
 public enum LinkType
 ```
 
@@ -25,12 +25,12 @@ public enum LinkType
 ## Fields
 ### CRef
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\LinkInfo.cs#38"
+```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#38"
 CRef = 0
 ```
 ### HRef
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\LinkInfo.cs#39"
+```csharp title="src/DocFxToTemplate/Models/DocFx/LinkInfo.cs#39"
 HRef = 1
 ```
    

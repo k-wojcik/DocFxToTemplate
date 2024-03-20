@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#73" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#73" 
 public static class Constants.MetadataName
 ```
 
@@ -28,7 +28,7 @@ public static class Constants.MetadataName
 ## Fields
 ### Version
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#75"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#75"
 public const string Version = "version"
 ```
    

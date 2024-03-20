@@ -17,8 +17,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.AttributeInfo
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: AttributeInfo
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\AttributeInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs
     startLine: 9
   assemblies:
   - DocFxToTemplate
@@ -48,8 +52,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.AttributeInfo.Type
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Type
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\AttributeInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs
     startLine: 11
   assemblies:
   - DocFxToTemplate
@@ -96,8 +104,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.AttributeInfo.Constructor
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Constructor
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\AttributeInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs
     startLine: 16
   assemblies:
   - DocFxToTemplate
@@ -144,8 +156,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.AttributeInfo.Arguments
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Arguments
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\AttributeInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs
     startLine: 20
   assemblies:
   - DocFxToTemplate
@@ -192,8 +208,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.AttributeInfo.NamedArguments
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: NamedArguments
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\AttributeInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/AttributeInfo.cs
     startLine: 24
   assemblies:
   - DocFxToTemplate

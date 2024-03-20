@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Templates\TemplateLoader.cs#6" 
+```csharp title="src/DocFxToTemplate/Templates/TemplateLoader.cs#6" 
 public class TemplateLoader : ITemplateLoader
 ```
 

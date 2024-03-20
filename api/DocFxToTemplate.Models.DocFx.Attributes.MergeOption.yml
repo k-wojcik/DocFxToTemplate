@@ -16,8 +16,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Attributes.MergeOption
   type: Enum
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: MergeOption
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\MergeOptionAttribute.cs
+    path: src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs
     startLine: 9
   assemblies:
   - DocFxToTemplate
@@ -37,8 +41,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Attributes.MergeOption.MergeKey
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: MergeKey
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\MergeOptionAttribute.cs
+    path: src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs
     startLine: 11
   assemblies:
   - DocFxToTemplate
@@ -59,8 +67,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Attributes.MergeOption.Ignore
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Ignore
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\MergeOptionAttribute.cs
+    path: src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs
     startLine: 12
   assemblies:
   - DocFxToTemplate
@@ -81,8 +93,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Attributes.MergeOption.Replace
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Replace
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\MergeOptionAttribute.cs
+    path: src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs
     startLine: 13
   assemblies:
   - DocFxToTemplate

@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\MergeOptionAttribute.cs#9" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs#9" 
 public enum MergeOption
 ```
 
@@ -25,17 +25,17 @@ public enum MergeOption
 ## Fields
 ### Ignore
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\MergeOptionAttribute.cs#12"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs#12"
 Ignore = 1
 ```
 ### MergeKey
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\MergeOptionAttribute.cs#11"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs#11"
 MergeKey = 0
 ```
 ### Replace
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\MergeOptionAttribute.cs#13"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs#13"
 Replace = 2
 ```
    

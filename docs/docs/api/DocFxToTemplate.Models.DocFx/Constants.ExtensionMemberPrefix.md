@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#78" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#78" 
 public static class Constants.ExtensionMemberPrefix
 ```
 
@@ -28,102 +28,102 @@ public static class Constants.ExtensionMemberPrefix
 ## Fields
 ### Assemblies
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#89"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#89"
 public const string Assemblies = "assemblies."
 ```
 ### Children
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#86"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#86"
 public const string Children = "children."
 ```
 ### Content
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#84"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#84"
 public const string Content = "content."
 ```
 ### DerivedClasses
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#93"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#93"
 public const string DerivedClasses = "derivedClasses."
 ```
 ### Exceptions
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#91"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#91"
 public const string Exceptions = "exceptions."
 ```
 ### ExtensionMethods
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#96"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#96"
 public const string ExtensionMethods = "extensionMethods."
 ```
 ### FullName
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#81"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#81"
 public const string FullName = "fullName."
 ```
 ### Implements
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#94"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#94"
 public const string Implements = "implements."
 ```
 ### Inheritance
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#92"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#92"
 public const string Inheritance = "inheritance."
 ```
 ### InheritedMembers
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#95"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#95"
 public const string InheritedMembers = "inheritedMembers."
 ```
 ### Name
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#82"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#82"
 public const string Name = "name."
 ```
 ### Namespace
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#88"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#88"
 public const string Namespace = "namespace."
 ```
 ### NameWithType
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#80"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#80"
 public const string NameWithType = "nameWithType."
 ```
 ### Overload
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#99"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#99"
 public const string Overload = "overload."
 ```
 ### Overridden
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#90"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#90"
 public const string Overridden = "overridden."
 ```
 ### Parent
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#85"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#85"
 public const string Parent = "parent."
 ```
 ### Platform
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#97"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#97"
 public const string Platform = "platform."
 ```
 ### Return
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#98"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#98"
 public const string Return = "return."
 ```
 ### Source
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#87"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#87"
 public const string Source = "source."
 ```
 ### Spec
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#83"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#83"
 public const string Spec = "spec."
 ```
    

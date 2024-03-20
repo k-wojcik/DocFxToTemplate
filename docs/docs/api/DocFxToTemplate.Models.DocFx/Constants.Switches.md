@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#148" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#148" 
 public static class Constants.Switches
 ```
 
@@ -27,7 +27,7 @@ public static class Constants.Switches
 ### IsDotnetToolsMode
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#152"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#152"
 public static bool IsDotnetToolsMode { get; }
 ```   
 
@@ -39,7 +39,7 @@ public static bool IsDotnetToolsMode { get; }
 ## Fields
 ### DotnetToolMode
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#150"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#150"
 public const string DotnetToolMode = "Docfx.DotnetToolMode"
 ```
    

@@ -13,8 +13,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Attributes.MarkdownContentAttribute
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Attributes/MarkdownContentAttribute.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: MarkdownContentAttribute
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\MarkdownContentAttribute.cs
+    path: src/DocFxToTemplate/Models/DocFx/Attributes/MarkdownContentAttribute.cs
     startLine: 2
   assemblies:
   - DocFxToTemplate

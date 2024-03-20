@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#108" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#108" 
 public static class Constants.TableOfContents
 ```
 
@@ -28,12 +28,12 @@ public static class Constants.TableOfContents
 ## Fields
 ### MarkdownTocFileName
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#110"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#110"
 public const string MarkdownTocFileName = "toc.md"
 ```
 ### YamlTocFileName
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#111"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#111"
 public const string YamlTocFileName = "toc.yml"
 ```
    

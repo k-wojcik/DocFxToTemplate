@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#7" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#7" 
 public static class Constants
 ```
 
@@ -28,27 +28,27 @@ public static class Constants
 ## Fields
 ### ConfigFileName
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#9"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#9"
 public const string ConfigFileName = "docfx.json"
 ```
 ### ContentPlaceholder
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#11"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#11"
 public const string ContentPlaceholder = "*content"
 ```
 ### PrefixSeparator
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#12"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#12"
 public const string PrefixSeparator = "."
 ```
 ### TocYamlFileName
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#13"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#13"
 public const string TocYamlFileName = "toc.yml"
 ```
 ### YamlExtension
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#10"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#10"
 public const string YamlExtension = ".yml"
 ```
    

@@ -18,8 +18,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ApiParameter
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ApiParameter.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: ApiParameter
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ApiParameter.cs
+    path: src/DocFxToTemplate/Models/DocFx/ApiParameter.cs
     startLine: 10
   assemblies:
   - DocFxToTemplate
@@ -49,8 +53,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ApiParameter.Name
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ApiParameter.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Name
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ApiParameter.cs
+    path: src/DocFxToTemplate/Models/DocFx/ApiParameter.cs
     startLine: 12
   assemblies:
   - DocFxToTemplate
@@ -106,8 +114,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ApiParameter.Type
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ApiParameter.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Type
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ApiParameter.cs
+    path: src/DocFxToTemplate/Models/DocFx/ApiParameter.cs
     startLine: 17
   assemblies:
   - DocFxToTemplate
@@ -154,8 +166,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ApiParameter.Description
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ApiParameter.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Description
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ApiParameter.cs
+    path: src/DocFxToTemplate/Models/DocFx/ApiParameter.cs
     startLine: 22
   assemblies:
   - DocFxToTemplate
@@ -202,8 +218,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ApiParameter.Attributes
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ApiParameter.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Attributes
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ApiParameter.cs
+    path: src/DocFxToTemplate/Models/DocFx/ApiParameter.cs
     startLine: 27
   assemblies:
   - DocFxToTemplate
@@ -259,8 +279,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ApiParameter.Reference
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ApiParameter.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Reference
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ApiParameter.cs
+    path: src/DocFxToTemplate/Models/DocFx/ApiParameter.cs
     startLine: 32
   assemblies:
   - DocFxToTemplate

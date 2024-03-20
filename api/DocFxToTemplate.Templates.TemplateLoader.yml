@@ -16,8 +16,12 @@ items:
   fullName: DocFxToTemplate.Templates.TemplateLoader
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Templates/TemplateLoader.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: TemplateLoader
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Templates\TemplateLoader.cs
+    path: src/DocFxToTemplate/Templates/TemplateLoader.cs
     startLine: 6
   assemblies:
   - DocFxToTemplate
@@ -49,8 +53,12 @@ items:
   fullName: DocFxToTemplate.Templates.TemplateLoader.GetPath(Scriban.TemplateContext, Scriban.Parsing.SourceSpan, string)
   type: Method
   source:
+    remote:
+      path: src/DocFxToTemplate/Templates/TemplateLoader.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: GetPath
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Templates\TemplateLoader.cs
+    path: src/DocFxToTemplate/Templates/TemplateLoader.cs
     startLine: 10
   assemblies:
   - DocFxToTemplate
@@ -94,8 +102,12 @@ items:
   fullName: DocFxToTemplate.Templates.TemplateLoader.Load(Scriban.TemplateContext, Scriban.Parsing.SourceSpan, string)
   type: Method
   source:
+    remote:
+      path: src/DocFxToTemplate/Templates/TemplateLoader.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Load
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Templates\TemplateLoader.cs
+    path: src/DocFxToTemplate/Templates/TemplateLoader.cs
     startLine: 15
   assemblies:
   - DocFxToTemplate
@@ -136,8 +148,12 @@ items:
   fullName: DocFxToTemplate.Templates.TemplateLoader.LoadAsync(Scriban.TemplateContext, Scriban.Parsing.SourceSpan, string)
   type: Method
   source:
+    remote:
+      path: src/DocFxToTemplate/Templates/TemplateLoader.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: LoadAsync
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Templates\TemplateLoader.cs
+    path: src/DocFxToTemplate/Templates/TemplateLoader.cs
     startLine: 20
   assemblies:
   - DocFxToTemplate

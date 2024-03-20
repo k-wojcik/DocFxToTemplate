@@ -20,8 +20,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SyntaxDetailViewModel
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: SyntaxDetailViewModel
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxDetailViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs
     startLine: 9
   assemblies:
   - DocFxToTemplate
@@ -51,8 +55,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SyntaxDetailViewModel.Content
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Content
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxDetailViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs
     startLine: 11
   assemblies:
   - DocFxToTemplate
@@ -99,8 +107,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SyntaxDetailViewModel.Contents
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Contents
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxDetailViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs
     startLine: 15
   assemblies:
   - DocFxToTemplate
@@ -143,8 +155,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SyntaxDetailViewModel.ContentForCSharp
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: ContentForCSharp
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxDetailViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs
     startLine: 19
   assemblies:
   - DocFxToTemplate
@@ -185,8 +201,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SyntaxDetailViewModel.ContentForVB
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: ContentForVB
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxDetailViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs
     startLine: 37
   assemblies:
   - DocFxToTemplate
@@ -227,8 +247,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SyntaxDetailViewModel.Parameters
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Parameters
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxDetailViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs
     startLine: 55
   assemblies:
   - DocFxToTemplate
@@ -275,8 +299,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SyntaxDetailViewModel.TypeParameters
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: TypeParameters
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxDetailViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs
     startLine: 59
   assemblies:
   - DocFxToTemplate
@@ -323,8 +351,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SyntaxDetailViewModel.Return
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Return
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxDetailViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs
     startLine: 63
   assemblies:
   - DocFxToTemplate

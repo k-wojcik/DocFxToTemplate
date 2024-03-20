@@ -19,8 +19,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SourceDetail
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SourceDetail.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: SourceDetail
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SourceDetail.cs
+    path: src/DocFxToTemplate/Models/DocFx/SourceDetail.cs
     startLine: 8
   assemblies:
   - DocFxToTemplate
@@ -50,8 +54,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SourceDetail.Remote
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SourceDetail.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Remote
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SourceDetail.cs
+    path: src/DocFxToTemplate/Models/DocFx/SourceDetail.cs
     startLine: 10
   assemblies:
   - DocFxToTemplate
@@ -98,8 +106,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SourceDetail.Name
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SourceDetail.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Name
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SourceDetail.cs
+    path: src/DocFxToTemplate/Models/DocFx/SourceDetail.cs
     startLine: 14
   assemblies:
   - DocFxToTemplate
@@ -146,8 +158,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SourceDetail.Href
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SourceDetail.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Href
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SourceDetail.cs
+    path: src/DocFxToTemplate/Models/DocFx/SourceDetail.cs
     startLine: 21
   assemblies:
   - DocFxToTemplate
@@ -196,8 +212,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SourceDetail.Path
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SourceDetail.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Path
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SourceDetail.cs
+    path: src/DocFxToTemplate/Models/DocFx/SourceDetail.cs
     startLine: 28
   assemblies:
   - DocFxToTemplate
@@ -246,8 +266,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SourceDetail.StartLine
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SourceDetail.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: StartLine
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SourceDetail.cs
+    path: src/DocFxToTemplate/Models/DocFx/SourceDetail.cs
     startLine: 32
   assemblies:
   - DocFxToTemplate
@@ -294,8 +318,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SourceDetail.EndLine
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SourceDetail.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: EndLine
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SourceDetail.cs
+    path: src/DocFxToTemplate/Models/DocFx/SourceDetail.cs
     startLine: 36
   assemblies:
   - DocFxToTemplate

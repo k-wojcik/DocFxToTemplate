@@ -55,8 +55,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: PropertyName
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 24
   assemblies:
   - DocFxToTemplate
@@ -86,8 +90,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Uid
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Uid
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 26
   assemblies:
   - DocFxToTemplate
@@ -109,8 +117,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.CommentId
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: CommentId
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 27
   assemblies:
   - DocFxToTemplate
@@ -132,8 +144,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Id
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Id
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 28
   assemblies:
   - DocFxToTemplate
@@ -155,8 +171,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Href
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Href
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 29
   assemblies:
   - DocFxToTemplate
@@ -178,8 +198,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Type
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Type
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 30
   assemblies:
   - DocFxToTemplate
@@ -201,8 +225,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Source
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Source
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 31
   assemblies:
   - DocFxToTemplate
@@ -224,8 +252,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Path
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Path
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 32
   assemblies:
   - DocFxToTemplate
@@ -247,8 +279,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.DocumentType
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: DocumentType
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 33
   assemblies:
   - DocFxToTemplate
@@ -270,8 +306,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Title
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Title
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 34
   assemblies:
   - DocFxToTemplate
@@ -293,8 +333,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.TitleOverwriteH1
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: TitleOverwriteH1
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 35
   assemblies:
   - DocFxToTemplate
@@ -316,8 +360,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Conceptual
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Conceptual
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 36
   assemblies:
   - DocFxToTemplate
@@ -339,8 +387,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Documentation
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Documentation
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 37
   assemblies:
   - DocFxToTemplate
@@ -362,8 +414,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Summary
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Summary
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 38
   assemblies:
   - DocFxToTemplate
@@ -385,8 +441,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.IsEii
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: IsEii
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 39
   assemblies:
   - DocFxToTemplate
@@ -408,8 +468,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Name
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Name
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 41
   assemblies:
   - DocFxToTemplate
@@ -431,8 +495,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.DisplayName
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: DisplayName
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 42
   assemblies:
   - DocFxToTemplate
@@ -454,8 +522,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.NameWithType
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: NameWithType
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 43
   assemblies:
   - DocFxToTemplate
@@ -477,8 +549,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.FullName
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: FullName
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 44
   assemblies:
   - DocFxToTemplate
@@ -500,8 +576,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Content
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Content
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 45
   assemblies:
   - DocFxToTemplate
@@ -523,8 +603,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.TocHref
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: TocHref
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 46
   assemblies:
   - DocFxToTemplate
@@ -546,8 +630,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.TopicHref
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: TopicHref
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 47
   assemblies:
   - DocFxToTemplate
@@ -569,8 +657,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.TopicUid
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: TopicUid
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 48
   assemblies:
   - DocFxToTemplate
@@ -592,8 +684,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Platform
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Platform
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 49
   assemblies:
   - DocFxToTemplate
@@ -615,8 +711,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Parent
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Parent
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 50
   assemblies:
   - DocFxToTemplate
@@ -638,8 +738,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Children
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Children
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 51
   assemblies:
   - DocFxToTemplate
@@ -661,8 +765,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Namespace
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Namespace
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 52
   assemblies:
   - DocFxToTemplate
@@ -684,8 +792,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Assemblies
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Assemblies
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 53
   assemblies:
   - DocFxToTemplate
@@ -707,8 +819,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Overridden
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Overridden
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 54
   assemblies:
   - DocFxToTemplate
@@ -730,8 +846,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Exceptions
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Exceptions
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 55
   assemblies:
   - DocFxToTemplate
@@ -753,8 +873,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Inheritance
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Inheritance
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 56
   assemblies:
   - DocFxToTemplate
@@ -776,8 +900,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.DerivedClasses
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: DerivedClasses
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 57
   assemblies:
   - DocFxToTemplate
@@ -799,8 +927,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Implements
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Implements
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 58
   assemblies:
   - DocFxToTemplate
@@ -822,8 +954,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.InheritedMembers
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: InheritedMembers
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 59
   assemblies:
   - DocFxToTemplate
@@ -845,8 +981,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.ExtensionMethods
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: ExtensionMethods
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 60
   assemblies:
   - DocFxToTemplate
@@ -868,8 +1008,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Overload
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Overload
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 61
   assemblies:
   - DocFxToTemplate
@@ -891,8 +1035,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Return
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Return
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 62
   assemblies:
   - DocFxToTemplate
@@ -914,8 +1062,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.SeeAlsoContent
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: SeeAlsoContent
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 63
   assemblies:
   - DocFxToTemplate
@@ -937,8 +1089,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.Syntax
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Syntax
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 64
   assemblies:
   - DocFxToTemplate
@@ -960,8 +1116,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.AdditionalNotes
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: AdditionalNotes
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 65
   assemblies:
   - DocFxToTemplate
@@ -983,8 +1143,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.SystemKeys
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: SystemKeys
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 66
   assemblies:
   - DocFxToTemplate
@@ -1006,8 +1170,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.OutputFileName
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: OutputFileName
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 68
   assemblies:
   - DocFxToTemplate
@@ -1029,8 +1197,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.PropertyName.RedirectUrl
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: RedirectUrl
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 70
   assemblies:
   - DocFxToTemplate

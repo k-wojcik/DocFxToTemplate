@@ -16,8 +16,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SyntaxLanguage
   type: Enum
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SyntaxLanguage.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: SyntaxLanguage
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxLanguage.cs
+    path: src/DocFxToTemplate/Models/DocFx/SyntaxLanguage.cs
     startLine: 5
   assemblies:
   - DocFxToTemplate
@@ -37,8 +41,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SyntaxLanguage.Default
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SyntaxLanguage.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Default
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxLanguage.cs
+    path: src/DocFxToTemplate/Models/DocFx/SyntaxLanguage.cs
     startLine: 7
   assemblies:
   - DocFxToTemplate
@@ -59,8 +67,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SyntaxLanguage.CSharp
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SyntaxLanguage.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: CSharp
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxLanguage.cs
+    path: src/DocFxToTemplate/Models/DocFx/SyntaxLanguage.cs
     startLine: 8
   assemblies:
   - DocFxToTemplate
@@ -81,8 +93,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SyntaxLanguage.VB
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SyntaxLanguage.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: VB
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxLanguage.cs
+    path: src/DocFxToTemplate/Models/DocFx/SyntaxLanguage.cs
     startLine: 9
   assemblies:
   - DocFxToTemplate

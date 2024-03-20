@@ -14,8 +14,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Attributes.MergeOptionAttribute
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: MergeOptionAttribute
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\MergeOptionAttribute.cs
+    path: src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs
     startLine: 2
   assemblies:
   - DocFxToTemplate
@@ -81,8 +85,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Attributes.MergeOptionAttribute.MergeOptionAttribute(DocFxToTemplate.Models.DocFx.Attributes.MergeOption)
   type: Constructor
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: .ctor
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\MergeOptionAttribute.cs
+    path: src/DocFxToTemplate/Models/DocFx/Attributes/MergeOptionAttribute.cs
     startLine: 4
   assemblies:
   - DocFxToTemplate

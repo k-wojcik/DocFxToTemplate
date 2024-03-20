@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SpecViewModel.cs#8" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs#8" 
 public class SpecViewModel
 ```
 
@@ -27,7 +27,7 @@ public class SpecViewModel
 ### Href
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SpecViewModel.cs#22"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs#22"
 [YamlMember(Alias = "href")]
 [JsonPropertyName("href")]
 public string Href { get; set; }
@@ -39,7 +39,7 @@ public string Href { get; set; }
 ### IsExternal
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SpecViewModel.cs#18"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs#18"
 [YamlMember(Alias = "isExternal")]
 [JsonPropertyName("isExternal")]
 public bool IsExternal { get; set; }
@@ -51,7 +51,7 @@ public bool IsExternal { get; set; }
 ### Item
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SpecViewModel.cs#26"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs#26"
 [JsonIgnore]
 [YamlIgnore]
 public ItemViewModel? Item { get; set; }
@@ -63,7 +63,7 @@ public ItemViewModel? Item { get; set; }
 ### Name
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SpecViewModel.cs#14"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs#14"
 [YamlMember(Alias = "name")]
 [JsonPropertyName("name")]
 public string Name { get; set; }
@@ -75,7 +75,7 @@ public string Name { get; set; }
 ### Uid
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SpecViewModel.cs#10"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs#10"
 [YamlMember(Alias = "uid")]
 [JsonPropertyName("uid")]
 public string Uid { get; set; }

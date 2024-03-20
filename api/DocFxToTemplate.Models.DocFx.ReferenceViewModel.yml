@@ -28,8 +28,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: ReferenceViewModel
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
     startLine: 9
   assemblies:
   - DocFxToTemplate
@@ -59,8 +63,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Uid
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Uid
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
     startLine: 11
   assemblies:
   - DocFxToTemplate
@@ -107,8 +115,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.CommentId
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: CommentId
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
     startLine: 15
   assemblies:
   - DocFxToTemplate
@@ -155,8 +167,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Parent
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Parent
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
     startLine: 19
   assemblies:
   - DocFxToTemplate
@@ -203,8 +219,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Definition
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Definition
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
     startLine: 23
   assemblies:
   - DocFxToTemplate
@@ -251,8 +271,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.IsExternal
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: IsExternal
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
     startLine: 28
   assemblies:
   - DocFxToTemplate
@@ -299,8 +323,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Href
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Href
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
     startLine: 32
   assemblies:
   - DocFxToTemplate
@@ -347,8 +375,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Name
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Name
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
     startLine: 36
   assemblies:
   - DocFxToTemplate
@@ -395,8 +427,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameInDevLangs
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: NameInDevLangs
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
     startLine: 40
   assemblies:
   - DocFxToTemplate
@@ -439,8 +475,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithType
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: NameWithType
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
     startLine: 44
   assemblies:
   - DocFxToTemplate
@@ -487,8 +527,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.NameWithTypeInDevLangs
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: NameWithTypeInDevLangs
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
     startLine: 48
   assemblies:
   - DocFxToTemplate
@@ -531,8 +575,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullName
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: FullName
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
     startLine: 52
   assemblies:
   - DocFxToTemplate
@@ -579,8 +627,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.FullNameInDevLangs
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: FullNameInDevLangs
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
     startLine: 56
   assemblies:
   - DocFxToTemplate
@@ -623,8 +675,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.SpecCsharp
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: SpecCsharp
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
     startLine: 64
   assemblies:
   - DocFxToTemplate
@@ -662,8 +718,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Item
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Item
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
     startLine: 67
   assemblies:
   - DocFxToTemplate
@@ -704,8 +764,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.ReferenceViewModel.Additional
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Additional
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\ReferenceViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/ReferenceViewModel.cs
     startLine: 71
   assemblies:
   - DocFxToTemplate

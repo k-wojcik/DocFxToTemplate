@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.Example1.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\example\DocFxToTemplate.Example1\Flags1.cs#2" 
+```csharp title="src/example/DocFxToTemplate.Example1/Flags1.cs#2" 
 [Flags]
 public enum Flags1
 ```
@@ -26,12 +26,12 @@ public enum Flags1
 ## Fields
 ### Flag1
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\example\DocFxToTemplate.Example1\Flags1.cs#5"
+```csharp title="src/example/DocFxToTemplate.Example1/Flags1.cs#5"
 Flag1 = 0
 ```
 ### Flag2
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\example\DocFxToTemplate.Example1\Flags1.cs#6"
+```csharp title="src/example/DocFxToTemplate.Example1/Flags1.cs#6"
 Flag2 = 1
 ```
    

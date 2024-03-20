@@ -16,8 +16,12 @@ items:
   fullName: DocFxToTemplate.GeneratorOptions
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/GeneratorOptions.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: GeneratorOptions
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\GeneratorOptions.cs
+    path: src/DocFxToTemplate/GeneratorOptions.cs
     startLine: 2
   assemblies:
   - DocFxToTemplate
@@ -47,8 +51,12 @@ items:
   fullName: DocFxToTemplate.GeneratorOptions.YamlPath
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/GeneratorOptions.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: YamlPath
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\GeneratorOptions.cs
+    path: src/DocFxToTemplate/GeneratorOptions.cs
     startLine: 4
   assemblies:
   - DocFxToTemplate
@@ -72,8 +80,12 @@ items:
   fullName: DocFxToTemplate.GeneratorOptions.OutputPath
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/GeneratorOptions.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: OutputPath
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\GeneratorOptions.cs
+    path: src/DocFxToTemplate/GeneratorOptions.cs
     startLine: 5
   assemblies:
   - DocFxToTemplate
@@ -97,8 +109,12 @@ items:
   fullName: DocFxToTemplate.GeneratorOptions.IndexSlug
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/GeneratorOptions.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: IndexSlug
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\GeneratorOptions.cs
+    path: src/DocFxToTemplate/GeneratorOptions.cs
     startLine: 7
   assemblies:
   - DocFxToTemplate

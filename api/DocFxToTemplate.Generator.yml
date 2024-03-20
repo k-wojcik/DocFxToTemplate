@@ -15,8 +15,12 @@ items:
   fullName: DocFxToTemplate.Generator
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Generator.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Generator
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Generator.cs
+    path: src/DocFxToTemplate/Generator.cs
     startLine: 15
   assemblies:
   - DocFxToTemplate
@@ -45,8 +49,12 @@ items:
   fullName: DocFxToTemplate.Generator.Generator(Microsoft.Extensions.Logging.ILogger<DocFxToTemplate.Generator>, DocFxToTemplate.GeneratorOptions)
   type: Constructor
   source:
+    remote:
+      path: src/DocFxToTemplate/Generator.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: .ctor
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Generator.cs
+    path: src/DocFxToTemplate/Generator.cs
     startLine: 20
   assemblies:
   - DocFxToTemplate
@@ -75,8 +83,12 @@ items:
   fullName: DocFxToTemplate.Generator.Generate()
   type: Method
   source:
+    remote:
+      path: src/DocFxToTemplate/Generator.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Generate
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Generator.cs
+    path: src/DocFxToTemplate/Generator.cs
     startLine: 26
   assemblies:
   - DocFxToTemplate

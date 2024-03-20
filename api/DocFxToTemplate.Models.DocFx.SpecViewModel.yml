@@ -18,8 +18,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SpecViewModel
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: SpecViewModel
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SpecViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs
     startLine: 8
   assemblies:
   - DocFxToTemplate
@@ -49,8 +53,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SpecViewModel.Uid
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Uid
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SpecViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs
     startLine: 10
   assemblies:
   - DocFxToTemplate
@@ -97,8 +105,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SpecViewModel.Name
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Name
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SpecViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs
     startLine: 14
   assemblies:
   - DocFxToTemplate
@@ -145,8 +157,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SpecViewModel.IsExternal
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: IsExternal
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SpecViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs
     startLine: 18
   assemblies:
   - DocFxToTemplate
@@ -193,8 +209,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SpecViewModel.Href
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Href
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SpecViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs
     startLine: 22
   assemblies:
   - DocFxToTemplate
@@ -241,8 +261,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.SpecViewModel.Item
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Item
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SpecViewModel.cs
+    path: src/DocFxToTemplate/Models/DocFx/SpecViewModel.cs
     startLine: 26
   assemblies:
   - DocFxToTemplate

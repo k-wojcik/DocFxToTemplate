@@ -15,8 +15,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.LinkType
   type: Enum
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/LinkInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: LinkType
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\LinkInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/LinkInfo.cs
     startLine: 36
   assemblies:
   - DocFxToTemplate
@@ -36,8 +40,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.LinkType.CRef
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/LinkInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: CRef
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\LinkInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/LinkInfo.cs
     startLine: 38
   assemblies:
   - DocFxToTemplate
@@ -58,8 +66,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.LinkType.HRef
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/LinkInfo.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: HRef
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\LinkInfo.cs
+    path: src/DocFxToTemplate/Models/DocFx/LinkInfo.cs
     startLine: 39
   assemblies:
   - DocFxToTemplate

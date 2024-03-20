@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#15" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#15" 
 public static class Constants.DocumentType
 ```
 
@@ -28,27 +28,27 @@ public static class Constants.DocumentType
 ## Fields
 ### Conceptual
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#17"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#17"
 public const string Conceptual = "Conceptual"
 ```
 ### ManagedReference
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#19"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#19"
 public const string ManagedReference = "ManagedReference"
 ```
 ### Redirection
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#21"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#21"
 public const string Redirection = "Redirection"
 ```
 ### Resource
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#20"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#20"
 public const string Resource = "Resource"
 ```
 ### Toc
    
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs#18"
+```csharp title="src/DocFxToTemplate/Models/DocFx/Constants.cs#18"
 public const string Toc = "Toc"
 ```
    

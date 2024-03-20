@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxDetailViewModel.cs#9" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs#9" 
 public class SyntaxDetailViewModel
 ```
 
@@ -27,7 +27,7 @@ public class SyntaxDetailViewModel
 ### Content
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxDetailViewModel.cs#11"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs#11"
 [YamlMember(Alias = "content")]
 [JsonPropertyName("content")]
 public string Content { get; set; }
@@ -39,7 +39,7 @@ public string Content { get; set; }
 ### ContentForCSharp
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxDetailViewModel.cs#19"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs#19"
 [YamlIgnore]
 [JsonIgnore]
 public string ContentForCSharp { get; set; }
@@ -51,7 +51,7 @@ public string ContentForCSharp { get; set; }
 ### ContentForVB
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxDetailViewModel.cs#37"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs#37"
 [YamlIgnore]
 [JsonIgnore]
 public string ContentForVB { get; set; }
@@ -63,7 +63,7 @@ public string ContentForVB { get; set; }
 ### Contents
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxDetailViewModel.cs#15"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs#15"
 [ExtensibleMember("content.")]
 [JsonIgnore]
 public SortedList<string, string> Contents { get; set; }
@@ -75,7 +75,7 @@ public SortedList<string, string> Contents { get; set; }
 ### Parameters
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxDetailViewModel.cs#55"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs#55"
 [YamlMember(Alias = "parameters")]
 [JsonPropertyName("parameters")]
 public List<ApiParameter>? Parameters { get; set; }
@@ -87,7 +87,7 @@ public List<ApiParameter>? Parameters { get; set; }
 ### Return
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxDetailViewModel.cs#63"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs#63"
 [YamlMember(Alias = "return")]
 [JsonPropertyName("return")]
 public ApiParameter? Return { get; set; }
@@ -99,7 +99,7 @@ public ApiParameter? Return { get; set; }
 ### TypeParameters
    
             
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\SyntaxDetailViewModel.cs#59"
+```csharp title="src/DocFxToTemplate/Models/DocFx/SyntaxDetailViewModel.cs#59"
 [YamlMember(Alias = "typeParameters")]
 [JsonPropertyName("typeParameters")]
 public List<ApiParameter>? TypeParameters { get; set; }

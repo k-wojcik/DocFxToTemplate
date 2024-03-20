@@ -13,8 +13,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Attributes.UniqueIdentityReferenceAttribute
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Attributes/UniqueIdentityReferenceAttribute.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: UniqueIdentityReferenceAttribute
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Attributes\UniqueIdentityReferenceAttribute.cs
+    path: src/DocFxToTemplate/Models/DocFx/Attributes/UniqueIdentityReferenceAttribute.cs
     startLine: 2
   assemblies:
   - DocFxToTemplate

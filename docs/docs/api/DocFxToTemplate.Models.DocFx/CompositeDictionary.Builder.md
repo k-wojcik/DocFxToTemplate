@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\CompositeDictionary.cs#171" 
+```csharp title="src/DocFxToTemplate/Models/DocFx/CompositeDictionary.cs#171" 
 public sealed class CompositeDictionary.Builder
 ```
 

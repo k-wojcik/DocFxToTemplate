@@ -15,8 +15,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.Switches
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: Switches
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 148
   assemblies:
   - DocFxToTemplate
@@ -46,8 +50,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.Switches.DotnetToolMode
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: DotnetToolMode
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 150
   assemblies:
   - DocFxToTemplate
@@ -69,8 +77,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.Switches.IsDotnetToolsMode
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: IsDotnetToolsMode
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 152
   assemblies:
   - DocFxToTemplate

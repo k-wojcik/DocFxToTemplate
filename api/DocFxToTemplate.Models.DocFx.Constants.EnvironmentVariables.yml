@@ -19,8 +19,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.EnvironmentVariables
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: EnvironmentVariables
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 114
   assemblies:
   - DocFxToTemplate
@@ -50,8 +54,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.EnvironmentVariables.DOCFX_KEEP_DEBUG_INFO
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: DOCFX_KEEP_DEBUG_INFO
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 130
   assemblies:
   - DocFxToTemplate
@@ -73,8 +81,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.EnvironmentVariables.DOCFX_NO_CHECK_CERTIFICATE_REVOCATION_LIST
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: DOCFX_NO_CHECK_CERTIFICATE_REVOCATION_LIST
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 132
   assemblies:
   - DocFxToTemplate
@@ -96,8 +108,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.EnvironmentVariables.DOCFX_SOURCE_BRANCH_NAME
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: DOCFX_SOURCE_BRANCH_NAME
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 135
   assemblies:
   - DocFxToTemplate
@@ -119,8 +135,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.EnvironmentVariables.KeepDebugInfo
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: KeepDebugInfo
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 139
   assemblies:
   - DocFxToTemplate
@@ -144,8 +164,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.EnvironmentVariables.NoCheckCertificateRevocationList
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: NoCheckCertificateRevocationList
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 141
   assemblies:
   - DocFxToTemplate
@@ -169,8 +193,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.EnvironmentVariables.SourceBranchName
   type: Property
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: SourceBranchName
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 144
   assemblies:
   - DocFxToTemplate

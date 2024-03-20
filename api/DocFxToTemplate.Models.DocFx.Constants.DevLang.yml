@@ -15,8 +15,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.DevLang
   type: Class
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: DevLang
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 102
   assemblies:
   - DocFxToTemplate
@@ -46,8 +50,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.DevLang.CSharp
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: CSharp
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 104
   assemblies:
   - DocFxToTemplate
@@ -69,8 +77,12 @@ items:
   fullName: DocFxToTemplate.Models.DocFx.Constants.DevLang.VB
   type: Field
   source:
+    remote:
+      path: src/DocFxToTemplate/Models/DocFx/Constants.cs
+      branch: master
+      repo: git@github.com:k-wojcik/DocFxToTemplate.git
     id: VB
-    path: T:\Projekty\DocFxToTemplate\src\DocFxToTemplate\Models\DocFx\Constants.cs
+    path: src/DocFxToTemplate/Models/DocFx/Constants.cs
     startLine: 105
   assemblies:
   - DocFxToTemplate

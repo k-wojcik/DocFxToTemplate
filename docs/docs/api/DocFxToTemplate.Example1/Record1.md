@@ -10,7 +10,7 @@ Assembly: DocFxToTemplate.Example1.dll
     
    
 
-```csharp title="T:\Projekty\DocFxToTemplate\src\example\DocFxToTemplate.Example1\Record1.cs#2" 
+```csharp title="src/example/DocFxToTemplate.Example1/Record1.cs#2" 
 public record Record1 : IEquatable<Record1>
 ```
 
